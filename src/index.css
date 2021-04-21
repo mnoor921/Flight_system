@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #222;
+  color: #fff;
+}
+
+a,a:hover{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+/* header */
+
+.header-label .all-buttons li{
+  width: 33.3%;
+}
+.header-label .all-buttons li .btn-1{
+  color: #fff;
+  border: 1px solid #91DDD5;
+  width: 100%;
+  border-radius: 0px;
+  background: #CBCBCB;
+}
+
+.btn-1{
+  /* border: ; */
+  text-transform: uppercase;
+  color: #222;
+  border: 1px solid #91DDD5;
+  background: #CBCBCB;
+  /* width: 100%; */
+  border-radius: 0px;
+}
+
+.btn-1:hover{
+  color: #fff !important;
+  background: #91DDD5 !important;
+}
+
+/* flight */
+
+.flight-info .btn-1{
+  margin: 2px 0px;
+  width: 100%;
+}
+
+/* New Message */
+.new-massage{
+  margin: 5px 20px;
+  background: #fff;
+  padding: 5px;
+}
+
+/* check-box */
+.form-check-input{
+  height: 20px;
+  width: 20px;
+  /* margin: 5px 20px ; */
+}
+.form-check-label {
+  margin-left: 20px;
+}
+
+/* intail-text */
+.intail-text h4{
+  font-size:15px ;
+}
+
+.label-heading-1{
+  width: 100px;
+}
+hr{
+  border-top: 1px solid #C9CDCB;
+}
+
+h4{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.take-off-data .label-heading-1{
+  width: 150px;
+}
+
+
+/* tabs */
+.tabs-left {
+  border-bottom: none;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left>li {
+  float: none;
+ margin:0px;
+  
+}
+.nav-tabs>li.active,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover{
+background: #91DDD5;
+color: #fff;
+font-size: 15px;
+}
+.nav-tabs>li>a{
+  font-size: 15px;
+  color: #fff;
+}
+.nav-tabs>li a:hover{
+  /* background: ; */
+  color: #222;
+}
+
+.nav-tabs>li{
+  padding: 10px;
+  margin: 2px 5px;
+  background: #fff;
+  color: #222;
+}
+.nav-tabs>li a{
+  color: #222;
+}
+
+
+.ooo1 label{
+  width: 100px;
+}
+
+
+.gate-assign .label-heading-1{
+  width: 150px !important;
+}
+
+label{
+  text-transform: uppercase !important;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #7BDE8C !important;
+}
+.nav-pills .nav-link{
+  color: #fff !important;
+  text-transform: uppercase;
+}
