@@ -151,3 +151,43 @@ label{
   color: #fff !important;
   text-transform: uppercase;
 }
+
+/* radio */
+
+input[type=radio] {
+  border: 1px solid #fff;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  transform: rotate(45deg);
+  width: 20px;
+  height: 20px;
+}
+
+input[type=radio]:checked {
+  background: green !important; 
+  background-size: 9px 9px;
+}
+
+input[type=radio]:focus {
+  outline-color: transparent;
+}
+
+
+
+input{
+  background: #BEBEBE !important;
+}
+
+input::placeholder{
+  color: #fff;
+  padding-left: 10px;
+}
+
+textarea{
+  background: #BEBEBE !important;
+}
+
+textarea::placeholder{
+  color: #fff;
+  padding-left: 10px;
+}

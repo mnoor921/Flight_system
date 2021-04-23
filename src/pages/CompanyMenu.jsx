@@ -32,7 +32,7 @@ function CompanyMenu() {
 
 
                             <Col className="flight-info">
-                                <Link className="btn btn-1">Inflight Menu</Link>
+                                <Link to="/inflightmenu" className="btn btn-1">Inflight Menu</Link>
                                 <Link to="/howgozit" className="btn btn-1">Howcozit Request</Link>
                                 <Link to="/landing" className="btn btn-1">Landing Data Request</Link>
                                 <Link to="/weather" className="btn btn-1">Weather request</Link>
@@ -45,7 +45,7 @@ function CompanyMenu() {
                                 {/* Post Flight MEnu */}
 
                             <Col className="flight-info">
-                                <Link className="btn btn-1">Post Flight Menu</Link>
+                                <Link to="/postflightmenu" className="btn btn-1">Post Flight Menu</Link>
                                 <Link className="btn btn-1">Maintance Menu</Link>
                                 <Link to="/uacomm" className="btn btn-1">Ua comm</Link>
                                 <Link to="/ooo1time" className="btn btn-1">oooi times</Link>

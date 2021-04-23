@@ -12,6 +12,7 @@ function Footer() {
                 <Row>
                     
                     <Col>
+                        
                         <div className="header-label mt-3 mb-0 pb-0">
 
                             <div className="all-buttons-footer">
@@ -35,7 +36,6 @@ function Footer() {
 
                         </div>
                     
-                        
                     
                     
                     </Col>

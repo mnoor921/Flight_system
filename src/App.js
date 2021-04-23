@@ -4,6 +4,8 @@ import { Route, Switch } from "react-router-dom";
 import Index from './pages/Index'
 import Message from './pages/Message'
 import Company from './pages/CompanyMenu'
+import InFlightMenu from './pages/InFlightMenu'
+import PostFlightMenu from './pages/PostFlightMenu'
 
 // company
 
@@ -45,6 +47,26 @@ import FlightService from './pages/Preflight/FlightService'
 import Miscellaneous from './pages/Preflight/Miscellaneous'
 import FitDuty from './pages/Preflight/FitDuty'
 import ReadyReport from './pages/Preflight/ReadyReport'
+
+// inflight
+
+import ReDispatch from './pages/Inflightmenu/ReDispatch'
+import Etops from './pages/Inflightmenu/Etops'
+import HoldExpect from './pages/Inflightmenu/HoldExpect'
+import DepartureDelay from './pages/Inflightmenu/DepartureDelay'
+import LandingGross from './pages/Inflightmenu/LamdingGross'
+import MedicalReport from './pages/Inflightmenu/MedicalReport'
+import SubmitPriep from './pages/Inflightmenu/SubmitPriep'
+import Raim from './pages/Inflightmenu/raim'
+import ExpectedTime from './pages/Inflightmenu/expectedTime'
+
+// post flight report
+
+import PostFlightReport from './pages/postflight/postFlightReport'
+import BarkingAction from './pages/postflight/BrakingAction'
+import StationIssue from './pages/postflight/stationIssue'
+
+
 
 
 function App() {
@@ -93,6 +115,35 @@ function App() {
         <Route path="/miscellaneous" exact component={Miscellaneous} />
         <Route path="/fitduty" exact component={FitDuty} />
         <Route path="/readyreport" exact component={ReadyReport} />
+
+
+        {/* Inflight menu */}
+        <Route path="/inflightmenu" exact component={InFlightMenu} />
+        <Route path="/redispatch" exact component={ReDispatch} />
+        <Route path="/etops" exact component={Etops} />
+        <Route path="/holdexpect" exact component={HoldExpect} />
+        <Route path="/departuredelay" exact component={DepartureDelay} />
+        <Route path="/landinggross" exact component={LandingGross} />
+        <Route path="/medicalreport" exact component={MedicalReport} />
+        <Route path="/submitpriep" exact component={SubmitPriep} />
+        <Route path="/raim" exact component={Raim} />
+        <Route path="/expectedtime" exact component={ExpectedTime} />
+
+
+
+        {/* postflight */}
+
+
+
+
+        <Route path="/postflightmenu" exact component={PostFlightMenu} />
+        <Route path="/postflightreport" exact component={PostFlightReport} />
+        <Route path="/barkingaction" exact component={BarkingAction} />
+        <Route path="/stationissue" exact component={StationIssue} />
+
+        
+
+
 
 
         
