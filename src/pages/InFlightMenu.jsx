@@ -22,7 +22,7 @@ function InFlightMenu() {
 
                             {/* Flight Menu */}
 
-                            <Col className="flight-info">
+                            <Col md={4} xs={4} className="flight-info">
                                 <Link to="/redispatch" className="btn btn-1">Redispatch message</Link>
                                 <Link to="/takeoff" className="btn btn-1">Landing data request</Link>
                                 <Link to="/flightpaper" className="btn btn-1">Flight Paper Request</Link>
@@ -35,7 +35,7 @@ function InFlightMenu() {
                             {/* In Flight Menu */}
 
 
-                            <Col className="flight-info">
+                            <Col md={4} xs={4} className="flight-info">
                                 <Link  to="/etops" className="btn btn-1">etops alt wx message</Link>
                                 <Link to="/flightstatus" className="btn btn-1">Flight Status Request</Link>
                                 <Link to="/dispatchrelease" className="btn btn-1">Dispatch Relase REO</Link>
@@ -48,7 +48,7 @@ function InFlightMenu() {
 
                                 {/* Post Flight MEnu */}
 
-                            <Col className="flight-info">
+                            <Col md={4} xs={4} className="flight-info">
                                 <Link to="/pdcrequest" className="btn btn-1">Howcozit request</Link>
                                 <Link to="/departuredelay" className="btn btn-1">Departure Delay code</Link>
                                 <Link to="/medicalreport" className="btn btn-1">Medical report</Link>

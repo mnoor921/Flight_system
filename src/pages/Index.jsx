@@ -17,16 +17,16 @@ function Index() {
                     <Col md="8" style={{border:'1px solid silver',minHeight:'95vh'}}>
                         <Header/>
                         <br/>
-                        <h4 className="text-center text-white">Flight Information</h4>
-                        <Row>
-                            <Col className="flight-info">
-                                <Link className="btn btn-1">Departure Clearance Reuest</Link>
-                                <Link className="btn btn-1">Departure Clearance Reuest</Link>
-                                <Link className="btn btn-1">Departure Clearance Reuest</Link>
-                            </Col>
-                            <Col></Col>
-                            <Col></Col>
-                        </Row>
+                        <h4 className="text-center text-white">Home Page</h4>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+
+                       <div className="text-center">
+                       <label htmlFor="" className="text-center mx-auto">Well Come 
+                        <br/> the Comm Menu </label>
+                       </div>
                         
                     
                     

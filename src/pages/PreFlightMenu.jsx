@@ -22,7 +22,7 @@ function PreFlightMenu() {
 
                             {/* Flight Menu */}
 
-                            <Col className="flight-info">
+                            <Col md={4} xs={4} className="flight-info">
                                 <Link to="/intial" className="btn btn-1">Initilize</Link>
                                 <Link to="/takeoff" className="btn btn-1">Take of data request</Link>
                                 <Link to="/flightpaper" className="btn btn-1">Flight Paper Request</Link>
@@ -35,7 +35,7 @@ function PreFlightMenu() {
                             {/* In Flight Menu */}
 
 
-                            <Col className="flight-info">
+                            <Col md={4} xs={4} className="flight-info">
                                 <Link to="/release" className="btn btn-1">Relase verify (Dispatch/mx)</Link>
                                 <Link to="/flightstatus" className="btn btn-1">Flight Status Request</Link>
                                 <Link to="/dispatchrelease" className="btn btn-1">Dispatch Relase REO</Link>
@@ -47,7 +47,7 @@ function PreFlightMenu() {
 
                                 {/* Post Flight MEnu */}
 
-                            <Col className="flight-info">
+                            <Col md={4} xs={4} className="flight-info">
                                 <Link to="/pdcrequest" className="btn btn-1">PDC Request</Link>
                                 <Link to="/crewlist" className="btn btn-1">Crew List request</Link>
                                 <Link to="/dangerious" className="btn btn-1">Dangerous goods request</Link>

@@ -25,16 +25,16 @@ function Howgozit() {
                         <div className="howcozit text-center">
                             <div className="howcoxit-text w-50 text-left mt-5 mx-auto">
                                 <div className="d-flex mt-2">
-                                    <h4 className="w-50">Flight Number:</h4>
-                                    <input type="text" placeholder="XXXXX" className="mx-3"/>
+                                    <h4 className="w-50 text-right mx-2">Flight Number:</h4>
+                                    <input type="text" placeholder="XXXXX" className="mx-3" style={{width:'50px'}}/>
                                 </div>
                                 <div className="d-flex mt-2">
-                                    <h4 className="w-50">Flight Date:</h4>
-                                    <input type="text" placeholder="XXXXX" className="mx-3"/>
+                                    <h4 className="w-50 text-right mx-2">Flight Date:</h4>
+                                    <input type="text" placeholder="XXXXX" className="mx-3" style={{width:'40px'}}/>
                                 </div>
                                 <div className="d-flex mt-2">
-                                    <h4 className="w-50">Departure Airport:</h4>
-                                    <input type="text" placeholder="XXXXX" className="mx-3"/>
+                                    <h4 className="w-50 text-right mx-2">Departure Airport:</h4>
+                                    <input type="text" placeholder="XXXXX" className="mx-3" style={{width:'50px'}} />
                                 </div>
                             </div>
                         </div>

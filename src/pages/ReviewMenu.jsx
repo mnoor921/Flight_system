@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 
 
-function PostFlightMenu() {
+function ReviewMenu() {
     return (
         <div>
 
@@ -16,14 +16,15 @@ function PostFlightMenu() {
                     <Col></Col>
                     <Col md="8" style={{border:'1px solid silver',minHeight:'95vh'}}>
                         <Header/>
-                        <Link to="/company" className="btn btn-1 w-100" style={{background:'#77DF8C',color:'#fff'}}>Company</Link>
-                        <h4 className="text-center text-white text-uppercase mt-2">Post Flight menu</h4>
+                        <h4 className="text-center text-white text-uppercase">review</h4>
                         <Row>
 
                             {/* Flight Menu */}
 
                             <Col md={4} xs={4} className="flight-info">
-                                <Link to="/postflightreport" className="btn btn-1">Postflight report</Link>
+                                <Link to="/preflightmenu" className="btn btn-1">atc uplinks..</Link>
+                                <Link to="/intial" className="btn btn-1">atc downlinks..</Link>
+                                <Link to="/takeoff" className="btn btn-1">comm system message</Link>
                                 
                             </Col>
 
@@ -31,17 +32,18 @@ function PostFlightMenu() {
 
 
                             <Col md={4} xs={4} className="flight-info">
-                                <Link  to="/stationissue" className="btn btn-1">station issue report</Link>
+                                <Link to="/inflightmenu" className="btn btn-1">flight info uplinks..</Link>
+                                <Link to="/howgozit" className="btn btn-1">flight info downlinks..</Link>
                                 
-
                             </Col>
 
 
                                 {/* Post Flight MEnu */}
 
                             <Col md={4} xs={4} className="flight-info">
+                                <Link to="/postflightmenu" className="btn btn-1">recived...</Link>
+                                <Link to="/maintaince" className="btn btn-1">sent...</Link>
                                 
-                                <Link to="/miscellaneous" className="btn btn-1">Miscellaneous Code</Link>
                             </Col>
                         </Row>
                         
@@ -56,5 +58,5 @@ function PostFlightMenu() {
     );
 }
 
-export default PostFlightMenu;
+export default ReviewMenu;
 

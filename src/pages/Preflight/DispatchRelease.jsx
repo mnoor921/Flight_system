@@ -26,38 +26,29 @@ function DispatchRelease() {
 
             <div className="m-5">
               <Form>
-                <Row>
-                  <Col></Col>
-                  <Col md={6} xs={12}>
-                    <label htmlFor="" className="mt-3">
-                      Flight Number :
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
+               
+                    <div className="dispatch_release">
+                      <div className="d-flex">
+                        <label htmlFor="" className="mt-3">
+                          Flight Number :
+                        </label>
+                        <input type="text" placeholder="XXXXX" />
+                      </div>
+                      <div className="d-flex">
+                        <label htmlFor="" className="mt-3">
+                          Flight Date :
+                        </label>
+                        <input type="time" placeholder="XXXXX" />
+                      </div>
 
-                    <label htmlFor="" className="mt-3">
-                      Flight Date :
-                    </label>
-                    <input
-                      type="time"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
-
-                    <label htmlFor="" className="mt-3">
-                      Departure Airport
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
-                  </Col>
-                  <Col></Col>
-                </Row>
+                      <div className="d-flex">
+                        <label htmlFor="" className="mt-3">
+                          Departure Airport
+                        </label>
+                        <input type="text" placeholder="XXXXX" />
+                      </div>
+                    </div>
+                  
               </Form>
             </div>
 

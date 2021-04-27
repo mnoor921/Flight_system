@@ -58,47 +58,47 @@ function TakeOff2() {
                       <Tab.Pane eventKey="first"></Tab.Pane>
                       <Tab.Pane eventKey="second" className="text-center mt-5">
                         <label htmlFor="">CLUTTER DEPTH:</label>
-                        <Form.Check id={`default-`} label={`1/8 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1/8 Inches `} />
 
-                        <Form.Check id={`default-`} label={`1/4 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1/4 Inches `} />
 
-                        <Form.Check id={`default-`} label={`3/8 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`3/8 Inches `} />
 
-                        <Form.Check id={`default-`} label={`1/2 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1/2 Inches `} />
                       </Tab.Pane>
 
                       <Tab.Pane eventKey="third" className="text-center mt-5">
                         <label htmlFor="">CLUTTER DEPTH:</label>
-                        <Form.Check id={`default-`} label={`1/8 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1/8 Inches `} />
 
-                        <Form.Check id={`default-`} label={`1/4 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1/4 Inches `} />
 
-                        <Form.Check id={`default-`} label={`3/8 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`3/8 Inches `} />
 
-                        <Form.Check id={`default-`} label={`1/2 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1/2 Inches `} />
                       </Tab.Pane>
 
                       <Tab.Pane eventKey="four" className="text-center mt-5">
                         <label htmlFor="">CLUTTER DEPTH:</label>
-                        <Form.Check id={`default-`} label={`1 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1 Inches `} />
 
-                        <Form.Check id={`default-`} label={`2 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`2 Inches `} />
 
-                        <Form.Check id={`default-`} label={`3 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`3 Inches `} />
 
-                        <Form.Check id={`default-`} label={`4 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`4 Inches `} />
                       </Tab.Pane>
 
                       <Tab.Pane eventKey="five"></Tab.Pane>
                       <Tab.Pane eventKey="six" className="text-center mt-5">
                       <label htmlFor="">CLUTTER DEPTH:</label>
-                        <Form.Check id={`default-`} label={`1/8 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1/8 Inches `} />
 
-                        <Form.Check id={`default-`} label={`1/4 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1/4 Inches `} />
 
-                        <Form.Check id={`default-`} label={`3/8 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`3/8 Inches `} />
 
-                        <Form.Check id={`default-`} label={`1/2 Inches `} />
+                        <Form.Check type="radio" className="mt-3" id={`default-`} label={`1/2 Inches `} />
                       </Tab.Pane>
                     </Tab.Content>
                   </Col>

@@ -32,11 +32,12 @@ function AirportDelay() {
                         <label style={{ width: "100px" }}>Delay Type:</label>
                         <div className="">
                             <Form.Check
+                            type="radio"
                             style={{ marginLeft: "40px" }}
                             id={`default-`}
                             label={`Inbond hold `}
                             />
-                            <Form.Check id={`default-`} label={`taxi out `} />
+                            <Form.Check type="radio" className="mt-3" id={`default-`} label={`taxi out `} />
                         </div>
                     </div>
 

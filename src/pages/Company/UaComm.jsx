@@ -29,14 +29,18 @@ function UaComm() {
                                     
 
                                         <Form.Check
-                                            custom
+                                        type="radio"
+                                        className="mt-3"
+                                            
                                             // type={type}
                                             id={`custom`}
                                             label={`Dispatch`}
                                         />
 
                                         <Form.Check
-                                            custom
+                                        type="radio"
+                                        className="mt-3"
+                                            
                                             // type={type}
                                             label={`Call Me`}
                                             id={`disabled-custom`}
@@ -51,14 +55,18 @@ function UaComm() {
                                     
 
                                         <Form.Check
-                                            custom
+                                        type="radio"
+                                        className="mt-3"
+                                            
 
                                             id={`custom`}
                                             label={`TOMC`}
                                         />
 
                                         <Form.Check
-                                            custom
+                                        type="radio"
+                                        className="mt-3"
+                                            
 
                                             label={`FODM`}
                                             id={`disabled-custom`}
@@ -75,14 +83,18 @@ function UaComm() {
                                     
 
                                         <Form.Check
-                                            custom
+                                        type="radio"
+                                        className="mt-3"
+                                            
 
                                             id={`custom`}
                                             label={`LOAD PLNR`}
                                         />
 
                                         <Form.Check
-                                            custom
+                                        type="radio"
+                                        className="mt-3"
+                                            
 
                                             label={`Station`}
                                             id={`disabled-custom`}
@@ -115,6 +127,8 @@ function UaComm() {
                                     
 
                                         <Form.Check
+                                        type="radio"
+                                        className="mt-3"
                                            
 
                                             id={`custom`}
@@ -122,6 +136,8 @@ function UaComm() {
                                         />
 
                                         <Form.Check
+                                        type="radio"
+                                        className="mt-3"
                                             
 
                                             label={`PILOT CREW DESK`}
@@ -129,6 +145,8 @@ function UaComm() {
                                         />
 
                                         <Form.Check
+                                        type="radio"
+                                        className="mt-3"
                                             
 
                                             label={`FLT ATT CREW DESK`}
@@ -136,6 +154,8 @@ function UaComm() {
                                         />
 
                                         <Form.Check
+                                        type="radio"
+                                        className="mt-3"
                                            
 
                                             label={`DATALINK O`}

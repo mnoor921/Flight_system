@@ -21,7 +21,7 @@ function CompanyMenu() {
 
                             {/* Flight Menu */}
 
-                            <Col className="flight-info">
+                            <Col md={4} xs={4} className="flight-info">
                                 <Link to="/preflightmenu" className="btn btn-1">Preflight Menu</Link>
                                 <Link to="/intial" className="btn btn-1">Initilize</Link>
                                 <Link to="/takeoff" className="btn btn-1">Take Off data request</Link>
@@ -31,7 +31,7 @@ function CompanyMenu() {
                             {/* In Flight Menu */}
 
 
-                            <Col className="flight-info">
+                            <Col md={4} xs={4} className="flight-info">
                                 <Link to="/inflightmenu" className="btn btn-1">Inflight Menu</Link>
                                 <Link to="/howgozit" className="btn btn-1">Howcozit Request</Link>
                                 <Link to="/landing" className="btn btn-1">Landing Data Request</Link>
@@ -44,9 +44,9 @@ function CompanyMenu() {
 
                                 {/* Post Flight MEnu */}
 
-                            <Col className="flight-info">
+                            <Col md={4} xs={4} className="flight-info">
                                 <Link to="/postflightmenu" className="btn btn-1">Post Flight Menu</Link>
-                                <Link className="btn btn-1">Maintance Menu</Link>
+                                <Link to="/maintaince" className="btn btn-1">Maintance Menu</Link>
                                 <Link to="/uacomm" className="btn btn-1">Ua comm</Link>
                                 <Link to="/ooo1time" className="btn btn-1">oooi times</Link>
                                 <Link to="/gateassign" className="btn btn-1">gate assign request</Link>

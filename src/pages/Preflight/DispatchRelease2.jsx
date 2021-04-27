@@ -26,129 +26,154 @@ function DispatchRelease2() {
 
             <div className="m-5">
               <Form>
-                <Row>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">FLT number:</label>
+                <div className="dispatch_release">
+                  <div className="d-flex">
+                  <label htmlFor="">FLT number:</label>
                     <input
                       type="text"
                       placeholder="XXXXX"
-                      className="form-control"
+                      style={{width:'40px'}}
                     />
-                  </Col>
-
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">FLT date:</label>
+                  </div>
+                  <div className="d-flex">
+                  <label htmlFor="">FLT date:</label>
                     <input
                       type="date"
                       placeholder="XXXXX"
-                      className="form-control"
+                      
                     />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">Release NBr:</label>
-                    <input
-                      type="text"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">Aircraft NBr:</label>
-                    <input
-                      type="text"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">dept / desp :</label>
-                    <input
-                      type="text"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">Flight Rules :</label>
-                    <input
-                      type="text"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
-                  </Col>
+                  </div>
 
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">ALTN1 / Altn2 :</label>
+                  <div className="d-flex">
+                  <label htmlFor="">Release NBr:</label>
                     <input
                       type="text"
                       placeholder="XXXXX"
-                      className="form-control"
+                      style={{width:'40px'}}
                     />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">Fuel (LBS):</label>
-                    <input
-                      type="text"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">ATOG</label>
-                    <input
-                      type="text"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">capt fuel:</label>
-                    <input
-                      type="text"
-                      placeholder="XXXXX"
-                      className="form-control"
-                    />
-                  </Col>
-                    
+                  </div>
 
-                  <Col md={6} xs={12} className="mt-5">
-                    <label htmlFor="">Dispatcher Name:</label>
+                  <div className="d-flex">
+                  <label htmlFor="">Aircraft NBr:</label>
                     <input
                       type="text"
                       placeholder="XXXXX"
-                      className="form-control"
+                      style={{width:'70px'}}
                     />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-5">
-                    <label htmlFor="">Caption Name:</label>
+                  </div>
+
+                  <div className="d-flex">
+                  <label htmlFor="">dept / desp :</label>
                     <input
                       type="text"
                       placeholder="XXXXX"
-                      className="form-control"
-                    />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">Capt emp number:</label>
+                      style={{width:'50px'}}
+                    /> / 
                     <input
                       type="text"
                       placeholder="XXXXX"
-                      className="form-control"
+                      style={{width:'50px'}}
                     />
-                  </Col>
-                  <Col md={6} xs={12} className="mt-2">
-                    <label htmlFor="">Capt crew base:</label>
+                  </div>
+
+                  <div className="d-flex">
+                  <label htmlFor="">Flight Rules :</label>
                     <input
                       type="text"
                       placeholder="XXXXX"
-                      className="form-control"
+                      style={{width:'50px'}}
                     />
-                  </Col>
-                </Row>
-                <div className="text-center mt-5">
+                  </div>
+
+                  <div className="d-flex">
+                  <label htmlFor="">ALTN1 / Altn2 :</label>
+                    <input
+                      type="text"
+                      placeholder="XX"
+                      style={{width:'40px'}}
+                    /> /
+                    <input
+                      type="text"
+                      placeholder="XX"
+                      style={{width:'40px'}}
+                    /> 
+                  </div>
+                  <div className="d-flex">
+                  <label htmlFor="">Fuel (LBS):</label>
+                    <input
+                      type="text"
+                      placeholder="XX"
+                      style={{width:'50px'}}
+                    /> /
+                    <input
+                      type="text"
+                      placeholder="XX"
+                      style={{width:'50px'}}
+                    /> 
+
+                  </div>
+                  <div className="d-flex">
+                  <label htmlFor="">ATOG</label>
+                    <input
+                      type="text"
+                      placeholder="XXXXX"
+                      style={{width:'70px'}}
+                    />
+                  </div>
+                  <div className="d-flex">
+                  <label htmlFor="">capt fuel:</label>
+                    <input
+                      type="text"
+                      placeholder="XXXXX"
+                      style={{width:'70px'}}
+                    />
+                  </div>
+                  <div className="d-flex">
+                  <label htmlFor="">Dispatcher Name:</label>
+                    <input
+                      type="text"
+                      placeholder="XXXXX"
+                      style={{width:'200px'}}
+                      
+                    />
+                  </div>
+                  <div className="d-flex">
+                  <label htmlFor="">Caption Name:</label>
+                    <input
+                      type="text"
+                      placeholder="XXXXX"
+                      style={{width:'200px'}}
+                                          />
+                  </div>
+                  <div className="d-flex">
+                  <label htmlFor="">Capt emp number:</label>
+                    <input
+                      type="text"
+                      placeholder="XXXXX"
+                      style={{width:'200px'}}
+                    />
+                  </div>
+
+                  <div className="d-flex">
+                  <label htmlFor="">Capt crew base:</label>
+                    <input
+                      type="text"
+                      placeholder="XXXXX"
+                      style={{width:'70px'}}
+                    />
+                  </div>
+
+                  <div className="d-flex">
+
+                  </div>
+
+                </div>
+
+               <div className="text-center mt-5">
                   <h4>CAPT APPROACH MINS</h4>
 
-                  <Form.Check id={`default-`} label={`full qual `} />
-                  <Form.Check id={`default-`} label={`high mins `} />
+                  <Form.Check type="radio" id={`default-`} label={`full qual `} />
+                  <Form.Check type="radio" className="mt-3" id={`default-`} label={`high mins `} />
 
                   <br />
 
@@ -156,8 +181,6 @@ function DispatchRelease2() {
                 </div>
               </Form>
             </div>
-
-            
 
             <Footer />
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>

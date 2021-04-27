@@ -26,24 +26,29 @@ function Weather() {
                                     <div className="ml-3">
 
                                         <Form.Check
+                                        className="mt-3"
 
                                             id={`custom`}
                                             label={`METER`}
                                         />
 
                                         <Form.Check
+                                        className="mt-3"
 
                                             label={`PILOT CREW DESK`}
                                             id={`TAF`}
                                         />
 
+
                                         <Form.Check
+                                        className="mt-3"
 
                                             label={`Airport Condition`}
                                             id={`custom`}
                                         />
 
                                         <Form.Check
+                                        className="mt-3"
 
                                             label={`Area Weather`}
                                             id={`custom`}
@@ -122,12 +127,13 @@ function Weather() {
 
                             <hr />
                             <Form.Check
+                                className="mt-3"
 
                                 label={`Sigmets`}
                                 id={`custom`}
                             />
                             <Form.Check
-
+                                className="mt-3"
                                 label={`Pireps`}
                                 id={`custom`}
                             />

@@ -24,14 +24,14 @@ function Landing() {
 
                         <div className="ml-4">
 
-                            <div className="intail-text">
+                            <div className="intail-text landing">
 
                                 <div className="labels d-flex mt-2">
                                     <div className="label-heading-1 ">
                                         <h4>Airport:</h4>
                                     </div>
                                     <div className="label-heading ">
-                                        <input type="text" placeholder="XXXXXX" />
+                                        <input type="text" placeholder="XXXXXX" style={{width:'70px'}} />
                                     </div>
 
                                 </div>
@@ -41,7 +41,7 @@ function Landing() {
                                         <h4>Runway:</h4>
                                     </div>
                                     <div className="label-heading ">
-                                        <input type="text" placeholder="XXXXXX" />
+                                        <input type="text" placeholder="XXXXXX" style={{width:'60px'}} />
                                     </div>
 
                                 </div>
@@ -52,7 +52,7 @@ function Landing() {
                                         <h4>LGW:</h4>
                                     </div>
                                     <div className="label-heading ">
-                                        <input type="text" placeholder="XXXXXX" />
+                                        <input type="text" placeholder="XXXXXX" style={{width:'80px'}} />
                                     </div>
 
                                 </div>
@@ -62,7 +62,7 @@ function Landing() {
                                         <h4>FLAPS:</h4>
                                     </div>
                                     <div className="label-heading ">
-                                        <input type="text" placeholder="XXXXXX" />
+                                        <input type="text" placeholder="XXXXXX" style={{width:'60px'}} />
                                     </div>
 
                                 </div>
@@ -73,7 +73,7 @@ function Landing() {
                                         <h4>Temprature (C):</h4>
                                     </div>
                                     <div className="label-heading ">
-                                        <input type="text" placeholder="XXXXXX" />
+                                        <input type="text" placeholder="XXXXXX" style={{width:'80px'}} />
                                     </div>
 
                                 </div>
@@ -83,7 +83,7 @@ function Landing() {
                                         <h4>Wind Dir:</h4>
                                     </div>
                                     <div className="label-heading ">
-                                        <input type="text" placeholder="XXXXXX" />
+                                        <input type="text" placeholder="XXXXXX" style={{width:'60px'}} />
                                     </div>
 
                                 </div>
@@ -93,7 +93,7 @@ function Landing() {
                                         <h4>WIND Speed:</h4>
                                     </div>
                                     <div className="label-heading ">
-                                        <input type="text" placeholder="XXXXXX" />
+                                        <input type="text" placeholder="XXXXXX" style={{width:'40px'}} />
                                     </div>
 
                                 </div>

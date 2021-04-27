@@ -11,16 +11,16 @@ function Header() {
 
             <Container>
                 <Row>
-                    <Col>
+                    <Col className="m-0 p-0">
                         <div className="header-label mt-3 mb-0 pb-0">
 
                             <div className="all-buttons">
                                 <ul className="d-flex w-100">
                                     <li>
-                                        <Link to="" className="btn btn-1" style={{background:'transparent'}}>ATC</Link>
+                                        <Link to="/atcmenu" className="btn btn-1" >ATC</Link>
                                     </li>
                                     <li>
-                                        <Link to="/" className="btn btn-1" style={{background:'transparent'}}>Flight Information</Link>
+                                        <Link to="/flightinfo" className="btn btn-1" >Flight Information</Link>
                                     </li>
                                     <li>
                                         <Link to="/company" className="btn btn-1" style={{background:'#77DF8C',color:'#fff'}}>Company</Link>
@@ -37,10 +37,10 @@ function Header() {
                             <div className="all-buttons">
                                 <ul className="d-flex w-100">
                                     <li>
-                                        <Link href="" className="btn btn-1">Review</Link>
+                                        <Link to="/reviewmenu" className="btn btn-1">Review</Link>
                                     </li>
                                     <li>
-                                        <Link href="" className="btn btn-1">Manager</Link>
+                                        <Link to="/mangermenu" className="btn btn-1">Manager</Link>
                                     </li>
                                     <li>
                                         <Link to="/message" className="btn btn-1">New Messages</Link>

@@ -44,74 +44,74 @@ function Intialized() {
 
                                 <div className="intail-text">
 
-                                    <div className="labels d-flex mt-2">
-                                        <div className="label-heading-1 ">
-                                            <h4>Flat No:</h4>
+                                    <div className="labels d-flex w-100 mt-2">
+                                        <div className="label-heading-1 mx-2" style={{width:'30%'}}>
+                                            <h4 className="float-right">Flat No:</h4>
                                         </div>
-                                        <div className="label-heading ">
-                                            <input type="text" placeholder="XXXXXX"/>
+                                        <div className="label-heading " >
+                                            <input type="text" placeholder="XXXXXX" style={{width:'40px'}} />
                                         </div>
 
                                     </div>
 
                                     <div className="labels d-flex mt-2">
-                                        <div className="label-heading-1 ">
+                                        <div className="label-heading-1 mx-2 " style={{width:'30%'}}>
                                             <h4>Date:</h4>
                                         </div>
                                         <div className="label-heading ">
-                                            <input type="text" placeholder="XXXXXX"/>
+                                            <input type="text" placeholder="XXXXXX" style={{width:'40px'}}/>
                                         </div>
 
                                     </div>
 
 
                                     <div className="labels d-flex mt-2">
-                                        <div className="label-heading-1 ">
+                                        <div className="label-heading-1 mx-2" style={{width:'30%'}}>
                                             <h4>Depat:</h4>
                                         </div>
                                         <div className="label-heading ">
-                                            <input type="text" placeholder="XXXXXX"/>
+                                            <input type="text" placeholder="XXXXXX" style={{width:'60px'}}/>
                                         </div>
 
                                     </div>
 
                                     <div className="labels d-flex mt-2">
-                                        <div className="label-heading-1 ">
+                                        <div className="label-heading-1 mx-2 " style={{width:'30%'}}>
                                             <h4>Arrivl:</h4>
                                         </div>
-                                        <div className="label-heading ">
-                                            <input type="text" placeholder="XXXXXX"/>
+                                        <div className="label-heading  " style={{width:'30%'}}>
+                                            <input type="text" placeholder="XXXXXX" style={{width:'60px'}}/>
                                         </div>
 
                                     </div>
 
 
                                     <div className="labels d-flex mt-2">
-                                        <div className="label-heading-1 ">
+                                        <div className="label-heading-1 mx-2" style={{width:'30%'}}>
                                             <h4>FLT Time:</h4>
                                         </div>
                                         <div className="label-heading ">
-                                            <input type="text" placeholder="XXXXXX"/>
+                                            <input type="text" placeholder="XXXXXX" style={{width:'60px'}}/>
                                         </div>
 
                                     </div>
 
                                     <div className="labels d-flex mt-2">
-                                        <div className="label-heading-1 ">
+                                        <div className="label-heading-1 mx-2 " style={{width:'30%'}}>
                                             <h4>ALTN1:</h4>
                                         </div>
-                                        <div className="label-heading ">
-                                            <input type="text" placeholder="XXXXXX"/>
+                                        <div className="label-heading " >
+                                            <input type="text" placeholder="XXXXXX" style={{width:'40px'}}/>
                                         </div>
 
                                     </div>
 
                                     <div className="labels d-flex mt-2">
-                                        <div className="label-heading-1 ">
+                                        <div className="label-heading-1 mx-2" style={{width:'30%'}}>
                                             <h4>ALTN2:</h4>
                                         </div>
                                         <div className="label-heading ">
-                                            <input type="text" placeholder="XXXXXX"/>
+                                            <input type="text" placeholder="XXXXXX" style={{width:'40px'}}/>
                                         </div>
 
                                     </div>

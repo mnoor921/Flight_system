@@ -26,22 +26,25 @@ li{
   border: 1px solid #91DDD5;
   width: 100%;
   border-radius: 0px;
-  background: #CBCBCB;
+  background: #B7B2C7;
 }
 
 .btn-1{
   /* border: ; */
   text-transform: uppercase;
-  color: #222;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
   border: 1px solid #91DDD5;
-  background: #CBCBCB;
+  background: #B7B2C7;
   /* width: 100%; */
   border-radius: 0px;
 }
 
 .btn-1:hover{
-  color: #fff !important;
-  background: #91DDD5 !important;
+  color: #0BF8FE !important;
+  background: transparent !important;
+  border: 1px solid #0BF8FE !important;
 }
 
 /* flight */
@@ -75,6 +78,9 @@ li{
 
 .label-heading-1{
   width: 100px;
+}
+.label-heading-1 h4{
+  text-align: right !important;
 }
 hr{
   border-top: 1px solid #C9CDCB;
@@ -139,6 +145,8 @@ font-size: 15px;
 
 label{
   text-transform: uppercase !important;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 
@@ -162,10 +170,22 @@ input[type=radio] {
   width: 20px;
   height: 20px;
 }
+input[type=checkbox] {
+  /* border: 1px solid #fff; */
+  /* padding: 0.5em; */
+  -webkit-appearance: none;
+  /* transform: rotate(45deg); */
+  width: 30px;
+  height: 30px;
+}
 
 input[type=radio]:checked {
   background: green !important; 
   background-size: 9px 9px;
+}
+input[type=checkbox]:checked {
+  background: green !important; 
+  /* background-size: 9px 9px; */
 }
 
 input[type=radio]:focus {
@@ -175,19 +195,64 @@ input[type=radio]:focus {
 
 
 input{
-  background: #BEBEBE !important;
+  background: #B7B2C7 !important;
+  width: 120px ;
 }
 
 input::placeholder{
   color: #fff;
-  padding-left: 10px;
+  padding:0px 10px;
 }
 
 textarea{
-  background: #BEBEBE !important;
+  background: #B7B2C7 !important;
 }
 
 textarea::placeholder{
   color: #fff;
   padding-left: 10px;
+}
+
+.landing .label-heading-1 {
+  width: 40% !important;
+  margin-right: 10px;
+}
+
+.diversion label{
+  width: 35%;
+  text-align: right;
+  margin-right: 10px;
+}
+.diversion textarea{
+  width:65% !important;
+}
+
+.flight-status .inner label{
+  width: 0% !important;
+}
+.flight-status label{
+  width: 40% !important;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.flight-paper label{
+  width: 45%;
+  text-align: right;
+}
+
+.dispatch_release label{
+  width: 40% !important;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.reminders .reminder-inner{
+ justify-content: space-between; 
+}
+
+.fit-duty label{
+  width: 45% !important;
+  margin-right: 10px;
+  text-align: right;
 }
