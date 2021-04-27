@@ -10,7 +10,6 @@ import MaintainceMenu from "./pages/MaintainceMenu";
 import ReviewMenu from "./pages/ReviewMenu";
 import FlightInfo from "./pages/FlightInfoMenu";
 import MangerMenu from "./pages/MangerMenu";
-import CommMenu from './pages/menu'
 
 // company
 
@@ -226,10 +225,6 @@ function App() {
         <Route path="/automaticmessage" exact component={AutomaticMessage} />
         <Route path="/master" exact component={Master} />
         <Route path="/commaudit" exact component={CommAudit} />
-
-        {/* menu  */}
-
-        <Route path="/commmenu" exact component={CommMenu} />
 
 
         

@@ -5,7 +5,7 @@ import Footer from "../Footer";
 
 import { Container, Row, Col, Form } from "react-bootstrap";
 
-function LevelRequest() {
+function Emergency() {
   return (
     <div>
       <Container className="my-3">
@@ -19,95 +19,88 @@ function LevelRequest() {
             <Header />
 
             <h4 className="text-center text-white text-uppercase">
-              level request
+              Emergency report
             </h4>
 
             <hr />
 
             <form action="">
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
+              <br />
+
+              <div
+                className="d-flex w-100 mt-2"
+                style={{ justifyContent: "space-around" }}
+              >
+                <div className="d-flex  ">
                   <input type="radio" />
-                  <label htmlFor="" className="ml-3">
-                    Level:
-                  </label>
-                </div>
-                <input type="text" placeholder="------------" />
-              </div>
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request ">
-                  <input type="checkbox" className="ml-5" />
-                  <label htmlFor="" className="ml-3">
-                    Step At:
-                  </label>
-                </div>
-                <input type="text" placeholder="------------" />
-              </div>
 
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
+                  <label htmlFor="" className="ml-3">
+                    mayday:
+                  </label>
+                </div>
+                <div className="d-flex  ">
                   <input type="radio" />
+
                   <label htmlFor="" className="ml-3">
-                    block:
+                    pan:
                   </label>
                 </div>
-                <input type="text" placeholder="------------" />
-              </div>
-
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
-                  {/* <input type="radio" style={{visibility:'0px'}} /> */}
-                  <label htmlFor="" className="ml-5">
-                    to:
-                  </label>
-                </div>
-                <input type="text" placeholder="------------" />
-              </div>
-
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
+                <div className="d-flex  ">
                   <input type="radio" />
+
                   <label htmlFor="" className="ml-3">
-                    request cruies climb to:
+                    cancel <br /> emergancy:
                   </label>
                 </div>
-                <input type="text" placeholder="------------" />
               </div>
 
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex ">
-                  <input type="checkbox" className="ml-5" />
-                  <label htmlFor="" className="ml-3">
-                    {" "}
-                    At pilot description:
+              <div className="d-flex w-100 ">
+                <input type="checkbox" />
+                <label htmlFor="" className="ml-3 ">
+                  diverting to:
+                </label>
+                <input name="" className="mx-3" placeholder="------------" />
+                <label htmlFor="">Via Route 1</label>
+              </div>
+              <br/>
+
+              <div className="d-flex w-100">
+                <div className="d-flex w-50 ">
+                  <input type="checkbox" />
+                  <label htmlFor="" className="ml-3  text-right">
+                    fuel remaining:
                   </label>
                 </div>
-              </div>
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex ">
-                  <input type="checkbox" className="ml-5" />
-                  <label htmlFor="" className="ml-3">
-                    Due to weather:
-                  </label>
+                <div className="">
+                       <label htmlFor="">41.2lbs X 1000</label> <br/>
+                       <span><input type="text" placeholder="0437" className="mx-2"/>HOURS + MINUTES</span> 
                 </div>
               </div>
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex ">
-                  <input type="checkbox" className="ml-5" />
-                  <label htmlFor="" className="ml-3">
-                    Due to aircrafts performance:
+
+              <br />
+
+              <div className="d-flex w-100 mt-3 ">
+                  <label htmlFor="" className="mr-3 w-50 text-right">
+                    person on board :
                   </label>
+                  <input type="text" placeholder="-----------" placeholder="-----------" style={{width:'70px'}} />
                 </div>
-              </div>
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex ">
-                  <input type="checkbox" className="ml-5" />
-                  <label htmlFor="" className="ml-3">
-                    maintaine own sepration and vmc:
+              <div className="d-flex w-100 mt-3 ">
+                  <label htmlFor="" className="mr-3 w-50 text-right">
+                    descending to :
                   </label>
+                  <input type="text" placeholder="-----------"/>
                 </div>
-              </div>
-              <div className="d-flex w-100 mt-2">
+              <div className="d-flex w-100 mt-3 ">
+                  <label htmlFor="" className="mr-3 w-50 text-right">
+                    offsetting to :
+                  </label>
+                  <input type="text" placeholder="-----------" style={{width:'70px'}} />
+                </div>
+
+            
+            <br/>
+            <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
                   <label htmlFor="" className="ml-3">
                     free text:
@@ -122,6 +115,7 @@ function LevelRequest() {
                   ></textarea>
                 </div>
               </div>
+
             </form>
 
             <div className="header-label mt-3 mb-0 pb-0">
@@ -169,4 +163,4 @@ function LevelRequest() {
   );
 }
 
-export default LevelRequest;
+export default Emergency;

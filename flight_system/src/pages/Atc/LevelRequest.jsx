@@ -26,7 +26,7 @@ function LevelRequest() {
 
             <form action="">
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
+                <div className="d-flex w-25">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
                     Level:
@@ -35,7 +35,7 @@ function LevelRequest() {
                 <input type="text" placeholder="------------" />
               </div>
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request ">
+                <div className="d-flex w-25 ">
                   <input type="checkbox" className="ml-5" />
                   <label htmlFor="" className="ml-3">
                     Step At:
@@ -45,7 +45,7 @@ function LevelRequest() {
               </div>
 
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
+                <div className="d-flex w-25">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
                     block:
@@ -55,7 +55,7 @@ function LevelRequest() {
               </div>
 
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
+                <div className="d-flex w-25">
                   {/* <input type="radio" style={{visibility:'0px'}} /> */}
                   <label htmlFor="" className="ml-5">
                     to:
@@ -65,7 +65,7 @@ function LevelRequest() {
               </div>
 
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
+                <div className="d-flex w-25">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
                     request cruies climb to:

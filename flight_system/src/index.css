@@ -226,9 +226,6 @@ textarea::placeholder{
 .diversion textarea{
   width:65% !important;
 }
-textarea{
-  width: 200px ;
-}
 
 .flight-status .inner label{
   width: 0% !important;
@@ -258,24 +255,4 @@ textarea{
   width: 45% !important;
   margin-right: 10px;
   text-align: right;
-}
-
-@media screen and (max-width:768px){
-.btn-1{
-  font-size: 10px;
-}
-label{
-  font-size: 12px !important;
-  margin-right: 40px !important;
-}
-.level-request{
-  width: 50% !important;
-}
-
-
-
-}
-
-.card{
-  background: transparent !important;
 }

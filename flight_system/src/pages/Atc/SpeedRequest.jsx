@@ -5,7 +5,7 @@ import Footer from "../Footer";
 
 import { Container, Row, Col, Form } from "react-bootstrap";
 
-function LevelRequest() {
+function SpeedRequest() {
   return (
     <div>
       <Container className="my-3">
@@ -19,64 +19,28 @@ function LevelRequest() {
             <Header />
 
             <h4 className="text-center text-white text-uppercase">
-              level request
+              speed request
             </h4>
 
             <hr />
 
             <form action="">
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
-                  <input type="radio" />
+                <div className="d-flex w-25">
+                  <input type="checkbox" />
                   <label htmlFor="" className="ml-3">
-                    Level:
+                    speed:
                   </label>
                 </div>
                 <input type="text" placeholder="------------" />
               </div>
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request ">
-                  <input type="checkbox" className="ml-5" />
-                  <label htmlFor="" className="ml-3">
-                    Step At:
-                  </label>
-                </div>
-                <input type="text" placeholder="------------" />
-              </div>
+              
 
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
-                  <input type="radio" />
-                  <label htmlFor="" className="ml-3">
-                    block:
-                  </label>
-                </div>
-                <input type="text" placeholder="------------" />
-              </div>
-
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
-                  {/* <input type="radio" style={{visibility:'0px'}} /> */}
-                  <label htmlFor="" className="ml-5">
-                    to:
-                  </label>
-                </div>
-                <input type="text" placeholder="------------" />
-              </div>
-
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25 level-request">
-                  <input type="radio" />
-                  <label htmlFor="" className="ml-3">
-                    request cruies climb to:
-                  </label>
-                </div>
-                <input type="text" placeholder="------------" />
-              </div>
+              <br/>
 
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
-                  <input type="checkbox" className="ml-5" />
+                  <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
                     {" "}
                     At pilot description:
@@ -85,7 +49,7 @@ function LevelRequest() {
               </div>
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
-                  <input type="checkbox" className="ml-5" />
+                  <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
                     Due to weather:
                   </label>
@@ -93,7 +57,7 @@ function LevelRequest() {
               </div>
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
-                  <input type="checkbox" className="ml-5" />
+                  <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
                     Due to aircrafts performance:
                   </label>
@@ -101,12 +65,13 @@ function LevelRequest() {
               </div>
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
-                  <input type="checkbox" className="ml-5" />
+                  <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
                     maintaine own sepration and vmc:
                   </label>
                 </div>
               </div>
+              <br/>
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
                   <label htmlFor="" className="ml-3">
@@ -169,4 +134,4 @@ function LevelRequest() {
   );
 }
 
-export default LevelRequest;
+export default SpeedRequest;
