@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './Header'
+import Beer from "../assests/buy_bear.jpeg";
 import {  Link } from "react-router-dom";
 // import Footer from './Footer'
 
@@ -24,8 +25,14 @@ function CommMenu() {
                         <br/>
 
                        <div className="text-center">
-                       <label htmlFor="" className="text-center mx-auto">Well Come 
-                        <br/> the Comm Menu </label>
+                       <label htmlFor="" className="text-center mx-auto">if you find this 
+                        <br/> site Helpful <br/> i won't say  no to a beer </label>
+
+                        <br/>
+                        <br/>
+                        <br/>
+                        <img src={Beer} width="70" alt=""/>
+                        
                        </div>
                         
                     

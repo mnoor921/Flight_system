@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import { Link } from "react-router-dom";
+import Beer from "../../assests/buy_bear.jpg";
 import Footer from "../Footer";
 
 import { Container, Row, Col, Form } from "react-bootstrap";
@@ -19,7 +20,7 @@ function Login() {
             <Header />
 
             <h4 className="text-center text-white text-uppercase">
-              atc lgoin / status
+              atc logon / status
             </h4>
 
             <hr />
@@ -30,7 +31,7 @@ function Login() {
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex w-100 ">
                   <label htmlFor="" className="ml-3 w-25 text-right">
-                    Login to:
+                    logon to:
                   </label>
                   <input name="" className="ml-3" placeholder="------------" />
                 </div>
@@ -46,59 +47,50 @@ function Login() {
 
               <br />
 
-              <div className="d-flex w-100 mt-2" style={{justifyContent:'center'}}>
+              <div
+                className="d-flex w-100 mt-2"
+                style={{ justifyContent: "center" }}
+              >
                 <div className="d-flex w-25 ">
-                  
                   <label htmlFor="" className="ml-3">
                     origin: <span className="ml-2">ksfo</span>
                   </label>
                 </div>
                 <div className="d-flex w-25 ">
-                  
                   <label htmlFor="" className="ml-3">
-                  destination: <span className="ml-2">kiad</span>
+                    destination: <span className="ml-2">kiad</span>
                   </label>
                 </div>
-                
               </div>
-              
-                <div className="d-flex w-100 mt-2 ">
-                  
-                  <label htmlFor="" className="mr-3 text-right  w-50">
-                    Air connection: 
-                  </label>
-                  <label htmlFor="">Not established</label>
-                </div>
 
-                <div className="d-flex w-100 mt-2 ">
-                  
-                  <label htmlFor="" className="mr-3 text-right  w-50">
-                    active center: 
-                  </label>
-                  {/* <label htmlFor="">Not established</label> */}
-                </div>
-                <div className="d-flex w-100 mt-2 ">
-                  
-                  <label htmlFor="" className="mr-3 text-right  w-50">
-                    next center: 
-                  </label>
-                  {/* <label htmlFor="">Not established</label> */}
-                </div>
+              <div className="d-flex w-100 mt-2 ">
+                <label htmlFor="" className="mr-3 text-right  w-50">
+                  atc connection:
+                </label>
+                <label htmlFor="">Not established</label>
+              </div>
 
-                <br/>
-                <div className="d-flex w-100 mt-2 ">
-                  
-                  <label htmlFor="" className="mr-3 text-right  w-50">
-                    ads status: 
-                  </label>
-                  <label htmlFor="">Armed</label>
-                </div>
-                
-                
-             
+              <div className="d-flex w-100 mt-2 ">
+                <label htmlFor="" className="mr-3 text-right  w-50">
+                  active center:
+                </label>
+                {/* <label htmlFor="">Not established</label> */}
+              </div>
+              <div className="d-flex w-100 mt-2 ">
+                <label htmlFor="" className="mr-3 text-right  w-50">
+                  next center:
+                </label>
+                {/* <label htmlFor="">Not established</label> */}
+              </div>
 
+              <br />
+              <div className="d-flex w-100 mt-2 ">
+                <label htmlFor="" className="mr-3 text-right  w-50">
+                  ads status:
+                </label>
+                <label htmlFor="">Armed</label>
+              </div>
             </form>
-            
 
             <div className="header-label mt-3 mb-0 pb-0">
               <div className="all-buttons-footer">
@@ -134,6 +126,22 @@ function Login() {
 
             <br />
             <br />
+            <br />
+            <div className=" text-center mx-auto">
+              <Link
+                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                className=" mx-auto"
+              >
+                <img
+                  src={Beer}
+                  width="120"
+                  height="50"
+                  className="my-2"
+                  alt=""
+                  style={{ borderRadius: "10px" }}
+                />
+              </Link>
+            </div>
 
             {/* <Footer /> */}
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>

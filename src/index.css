@@ -271,6 +271,9 @@ label{
 .level-request{
   width: 50% !important;
 }
+.post-flight{
+  margin-left: .5rem !important;
+}
 
 
 
@@ -278,4 +281,13 @@ label{
 
 .card{
   background: transparent !important;
+}
+
+.main-navbar .navbar-link{
+  color: #fff !important;
+}
+
+.top-header{
+  padding: 10px;
+  border: 1px solid #0BF8FE;
 }

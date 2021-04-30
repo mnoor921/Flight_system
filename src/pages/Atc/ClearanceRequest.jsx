@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import { Link } from "react-router-dom";
+import Beer from "../../assests/buy_bear.jpg";
 import Footer from "../Footer";
 
 import { Container, Row, Col, Form } from "react-bootstrap";
@@ -32,36 +33,32 @@ function ClearanceRequest() {
                     request clearance:
                   </label>
                 </div>
-                
               </div>
-              
 
               {/* <br/> */}
 
-              
-              <br/>
-              <div className="d-flex w-100 mt-2">
-                <div className="d-flex ">
-                  <label htmlFor="" className="ml-3">
-                    free text:
-                  </label>
-                  <textarea
-                    name=""
-                    id=""
-                    cols="40"
-                    rows="3"
-                    className="ml-3"
-                    placeholder="------------"
-                  ></textarea>
-                </div>
+              <br />
+
+              <div className="d-flex mt-2">
+                <label htmlFor="" className="ml-3 w-25">
+                  free text:
+                </label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="40"
+                  rows="3"
+                  className="ml-3"
+                  placeholder="------------"
+                ></textarea>
               </div>
             </form>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
 
             <div className="header-label mt-3 mb-0 pb-0">
               <div className="all-buttons-footer">
@@ -95,8 +92,23 @@ function ClearanceRequest() {
               </div>
             </div>
 
+            
             <br />
-            <br />
+            <div className=" text-center mx-auto">
+              <Link
+                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                className=" mx-auto"
+              >
+                <img
+                  src={Beer}
+                  width="120"
+                  height="50"
+                  className="my-2"
+                  alt=""
+                  style={{ borderRadius: "10px" }}
+                />
+              </Link>
+            </div>
 
             {/* <Footer /> */}
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>

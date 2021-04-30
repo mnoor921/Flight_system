@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header";
+import Beer from "../../assests/buy_bear.jpg";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
 
@@ -34,16 +35,15 @@ function SpeedRequest() {
                 </div>
                 <input type="text" placeholder="------------" />
               </div>
-              
 
-              <br/>
+              <br />
 
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
                   <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
                     {" "}
-                    At pilot description:
+                    At pilots descretion:
                   </label>
                 </div>
               </div>
@@ -59,7 +59,7 @@ function SpeedRequest() {
                 <div className="d-flex ">
                   <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
-                    Due to aircrafts performance:
+                    Due to aircraft performance:
                   </label>
                 </div>
               </div>
@@ -67,11 +67,11 @@ function SpeedRequest() {
                 <div className="d-flex ">
                   <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
-                    maintaine own sepration and vmc:
+                    maintain own separation and vmc:
                   </label>
                 </div>
               </div>
-              <br/>
+              <br />
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
                   <label htmlFor="" className="ml-3">
@@ -123,6 +123,22 @@ function SpeedRequest() {
 
             <br />
             <br />
+            <br />
+            <div className=" text-center mx-auto">
+              <Link
+                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                className=" mx-auto"
+              >
+                <img
+                  src={Beer}
+                  width="120"
+                  height="50"
+                  className="my-2"
+                  alt=""
+                  style={{ borderRadius: "10px" }}
+                />
+              </Link>
+            </div>
 
             {/* <Footer /> */}
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>

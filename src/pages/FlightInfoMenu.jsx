@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Beer from "../assests/buy_bear.jpg";
 import { Link } from "react-router-dom";
 // import Footer from './Footer'
 
@@ -21,9 +22,15 @@ function FlightInfo() {
               {/* Flight Menu */}
 
               <Col md={4} xs={4} className="flight-info">
-                <Link to="/departureclearance" className="btn btn-1">Departure Clearance Reuest</Link>
-                <Link to="/pushback" className="btn btn-1">pushback request</Link>
-                <Link to="/expectedtaxi" className="btn btn-1">expected taxi req</Link>
+                <Link to="/departureclearance" className="btn btn-1">
+                  Departure clearance request
+                </Link>
+                <Link to="/pushback" className="btn btn-1">
+                  pushback request
+                </Link>
+                <Link to="/expectedtaxi" className="btn btn-1">
+                  expected taxi req
+                </Link>
               </Col>
 
               {/* In Flight Menu */}
@@ -40,14 +47,33 @@ function FlightInfo() {
               {/* Post Flight MEnu */}
 
               <Col md={4} xs={4} className="flight-info">
-                <Link to="/" className="btn btn-1">
+                <Link to="/ocenic" className="btn btn-1">
                   OCEANIC Clearance req
                 </Link>
-                <Link to="/" className="btn btn-1">
-                  sent...
-                </Link>
+                <Link className="btn btn-1">sent...</Link>
               </Col>
             </Row>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div className=" text-center mx-auto">
+              <Link
+                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                className=" mx-auto"
+              >
+                <img
+                  src={Beer}
+                  width="120"
+                  height="50"
+                  className="my-2"
+                  alt=""
+                  style={{ borderRadius: "10px" }}
+                />
+              </Link>
+            </div>
           </Col>
           <Col></Col>
         </Row>

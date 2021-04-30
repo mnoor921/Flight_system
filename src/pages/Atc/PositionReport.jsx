@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header";
+import Beer from "../../assests/buy_bear.jpg";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
 
@@ -155,7 +156,7 @@ function PositionReport() {
                   </div>
                 </div>
                 <div className="  ">
-                <label htmlFor="">icing:</label>
+                  <label htmlFor="">icing:</label>
                   <div className="d-flex mt-2">
                     <input type="radio" />
 
@@ -172,7 +173,7 @@ function PositionReport() {
                   </div>
                 </div>
                 <div className="  ">
-                <div className="d-flex mt-5">
+                  <div className="d-flex mt-5">
                     <input type="radio" />
 
                     <label htmlFor="" className="ml-3">
@@ -240,6 +241,22 @@ function PositionReport() {
 
             <br />
             <br />
+            <br />
+            <div className=" text-center mx-auto">
+              <Link
+                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                className=" mx-auto"
+              >
+                <img
+                  src={Beer}
+                  width="120"
+                  height="50"
+                  className="my-2"
+                  alt=""
+                  style={{ borderRadius: "10px" }}
+                />
+              </Link>
+            </div>
 
             {/* <Footer /> */}
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>

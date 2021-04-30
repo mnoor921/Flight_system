@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from './Header'
+import Beer from "../assests/buy_bear.jpg";
 import {  Link } from "react-router-dom";
+
 // import Footer from './Footer'
 
 import { Container, Row, Col } from 'react-bootstrap'
@@ -26,7 +28,7 @@ function AtcMenu() {
                                 <Link to="/routerequest" className="btn btn-1">Route request</Link>
                                 <Link to="/speedrequest" className="btn btn-1">speed request</Link>
                                 <Link to="/clearancerequest" className="btn btn-1">clearance request</Link>
-                                <Link to="/" className="btn btn-1">itp level request</Link>
+                                <Link to="/message1" className="btn btn-1">itp level request</Link>
                             </Col>
 
                             {/* In Flight Menu */}
@@ -36,7 +38,7 @@ function AtcMenu() {
                                 <Link to="/WhenExpect" className="btn btn-1">when can we expect</Link>
                                 <Link to="/voicecontact" className="btn btn-1">voice contact request</Link>
                                 <Link to="/freetext" className="btn btn-1">free text message</Link>
-                                <Link to="/login" className="btn btn-1">login / status</Link>
+                                <Link to="/login" className="btn btn-1">Logon/status</Link>
                                 
                             </Col>
 
@@ -45,12 +47,26 @@ function AtcMenu() {
 
                             <Col md={4} xs={4} className="flight-info">
                                 <Link to="/emergency" className="btn btn-1">emergency report</Link>
-                                <Link to="/maintaince" className="btn btn-1">requested reports</Link>
-                                <Link to="/" className="btn btn-1">conditional clearance</Link>
+                                <Link to="/message1" className="btn btn-1">requested reports</Link>
+                                <Link to="/message1"  className="btn btn-1">conditional clearance</Link>
                                 <Link to="/positionreport" className="btn btn-1">position report</Link>
-                                <Link to="/" className="btn btn-1">monitoring report</Link>
+                                <Link to="/message1" className="btn btn-1">monitoring report</Link>
                             </Col>
                         </Row>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+                        <div className=" text-center mx-auto">
+          <Link
+            to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+            className=" mx-auto"
+          >
+            <img src={Beer} width="120" height="50" className="my-2" alt="" style={{borderRadius:'10px'}} />
+          </Link>
+        </div>
                         
                     
                     

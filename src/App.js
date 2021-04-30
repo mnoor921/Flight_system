@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Index from "./pages/Index";
 import Message from "./pages/Message";
+import Message1 from "./pages/MessageBlank";
 import Company from "./pages/CompanyMenu";
 import InFlightMenu from "./pages/InFlightMenu";
 import PostFlightMenu from "./pages/PostFlightMenu";
@@ -100,6 +101,7 @@ import PushBack from "./pages/Flightinfo/PushBack";
 import expectedTaxi from "./pages/Flightinfo/ExpectedClearance";
 import AtisReq from "./pages/Flightinfo/AtisReq";
 import Twip from "./pages/Flightinfo/twip";
+import OcianClear from "./pages/Flightinfo/ocianClear";
 
 // Manager
 import Acars from "./pages/Manager/Acars";
@@ -117,6 +119,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Index} />
         <Route path="/message" exact component={Message} />
+        <Route path="/message1" exact component={Message1} />
         <Route path="/company" exact component={Company} />
         <Route path="/intial" exact component={Intialized} />
         <Route path="/poilet" exact component={Poilet} />
@@ -212,6 +215,7 @@ function App() {
         <Route path="/expectedtaxi" exact component={expectedTaxi} />  
         <Route path="/atisreq" exact component={AtisReq} />  
         <Route path="/twip" exact component={Twip} />  
+        <Route path="/ocenic" exact component={OcianClear} />  
 
 
         {/* manger menu */}

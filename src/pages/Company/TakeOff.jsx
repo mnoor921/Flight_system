@@ -184,7 +184,7 @@ function TakeOff() {
                     <br />
 
                     <Link to="/takeoff2" className="btn btn-1 float-right">
-                      Clutter type/Depth <br /> Page 2
+                    Page 2 successful
                     </Link>
                   </div>
                 </div>

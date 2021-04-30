@@ -23,7 +23,7 @@ function Reminders() {
 
             <Form className="m-3">
               <Row>
-                <Col md={6} xs={6} className="mr-0 p-0">
+                <Col md={6} xs={12} className="mr-0 p-0">
                   <div className="ml-3 reminders">
                     <div className="d-flex reminder-inner">
                       <label>Time :</label>
@@ -77,7 +77,7 @@ function Reminders() {
                     <div className="d-flex reminder-inner"></div>
                   </div>
                 </Col>
-                <Col md={6} xs={6} className="ml-0">
+                <Col md={6} xs={12} className="ml-0 mt-2">
                   <Link to="/crewchange" className="btn btn-1 w-100">
                     Crew Times
                   </Link>

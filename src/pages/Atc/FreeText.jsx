@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import { Link } from "react-router-dom";
+import Beer from "../../assests/buy_bear.jpg";
 import Footer from "../Footer";
 
 import { Container, Row, Col, Form } from "react-bootstrap";
@@ -25,13 +26,9 @@ function FreeText() {
             <hr />
 
             <form action="">
-              
-              
-
               {/* <br/> */}
 
-              
-              <br/>
+              <br />
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
                   <label htmlFor="" className="ml-3">
@@ -48,12 +45,12 @@ function FreeText() {
                 </div>
               </div>
             </form>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
 
             <div className="header-label mt-3 mb-0 pb-0">
               <div className="all-buttons-footer">
@@ -89,6 +86,22 @@ function FreeText() {
 
             <br />
             <br />
+            <br />
+            <div className=" text-center mx-auto">
+              <Link
+                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                className=" mx-auto"
+              >
+                <img
+                  src={Beer}
+                  width="120"
+                  height="50"
+                  className="my-2"
+                  alt=""
+                  style={{ borderRadius: "10px" }}
+                />
+              </Link>
+            </div>
 
             {/* <Footer /> */}
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>

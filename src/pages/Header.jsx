@@ -1,6 +1,6 @@
 import React from 'react'
 import {  Link } from "react-router-dom";
-
+import Beer from "../assests/buy_bear.jpg";
 import { Container, Row, Col } from 'react-bootstrap'
 
 

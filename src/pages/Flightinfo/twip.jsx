@@ -19,7 +19,7 @@ function Twip() {
             <Header />
 
             <h4 className="text-center text-white text-uppercase">
-              atis request
+              twip request
             </h4>
 
             <hr />

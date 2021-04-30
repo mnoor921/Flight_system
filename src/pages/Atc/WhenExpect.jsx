@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header";
+import Beer from "../../assests/buy_bear.jpg";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
 
@@ -32,8 +33,7 @@ function WhenExpect() {
                     level:
                   </label>
                 </div>
-                <input type="text" placeholder="-----------"/>
-                
+                <input type="text" placeholder="-----------" />
               </div>
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex  ">
@@ -42,58 +42,47 @@ function WhenExpect() {
                     higher level:
                   </label>
                 </div>
-                
-                
               </div>
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex  ">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
-                   Lower level:
+                    Lower level:
                   </label>
                 </div>
-                
-                
               </div>
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex w-25 ">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
-                   cruise climb to:
+                    cruise climb to:
                   </label>
                 </div>
-                <input type="text" placeholder="-----------"/>
-                
+                <input type="text" placeholder="-----------" />
               </div>
-              
 
-              <br/>
+              <br />
 
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex w-25 ">
                   <input type="checkbox" />
                   <label htmlFor="" className="ml-3">
-                   speed:
+                    speed:
                   </label>
                 </div>
-                <input type="text" placeholder="-----------"/>
-                
+                <input type="text" placeholder="-----------" />
               </div>
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex">
                   <input type="checkbox" />
                   <label htmlFor="" className="ml-3">
-                   back on route:
+                    back on route:
                   </label>
                 </div>
                 {/* <input type="text" placeholder="-----------"/> */}
-                
               </div>
 
-
-
-              
-              <br/>
+              <br />
               <div className="d-flex w-100 mt-2">
                 <div className="d-flex ">
                   <label htmlFor="" className="ml-3">
@@ -110,10 +99,9 @@ function WhenExpect() {
                 </div>
               </div>
             </form>
-            <br/>
-            <br/>
-            <br/>
-            
+            <br />
+            <br />
+            <br />
 
             <div className="header-label mt-3 mb-0 pb-0">
               <div className="all-buttons-footer">
@@ -149,6 +137,22 @@ function WhenExpect() {
 
             <br />
             <br />
+            <br />
+            <div className=" text-center mx-auto">
+              <Link
+                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                className=" mx-auto"
+              >
+                <img
+                  src={Beer}
+                  width="120"
+                  height="50"
+                  className="my-2"
+                  alt=""
+                  style={{ borderRadius: "10px" }}
+                />
+              </Link>
+            </div>
 
             {/* <Footer /> */}
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>

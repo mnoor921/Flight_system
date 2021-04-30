@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header";
+import Beer from "../../assests/buy_bear.jpg";
 import { Link } from "react-router-dom";
 import Footer from "../Footer";
 
@@ -26,7 +27,7 @@ function RouteRequest() {
 
             <form action="">
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25">
+                <div className="d-flex w-25 level-request">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
                     direct to:
@@ -34,24 +35,26 @@ function RouteRequest() {
                 </div>
                 <input type="text" placeholder="------------" />
               </div>
-              <div className="d-flex w-100 mt-2" style={{justifyContent:'start'}}>
-                <div className="d-flex w-25 ">
+              <div
+                className="d-flex w-100 mt-2"
+                style={{ justifyContent: "start" }}
+              >
+                <div className="d-flex w-25 level-request ">
                   <input type="radio" className="ml-5" />
                   <label htmlFor="" className="ml-3">
-                    route 1:
+                    route 1
                   </label>
                 </div>
-                <div className="d-flex w-25 ">
+                <div className="d-flex w-25 level-request ">
                   <input type="radio" className="ml-5" />
                   <label htmlFor="" className="ml-3">
-                    route 2:
+                    route 2
                   </label>
                 </div>
-                
               </div>
 
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25">
+                <div className="d-flex w-25 level-request">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
                     block:
@@ -61,9 +64,9 @@ function RouteRequest() {
               </div>
 
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25">
-                  <input type="radio"  />
-                  <label htmlFor="" className="ml-5">
+                <div className="d-flex w-25 level-request">
+                  <input type="radio" />
+                  <label htmlFor="" className="ml-3">
                     heading:
                   </label>
                 </div>
@@ -71,7 +74,7 @@ function RouteRequest() {
               </div>
 
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25">
+                <div className="d-flex w-25 level-request">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
                     track :
@@ -80,7 +83,7 @@ function RouteRequest() {
                 <input type="text" placeholder="------------" />
               </div>
               <div className="d-flex w-100 mt-2">
-                <div className="d-flex w-25">
+                <div className="d-flex w-25 level-request">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
                     Dep / arr :
@@ -104,7 +107,7 @@ function RouteRequest() {
                   <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
                     {" "}
-                    At pilot description:
+                    At pilots descretion:
                   </label>
                 </div>
               </div>
@@ -120,7 +123,7 @@ function RouteRequest() {
                 <div className="d-flex ">
                   <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
-                    Due to aircrafts performance:
+                    Due to aircraft performance:
                   </label>
                 </div>
               </div>
@@ -128,7 +131,7 @@ function RouteRequest() {
                 <div className="d-flex ">
                   <input type="checkbox" className="" />
                   <label htmlFor="" className="ml-3">
-                    maintaine own sepration and vmc:
+                    maintain own separation and vmc:
                   </label>
                 </div>
               </div>
@@ -183,6 +186,22 @@ function RouteRequest() {
 
             <br />
             <br />
+            <br />
+            <div className=" text-center mx-auto">
+              <Link
+                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                className=" mx-auto"
+              >
+                <img
+                  src={Beer}
+                  width="120"
+                  height="50"
+                  className="my-2"
+                  alt=""
+                  style={{ borderRadius: "10px" }}
+                />
+              </Link>
+            </div>
 
             {/* <Footer /> */}
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>

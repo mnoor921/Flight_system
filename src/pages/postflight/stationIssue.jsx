@@ -84,34 +84,7 @@ function StationIssue() {
               </form>
             </div>
 
-            <div className="header-label mt-5 mb-0 pb-0">
-              <div className="all-buttons-footer">
-                <div className="" style={{ justifyContent: "space-between" }}>
-                  <a href="" className="btn btn-1 pb-0 float-left">
-                    Send
-                  </a>
-                  <ul className="d-flex left-button float-right">
-                    <li>
-                      <a href="" className="btn btn-1">
-                        Reset
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" className="btn btn-1">
-                        Return
-                      </a>
-                    </li>
-                    <li>
-                      <a href="" className="btn btn-1">
-                        Exit
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <br />
-            <br />
+            <Footer/>
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>
           </Col>
           <Col></Col>

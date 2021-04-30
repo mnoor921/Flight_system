@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import { Link } from "react-router-dom";
+import Beer from "../../assests/buy_bear.jpg";
 import Footer from "../Footer";
 
 import { Container, Row, Col, Form } from "react-bootstrap";
@@ -68,7 +69,7 @@ function LevelRequest() {
                 <div className="d-flex w-25 level-request">
                   <input type="radio" />
                   <label htmlFor="" className="ml-3">
-                    request cruies climb to:
+                    Request cruise climb to:
                   </label>
                 </div>
                 <input type="text" placeholder="------------" />
@@ -79,7 +80,7 @@ function LevelRequest() {
                   <input type="checkbox" className="ml-5" />
                   <label htmlFor="" className="ml-3">
                     {" "}
-                    At pilot description:
+                    At pilots descretion:
                   </label>
                 </div>
               </div>
@@ -103,7 +104,7 @@ function LevelRequest() {
                 <div className="d-flex ">
                   <input type="checkbox" className="ml-5" />
                   <label htmlFor="" className="ml-3">
-                    maintaine own sepration and vmc:
+                    maintain own separation and vmc:
                   </label>
                 </div>
               </div>
@@ -158,6 +159,22 @@ function LevelRequest() {
 
             <br />
             <br />
+            <br />
+            <div className=" text-center mx-auto">
+              <Link
+                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                className=" mx-auto"
+              >
+                <img
+                  src={Beer}
+                  width="120"
+                  height="50"
+                  className="my-2"
+                  alt=""
+                  style={{ borderRadius: "10px" }}
+                />
+              </Link>
+            </div>
 
             {/* <Footer /> */}
             <div className="bg-dark w-100" style={{ height: "40px" }}></div>

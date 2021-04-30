@@ -61,7 +61,8 @@ function Weather() {
 
                                 <Col>
 
-                                    <div className="intail-text">
+                                    <div className="intail-text mt-2">
+                                        <br/>
 
                                         <div className="labels d-flex mt-2">
                                             <div className="label-heading-1 ">

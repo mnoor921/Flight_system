@@ -24,7 +24,7 @@ function Poilet() {
 
             <hr />
 
-            <div className="m-5 text-center">
+            <div className="m-1 text-center">
               <h4>
                 Captain:{" "}
                 <span>
