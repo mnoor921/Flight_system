@@ -56,10 +56,10 @@ function MaintainceMenu() {
                 <Link to="/sensorstatus" className="btn btn-1">
                   Sensor status
                 </Link>
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/printertest" className="btn btn-1">
                   Printer test
                 </Link>
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/vhflink" className="btn btn-1">
                   VHF LINK test{" "}
                 </Link>
               </Col>
@@ -71,9 +71,14 @@ function MaintainceMenu() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
             <div className=" text-center mx-auto">
-              <Link
-                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+              <label htmlFor="">if you find this site helpful, <br/> i won't say no to a beer</label> <br/>
+
+              <a
+                href="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
                 className=" mx-auto"
               >
                 <img
@@ -84,7 +89,7 @@ function MaintainceMenu() {
                   alt=""
                   style={{ borderRadius: "10px" }}
                 />
-              </Link>
+              </a>
             </div>
           </Col>
           <Col></Col>

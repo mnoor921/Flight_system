@@ -40,7 +40,7 @@ function MangerMenu() {
               {/* In Flight Menu */}
 
               <Col md={6} xs={6} className="flight-info">
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/mangersystem" className="btn btn-1">
                   system Information
                 </Link>
                 <Link to="/automaticmessage" className="btn btn-1">
@@ -61,9 +61,12 @@ function MangerMenu() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
             <div className=" text-center mx-auto">
-              <Link
-                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+            <label htmlFor="">if you find this site helpful, <br/> i won't say no to a beer</label> <br/>
+              <a
+                href="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
                 className=" mx-auto"
               >
                 <img
@@ -74,7 +77,7 @@ function MangerMenu() {
                   alt=""
                   style={{ borderRadius: "10px" }}
                 />
-              </Link>
+              </a>
             </div>
           </Col>
           <Col></Col>

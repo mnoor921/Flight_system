@@ -80,6 +80,9 @@ import SensorStatus from "./pages/maintaince/sensorStatus";
 import ElcLogbook from "./pages/maintaince/elcLogbook";
 import EngineData from "./pages/maintaince/engineData";
 import LogCancel from "./pages/maintaince/logCancel";
+import VhfLink from "./pages/maintaince/vhfLink";
+import PrinterTest from "./pages/maintaince/PrinterTest";
+
 
 // ATC Menu
 
@@ -93,6 +96,10 @@ import FreeText from "./pages/Atc/FreeText";
 import Login from "./pages/Atc/Login";
 import Emergency from "./pages/Atc/Emergency";
 import PositionReport from "./pages/Atc/PositionReport";
+import ItpLevel from "./pages/Atc/ItpLevel";
+import RequestedReport from "./pages/Atc/RequestReport";
+import Conditional from "./pages/Atc/Conditional";
+import MonitoringReport from "./pages/Atc/MonitoringReport";
 
 // flight infor
 
@@ -112,6 +119,17 @@ import Ads from "./pages/Manager/Ads";
 import AutomaticMessage from "./pages/Manager/AutomationMessage";
 import Master from "./pages/Manager/Master";
 import CommAudit from "./pages/Manager/CommAudit";
+import SystemInfo from "./pages/Manager/SystemInfo";
+
+// review
+
+import AtcUplinks from "./pages/Review/AtcUplink";
+import Atcdownlinks from "./pages/Review/AtcDownlink";
+import CommSystem from "./pages/Review/CommSystem";
+import FlighInfoUp from "./pages/Review/FlightInfoUplink";
+import FlightInfoDown from "./pages/Review/FlightInfoDown";
+import Recived from "./pages/Review/Recived";
+import Send from "./pages/Review/send";
 
 function App() {
   return (
@@ -187,6 +205,8 @@ function App() {
         <Route path="/elclogbook" exact component={ElcLogbook} />
         <Route path="/enginedata" exact component={EngineData} />
         <Route path="/logcancel" exact component={LogCancel} />
+        <Route path="/vhflink" exact component={VhfLink} />
+        <Route path="/printertest" exact component={PrinterTest} />
 
         {/* Atc menu */}
 
@@ -201,6 +221,10 @@ function App() {
         <Route path="/login" exact component={Login} />
         <Route path="/emergency" exact component={Emergency} />
         <Route path="/positionreport" exact component={PositionReport} />
+        <Route path="/itplevel" exact component={ItpLevel} />
+        <Route path="/RequestedReport" exact component={RequestedReport} />
+        <Route path="/conditional" exact component={Conditional} />
+        <Route path="/monitoringreport" exact component={MonitoringReport} />
         
         {/* review menu */}
         
@@ -230,10 +254,23 @@ function App() {
         <Route path="/automaticmessage" exact component={AutomaticMessage} />
         <Route path="/master" exact component={Master} />
         <Route path="/commaudit" exact component={CommAudit} />
+        <Route path="/mangersystem" exact component={SystemInfo} />
 
         {/* menu  */}
 
         <Route path="/commmenu" exact component={CommMenu} />
+        
+        {/* Review */}
+
+        <Route path="/atcuplink" exact component={AtcUplinks} />
+        <Route path="/atcdownlinks" exact component={Atcdownlinks} />
+        <Route path="/commsystem" exact component={CommSystem} />
+        <Route path="/flightinfoup" exact component={FlighInfoUp} />
+        <Route path="/flightinfodown" exact component={FlightInfoDown} />
+        <Route path="/recived" exact component={Recived} />
+        <Route path="/send" exact component={Send} />
+
+        
 
 
         

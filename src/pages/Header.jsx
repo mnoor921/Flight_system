@@ -47,6 +47,7 @@ function Header() {
                                     </li>
                                 </ul>
                             </div>
+                            <Link to="/" className="btn btn-1">Back to Home</Link>
 
                         </div>
                     

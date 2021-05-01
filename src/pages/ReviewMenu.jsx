@@ -19,13 +19,13 @@ function ReviewMenu() {
               {/* Flight Menu */}
 
               <Col md={4} xs={4} className="flight-info">
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/atcuplink" className="btn btn-1">
                   atc uplinks..
                 </Link>
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/atcdownlinks" className="btn btn-1">
                   atc downlinks..
                 </Link>
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/commsystem" className="btn btn-1">
                   comm system message
                 </Link>
               </Col>
@@ -33,10 +33,10 @@ function ReviewMenu() {
               {/* In Flight Menu */}
 
               <Col md={4} xs={4} className="flight-info">
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/flightinfoup" className="btn btn-1">
                   flight info uplinks..
                 </Link>
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/flightinfodown" className="btn btn-1">
                   flight info downlinks..
                 </Link>
               </Col>
@@ -44,10 +44,10 @@ function ReviewMenu() {
               {/* Post Flight MEnu */}
 
               <Col md={4} xs={4} className="flight-info">
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/recived" className="btn btn-1">
                   recived...
                 </Link>
-                <Link to="/message1" className="btn btn-1">
+                <Link to="/send" className="btn btn-1">
                   sent...
                 </Link>
               </Col>
@@ -59,9 +59,16 @@ function ReviewMenu() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <div className=" text-center mx-auto">
-              <Link
-                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+            <label htmlFor="">if you find this site helpful, <br/> i won't say no to a beer</label> <br/>
+              <a
+                href="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
                 className=" mx-auto"
               >
                 <img
@@ -72,7 +79,7 @@ function ReviewMenu() {
                   alt=""
                   style={{ borderRadius: "10px" }}
                 />
-              </Link>
+              </a>
             </div>
           </Col>
           <Col></Col>

@@ -165,8 +165,9 @@ function Emergency() {
             <br />
             <br />
             <div className=" text-center mx-auto">
-              <Link
-                to="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+            <label htmlFor="">if you find this site helpful, <br/> i won't say no to a beer</label> <br/>
+              <a
+                href="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
                 className=" mx-auto"
               >
                 <img
@@ -177,7 +178,7 @@ function Emergency() {
                   alt=""
                   style={{ borderRadius: "10px" }}
                 />
-              </Link>
+              </a>
             </div>
 
             {/* <Footer /> */}

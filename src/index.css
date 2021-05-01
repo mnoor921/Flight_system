@@ -291,3 +291,56 @@ label{
   padding: 10px;
   border: 1px solid #0BF8FE;
 }
+
+.navbar-style{
+  padding: 20px 0px;
+}
+.navbar-style .brand{
+  font-size: 25px;
+  font-weight: 700;
+  color: #222;
+}
+
+.navbar-style .top-navbar{
+  color: #000;
+  margin: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.navbar-style .top-navbar:hover{
+  color: #0BF8FE;
+  /* border-bottom: 1px solid #0BF8FE; */
+}
+.banner{
+  background: url("./assests/flight_banner.webp") no-repeat;
+  background-size: 100% 100% ;
+  width: 100%;
+  height: 100vh;
+}
+.banner-heading{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.about-heading{
+  color: #000 !important;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contact .btn-1{
+  margin-top: 20px;
+  border-radius: 50px;
+  width: 100px !important;
+}
+.contact input{
+  background: #fff !important;
+}
+.contact textarea{
+  background: #fff !important;
+}
+.social a{
+  color: #B7B2C7;
+  font-size: 30px;
+}
