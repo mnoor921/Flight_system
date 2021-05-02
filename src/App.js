@@ -131,6 +131,9 @@ import FlightInfoDown from "./pages/Review/FlightInfoDown";
 import Recived from "./pages/Review/Recived";
 import Send from "./pages/Review/send";
 
+// comming soon
+import Comming from './pages/Comming'
+
 function App() {
   return (
     <>
@@ -269,6 +272,8 @@ function App() {
         <Route path="/flightinfodown" exact component={FlightInfoDown} />
         <Route path="/recived" exact component={Recived} />
         <Route path="/send" exact component={Send} />
+
+        <Route path="/comming" exact component={Comming} />
 
         
 
