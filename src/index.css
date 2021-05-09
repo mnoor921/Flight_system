@@ -344,3 +344,30 @@ label{
   color: #B7B2C7;
   font-size: 30px;
 }
+
+.project2_button li{
+  display: inline-block;
+  margin: 5px;
+}
+
+.main-section{
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #0BF8FE;
+}
+.d-flex-1{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+p{
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.model-indent label{
+  font-size: 20px;
+}
+
+.number-button .btn-1{
+  border-radius: 50% !important;
+}

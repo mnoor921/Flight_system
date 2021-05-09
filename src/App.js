@@ -11,7 +11,7 @@ import MaintainceMenu from "./pages/MaintainceMenu";
 import ReviewMenu from "./pages/ReviewMenu";
 import FlightInfo from "./pages/FlightInfoMenu";
 import MangerMenu from "./pages/MangerMenu";
-import CommMenu from './pages/menu'
+import CommMenu from "./pages/menu";
 
 // company
 
@@ -83,7 +83,6 @@ import LogCancel from "./pages/maintaince/logCancel";
 import VhfLink from "./pages/maintaince/vhfLink";
 import PrinterTest from "./pages/maintaince/PrinterTest";
 
-
 // ATC Menu
 
 import LevelRequest from "./pages/Atc/LevelRequest";
@@ -132,7 +131,94 @@ import Recived from "./pages/Review/Recived";
 import Send from "./pages/Review/send";
 
 // comming soon
-import Comming from './pages/Comming'
+import Comming from "./pages/Comming";
+
+// Project 2
+// Project 2
+// Project 2
+
+import Project2 from "./Project2/index";
+// init
+import Init from "./Project2/InitRef/Init";
+import Indent from "./Project2/InitRef/Indent";
+import Indent2 from "./Project2/InitRef/Indent2";
+import POS from "./Project2/InitRef/Pos";
+import POS1 from "./Project2/InitRef/Pos1";
+import POS2 from "./Project2/InitRef/Pos2";
+import Perf from "./Project2/InitRef/Perf";
+import Perf2 from "./Project2/InitRef/Perf2";
+import Takeoffp from "./Project2/InitRef/Takeoff";
+import Takeoffp2 from "./Project2/InitRef/Takeoff2";
+import Approach from "./Project2/InitRef/Approach";
+import Offset from "./Project2/InitRef/Offset";
+import Navdata from "./Project2/InitRef/Navdata";
+import WptIndent from "./Project2/InitRef/WebIndent";
+import AirportIndent from "./Project2/InitRef/AirportIndent";
+import Navid from "./Project2/InitRef/Navid";
+
+// rte
+
+import Rte1 from "./Project2/RTE/Rte1";
+import Rte2 from "./Project2/RTE/Rte2";
+import Rte3 from "./Project2/RTE/Rte3";
+
+// clb
+
+import CLb from "./Project2/CLB/Clb";
+import Maxrate from "./Project2/CLB/Maxrate";
+import Engout from "./Project2/CLB/Engout";
+import Maxangel from "./Project2/CLB/Maxangel";
+import RTA from "./Project2/CLB/Rta";
+
+// CRB
+
+import Crz from "./Project2/CRZ/Crz";
+import Lrc from "./Project2/CRZ/Lrc";
+import Engcrz from "./Project2/CRZ/Engcrz";
+
+// des
+import Path from "./Project2/DES/Path";
+import Forecast from "./Project2/DES/Forecast";
+import Speed from "./Project2/DES/Speed";
+
+// menu
+import ProjectMenu from "./Project2/ProjecMenu";
+import FMC from "./Project2/Menu/Fms";
+import AcarsP from "./Project2/Menu/Acars";
+import Dfdum from "./Project2/Menu/Dfdmu";
+
+// legs
+
+import Legs from "./Project2/Legs/Legs";
+import Legs2 from "./Project2/Legs/Legs2";
+import Legs3 from "./Project2/Legs/Legs3";
+
+// dep arr
+
+import DepArr from "./Project2/DepArr/DepArr";
+import KiaDep from "./Project2/DepArr/KiahDep";
+import KstArr from "./Project2/DepArr/KstArr";
+import KiahArr from "./Project2/DepArr/KiahArr";
+
+// Hold
+
+import Hold from "./Project2/Hold/Hold";
+import Hold2 from "./Project2/Hold/Hold2";
+import Hold3 from "./Project2/Hold/Hold3";
+
+// progress
+
+import Progress from "./Project2/Proc/Progress";
+import Progress2 from "./Project2/Proc/Progress2";
+import Progress3 from "./Project2/Proc/Progress3";
+import Progress4 from "./Project2/Proc/Progress4";
+import Navstatus from "./Project2/Proc/Navstatus";
+import Navstatus2 from "./Project2/Proc/Navstatus2";
+import Navpos from "./Project2/Proc/Navpos";
+
+// limits
+import Limits from "./Project2/Limits/N1Limits";
+import FixInfo from "./Project2/FixInfo/FixInfo";
 
 function App() {
   return (
@@ -228,25 +314,27 @@ function App() {
         <Route path="/RequestedReport" exact component={RequestedReport} />
         <Route path="/conditional" exact component={Conditional} />
         <Route path="/monitoringreport" exact component={MonitoringReport} />
-        
+
         {/* review menu */}
-        
+
         <Route path="/reviewmenu" exact component={ReviewMenu} />
         {/* <Route path="/reviewmenu" exact component={ReviewMenu} /> */}
 
-      {/* flight ino */}
+        {/* flight ino */}
 
         <Route path="/flightinfo" exact component={FlightInfo} />
-        <Route path="/departureclearance" exact component={DepartureClearance} />
+        <Route
+          path="/departureclearance"
+          exact
+          component={DepartureClearance}
+        />
         <Route path="/pushback" exact component={PushBack} />
-        <Route path="/expectedtaxi" exact component={expectedTaxi} />  
-        <Route path="/atisreq" exact component={AtisReq} />  
-        <Route path="/twip" exact component={Twip} />  
-        <Route path="/ocenic" exact component={OcianClear} />  
-
+        <Route path="/expectedtaxi" exact component={expectedTaxi} />
+        <Route path="/atisreq" exact component={AtisReq} />
+        <Route path="/twip" exact component={Twip} />
+        <Route path="/ocenic" exact component={OcianClear} />
 
         {/* manger menu */}
-
 
         <Route path="/mangermenu" exact component={MangerMenu} />
         <Route path="/acars" exact component={Acars} />
@@ -262,7 +350,7 @@ function App() {
         {/* menu  */}
 
         <Route path="/commmenu" exact component={CommMenu} />
-        
+
         {/* Review */}
 
         <Route path="/atcuplink" exact component={AtcUplinks} />
@@ -275,22 +363,85 @@ function App() {
 
         <Route path="/comming" exact component={Comming} />
 
-        
+        {/* Project 2 */}
 
+        <Route path="/project2" exact component={Project2} />
 
-        
+        {/* init */}
+        <Route path="/init" exact component={Init} />
+        <Route path="/indent" exact component={Indent} />
+        <Route path="/indent2" exact component={Indent2} />
+        <Route path="/pos" exact component={POS} />
+        <Route path="/pos1" exact component={POS1} />
+        <Route path="/pos2" exact component={POS2} />
+        <Route path="/perf" exact component={Perf} />
+        <Route path="/perf2" exact component={Perf2} />
+        <Route path="/Takeoffpp" exact component={Takeoffp} />
+        <Route path="/Takeoffp2" exact component={Takeoffp2} />
+        <Route path="/Approach" exact component={Approach} />
+        <Route path="/Offset" exact component={Offset} />
+        <Route path="/navdata" exact component={Navdata} />
+        <Route path="/WptIndent" exact component={WptIndent} />
+        <Route path="/AirportIndent" exact component={AirportIndent} />
+        <Route path="/Navid" exact component={Navid} />
 
+        {/* RTE */}
 
+        <Route path="/Rte1" exact component={Rte1} />
+        <Route path="/Rte2" exact component={Rte2} />
+        <Route path="/Rte3" exact component={Rte3} />
 
+        {/* CLB */}
 
+        <Route path="/CLb" exact component={CLb} />
+        <Route path="/maxrate" exact component={Maxrate} />
+        <Route path="/Engout" exact component={Engout} />
+        <Route path="/Maxangel" exact component={Maxangel} />
+        <Route path="/rta" exact component={RTA} />
 
+        {/* crb */}
+        <Route path="/Crz" exact component={Crz} />
+        <Route path="/lrc" exact component={Lrc} />
+        <Route path="/engcrz" exact component={Engcrz} />
+        {/* path */}
+        <Route path="/path" exact component={Path} />
+        <Route path="/forecast" exact component={Forecast} />
+        <Route path="/speed" exact component={Speed} />
 
+        <Route path="/ProjectMenu" exact component={ProjectMenu} />
+        <Route path="/fMC" exact component={FMC} />
+        <Route path="/acarsp" exact component={AcarsP} />
+        <Route path="/dfdum" exact component={Dfdum} />
 
+        {/* Legs */}
 
+        <Route path="/legs" exact component={Legs} />
+        <Route path="/legs2" exact component={Legs2} />
+        <Route path="/legs3" exact component={Legs3} />
 
+        {/* dep arr */}
+        <Route path="/DepArr" exact component={DepArr} />
+        <Route path="/KiaDep" exact component={KiaDep} />
+        <Route path="/KstArr" exact component={KstArr} />
+        <Route path="/KiahArr" exact component={KiahArr} />
 
+        {/* hold */}
+        <Route path="/Hold" exact component={Hold} />
+        <Route path="/Hold2" exact component={Hold2} />
+        <Route path="/Hold3" exact component={Hold3} />
 
-
+        {/* progress */}
+        <Route path="/Progress" exact component={Progress} />
+        <Route path="/Progress2" exact component={Progress2} />
+        <Route path="/Progress3" exact component={Progress3} />
+        <Route path="/Progress4" exact component={Progress4} />
+        <Route path="/Navstatus" exact component={Navstatus} />
+        <Route path="/Navstatus2" exact component={Navstatus2} />
+        <Route path="/Navpos" exact component={Navpos} />
+        {/* limits */}
+        <Route path="/Limits" exact component={Limits} />
+        <Route path="/FixInfo" exact component={FixInfo} />
+        <Route path="/FixInfo" exact component={FixInfo} />
 
 
 
