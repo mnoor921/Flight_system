@@ -16,8 +16,6 @@ function Legs() {
             className="p-4"
             style={{ border: "1px solid silver", minHeight: "95vh" }}
           >
-            
-
             <div className="main-section p-2">
               <div className="numbering d-flex-1">
                 <label htmlFor="" className="tex">
@@ -31,73 +29,85 @@ function Legs() {
                 </label>
               </div>
 
-              <div className="d-flex-1">
-                <div className="model-indent">
-                  <p>252 &deg;</p>
-                  <label className="btn btn-1">sealy</label>
-
-                  <p>276 &deg;</p>
-                  <label>idli</label>
-
-                  <p>262 &deg;</p>
-                  <label>crays</label>
-
-                  <p>259 &deg;</p>
-                  <label>marcs</label>
-
-                  <p>236 &deg;</p>
-                  <label>braun</label>
-                  
-                  
-                 
+              <div className="row">
+                <div className="col-md-1 side-btn">
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link to="/Hold3" className="btn btn-1 side-button"></Link>
                 </div>
+                <div className="col-md-10 pos-1">
+                  <div className="d-flex-1">
+                    <div className="model-indent">
+                      <p>252 &deg;</p>
+                      <label>sealy</label>
 
-                <div className="model-indent ">
-                  <p>32nm </p>
-                  <div className="text-right">
-                    <label className="text-right">250 / fl192</label>
+                      <p>276 &deg;</p>
+                      <label>idli</label>
+
+                      <p>262 &deg;</p>
+                      <label>crays</label>
+
+                      <p>259 &deg;</p>
+                      <label>marcs</label>
+
+                      <p>236 &deg;</p>
+                      <label>braun</label>
+                    </div>
+
+                    <div className="model-indent ">
+                      <p>32nm </p>
+                      <div className="text-right">
+                        <label className="text-right">250 / fl192</label>
+                      </div>
+
+                      <p>33nm </p>
+                      <div className="text-right">
+                        <label className="text-right">250 / fl220</label>
+                      </div>
+
+                      <p>45nm </p>
+                      <div className="text-right">
+                        <label className="text-right">250 / fl220</label>
+                      </div>
+
+                      <p>22nm </p>
+                      <div className="text-right">
+                        <label className="text-right">200 / 17815</label>
+                      </div>
+                      <p>12nm </p>
+                      <div className="text-right">
+                        <label className="text-right">256 / 14012</label>
+                      </div>
+                    </div>
                   </div>
-
-                  <p>33nm </p>
-                  <div className="text-right">
-                    <label className="text-right">250 / fl220</label>
+                  <div className="d-flex-1" style={{ marginTop: "-1.5rem" }}>
+                    <label htmlFor=""> ------------ </label>
+                    <label htmlFor="">Hold at</label>
+                    <label htmlFor=""> ------------ </label>
                   </div>
-
-                  <p>45nm </p>
-                  <div className="text-right">
-                    <label className="text-right">250 / fl220</label>
+                  <div className="" style={{ marginTop: "-1rem" }}>
+                    <label htmlFor="">
+                      <input
+                        type="text"
+                        placeholder="[][][][][][]"
+                        style={{ width: "75px" }}
+                      />
+                    </label>
                   </div>
-
-
-                  <p>22nm </p>
-                  <div className="text-right">
-                    <label className="text-right">200 / 17815</label>
-                  </div>
-                  <p>12nm </p>
-                  <div className="text-right">
-                    <label className="text-right">256 / 14012</label>
-                  </div>
-                
-
-                 
+                </div>
+                <div className="col-md-1 side-btn">
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
                 </div>
               </div>
-              <div className="d-flex-1">
-                <label htmlFor=""> ------------ </label>
-                <label htmlFor="">Hold at</label>
-                <label htmlFor=""> ------------ </label>
-              </div>
-              <label htmlFor="">
-                  <input type="text" placeholder="[][][][][][]" style={{width:'75px'}} />
-              </label>
-              <div className="d-flex-1">
-                  <Link className=""></Link>
-                  <Link to="/Hold3" className="btn btn-1">Next</Link>
-              </div>
-
-              
-
-              
+           
             </div>
             <Footer />
           </Col>

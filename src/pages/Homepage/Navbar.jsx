@@ -12,10 +12,10 @@ function Navbar1() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Link className="top-navbar" to="/commmenu"> 787/777 Comm</Link>
-              <Link to="/project2" className="top-navbar" >777 FMC</Link>
+              <Link to="/comming" className="top-navbar" >777 FMC</Link>
               <Link to="/comming" className="top-navbar" >757/767 CDU</Link>
               <Link to="/comming" className="top-navbar" >787 FMC</Link>
-              <Link to="/comming" className="top-navbar" >737 FMC</Link>
+              <Link to="/project2" className="top-navbar" >737 FMC</Link>
               <Link to="/comming" className="top-navbar" >320/319 CDU</Link>
             </Nav>
           </Navbar.Collapse>

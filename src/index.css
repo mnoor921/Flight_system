@@ -371,3 +371,32 @@ p{
 .number-button .btn-1{
   border-radius: 50% !important;
 }
+
+.side-button{
+  margin-top: 40px !important;
+  background: #222;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.footer_all_btn{
+  background: grey;
+}
+.footer_all_btn .btn-1{
+  background: #222;
+}
+.footer_all_btn .btn-1:hover{
+  background: #222 !important;
+  color: #fff !important;
+}
+
+.side-btn{
+  background: grey;
+}
+
+.pos-1 label{
+  font-size: 16px;
+}
+.pos-1 p{
+  font-size: 15px;
+}

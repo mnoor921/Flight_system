@@ -16,8 +16,6 @@ function DepArr() {
             className="p-4"
             style={{ border: "1px solid silver", minHeight: "95vh" }}
           >
-           
-
             <div className="main-section p-2">
               <div className="numbering d-flex-1">
                 <label htmlFor="" className="tex"></label>
@@ -29,35 +27,76 @@ function DepArr() {
                 </label>
               </div>
 
-              <div className="d-flex-1">
-                <div className="model-indent">
-                  <p>stars</p>
-                  <label htmlFor="">aggee1</label> <br />
-                  <label htmlFor="">das8</label> <br />
-                  <label htmlFor="">gland3</label> <br />
-                  <label htmlFor="">kaboy1</label> <br />
-                  <label htmlFor="">riice2</label> <br />
+              <div className="row">
+                <div className="col-md-1 side-btn">
+                  <Link to="/KiaDep" className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
                 </div>
+                <div className="col-md-10 pos-1">
+                  <div className="d-flex-1">
+                    <div className="model-indent">
+                      <p>stars</p>
+                      <label htmlFor="">aggee1</label>
+                       <br />
+                       <br />
+                      <label htmlFor="">das8</label> 
+                      <br />
+                      <br />
+                      <label htmlFor="">gland3</label> 
+                      <br />
+                      <br />
+                      <label htmlFor="">kaboy1</label> 
+                      <br />
+                      <br />
+                      <label htmlFor="">riice2</label> <br />
+                    </div>
 
-                <div className="model-indent text-right ">
-                  <p>approaches</p>
-                  <label htmlFor="">ils 08l</label> <br />
-                  <label htmlFor="">rnvy 08l</label> <br />
-                  <label htmlFor="">ils 08r</label> <br />
-                  <label htmlFor="">los 08r</label> <br />
-                  <label htmlFor="">rnvy 08r</label> <br />
+                    <div className="model-indent text-right ">
+                      <p>approaches</p>
+                      <label htmlFor="">ils 08l</label>
+                       <br />
+                       <br />
+                      <label htmlFor="">rnvy 08l</label> 
+                      <br />
+                      <br />
+                      <label htmlFor="">ils 08r</label>
+                       <br />
+                       <br />
+                      <label htmlFor="">los 08r</label> 
+                      <br />
+                      <br />
+                      <label htmlFor="">rnvy 08r</label> <br />
+                    </div>
+                  </div>
+                 
+                  <hr  style={{ marginTop: "-.5rem" }}/>
+                  <div className="d-flex-1" style={{ marginTop: "-.7rem" }}>
+                    <div className="">
+                      <label htmlFor="">
+                        <i className="fa fa-angle-left mr-1"></i>
+                        Erase
+                      </label>
+                    </div>
+
+                    <div className="">
+                      <label htmlFor="">
+                        route
+                        <i className="fa fa-angle-right ml-1"></i>
+                      </label>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <hr />
-
-              <div className="d-flex-1">
-                <div className="">
-                  <Link className="btn btn-1">Erase</Link>
-                </div>
-
-                <div className="">
-                  <Link className="btn btn-1">route </Link>
-                  
+                <div className="col-md-1 side-btn">
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
                 </div>
               </div>
             </div>

@@ -16,58 +16,80 @@ function CRB() {
             className="p-4"
             style={{ border: "1px solid silver", minHeight: "95vh" }}
           >
-            
-
             <div className="main-section p-2">
-              <div className="numbering text-right">
+              <div className="numbering d-flex-1">
+                <label htmlFor=""></label>
+                <label htmlFor="">eng out crz</label>
                 <label htmlFor="" className="tex">
                   1/1
                 </label>
               </div>
-              <div className="text-center">
-                <label htmlFor="">eng out crz</label>
-              </div>
-
-              <div className="d-flex-1">
-                <div className="model-indent">
-                  <p>crz alt</p>
-                  <label>fl220</label>
-
-                  <p>eng out speed</p>
-                  <label>222kt</label>
-
-                  <p>con n1</p>
-                  <label>99.5%</label>
-                  <br /> 
-                  <p> -------- </p>
+              <div className="row">
+                <div className="col-md-1 side-btn">
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link  className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button mb-2"></Link>
                 </div>
+                <div className="col-md-10">
+                  <div className="d-flex-1 pos-1">
+                    <div className="model-indent">
+                      <p>crz alt</p>
+                      <label>fl220</label>
 
-                <div className="model-indent text-right">
-                  <p>max alt</p>
-                  <label>fl259</label>
+                      <p>eng out speed</p>
+                      <label>222kt</label>
 
-                  <p>to t/d</p>
-                  <label> .z /   nm</label>
+                      <p>con n1</p>
+                      <label>99.5%</label>
+                      <br />
+                      <p> ---------------------------------------------------------------- </p>
+                    </div>
 
-                  <p> -------- </p>
+                    <div className="model-indent text-right">
+                      <p>max alt</p>
+                      <label>fl259</label>
+
+                      <p>to t/d</p>
+                      <label> .z / nm</label>
+
+                      
+                    </div>
+                  </div>
+
+                  
+                  <div className="d-flex-1" style={{ marginTop: "-.8rem" }}>
+                    <div className="">
+                      <label htmlFor="">
+                        <i className="fa fa-angle-left mr-1"></i>
+                       lt eng out
+                      </label>{" "}
+                      <br />
+                      <br />
+                      
+                    </div>
+                    <div className="text-right">
+                      <label htmlFor="">
+                        rt eng out
+                        <i className="fa fa-angle-right ml-1"></i>
+                      </label>{" "}
+                      <br />
+                      <br />
+                     
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-1 side-btn">
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link to="/Engout" className="btn btn-1 side-button"></Link>
+                  <Link to="/rta" className="btn btn-1 side-button mb-2"></Link>
                 </div>
               </div>
-              
-              <div className="d-flex-1">
-              <Link className=""></Link>
-                <Link to="/Engout" className="btn btn-1">eng out</Link>
-                
-              </div>
-              <div className="d-flex-1">
-                <Link to="/lrc"  className="btn btn-1">
-                  lrc
-                </Link>
-                <Link to="/rta" className="btn btn-1">
-                  rta
-                </Link>
-              </div>
-
-              
             </div>
             <Footer />
           </Col>

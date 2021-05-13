@@ -17,30 +17,69 @@ function Acars() {
             style={{ border: "1px solid silver", minHeight: "95vh" }}
           >
             <div className="main-section p-2">
-              <div className="d-flex-1 p-3">
-                <div className="">
-                  <Link className="btn btn-1">technical</Link> <br />
-                </div>
-
-                <Link className="btn btn-1">aoc acars</Link>
+              <div className="numbering d-flex-1">
+                <label htmlFor=""></label>
+                <label htmlFor="">acars-application menu </label>
+                <label htmlFor="" className="tex"></label>
               </div>
 
-              <div className="d-flex-1 p-3">
-                <Link className="btn btn-1">ats</Link>
-              </div>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-
-              <div className="d-flex-1">
-                <div className=""></div>
-                <div className="">
-                  <label htmlFor="">22:04</label>
+              <div className="row">
+                <div className="col-md-1 side-btn">
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 mb-2 side-button"></Link>
                 </div>
-                <div className="">
-                  <label htmlFor="">init*</label>
+                <div className="col-md-10">
+                  <div className="d-flex-1 p-3 mt-3">
+                    <div className="">
+                      <label htmlFor="">
+                        <i className="fa fa-angle-left mr-1"></i>
+                        technical
+                      </label>
+                    </div>
+                    <label htmlFor="">
+                       
+                        aoc acars
+                        <i className="fa fa-angle-right ml-1"></i>
+                      </label>
+
+                   
+                  </div>
+
+                  <div className="d-flex-1 p-3">
+                  <label htmlFor="">
+                        <i className="fa fa-angle-left mr-1"></i>
+                        ats
+                      </label>
+                   
+                  </div>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+
+                  <div className="d-flex-1 mt-2">
+                    <div className=""></div>
+                    <div className="">
+                      <label htmlFor="">22:04</label>
+                    </div>
+                    <div className="">
+                      <label htmlFor="">init*</label>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-1 side-btn">
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button mb-2"></Link>
                 </div>
               </div>
             </div>
