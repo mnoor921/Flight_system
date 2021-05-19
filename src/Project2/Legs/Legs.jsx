@@ -31,7 +31,7 @@ function Legs() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -39,7 +39,7 @@ function Legs() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-10 col-9">
                   <div className="d-flex-1 pos-1">
                     <div className="model-indent">
                       <p>252 &deg;</p>
@@ -57,33 +57,33 @@ function Legs() {
                       <p>236 &deg;</p>
                       <label>braun</label>
 
-                      <p>rnp actual -----------------------------------</p>
+                      <p>rnp actual -------------</p>
                       <label htmlFor="">1.00/ 0.05 nm</label>
                     </div>
 
                     <div className="model-indent ">
                       <p>32nm </p>
                       <div className="text-right">
-                        <label className="text-right">250 / fl192</label>
+                        <label className="text-right">250/fl192</label>
                       </div>
 
                       <p>33nm </p>
                       <div className="text-right">
-                        <label className="text-right">250 / fl220</label>
+                        <label className="text-right">250/fl220</label>
                       </div>
 
                       <p>45nm </p>
                       <div className="text-right">
-                        <label className="text-right">250 / fl220</label>
+                        <label className="text-right">250/fl220</label>
                       </div>
 
                       <p>22nm </p>
                       <div className="text-right">
-                        <label className="text-right">200 / 17815</label>
+                        <label className="text-right">200/17815</label>
                       </div>
                       <p>12nm </p>
                       <div className="text-right">
-                        <label className="text-right">256 / 14012</label>
+                        <label className="text-right">256/14012</label>
                       </div>
                       <br />
                       <label htmlFor="">
@@ -93,7 +93,7 @@ function Legs() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

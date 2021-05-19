@@ -26,7 +26,7 @@ function CRB() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -34,7 +34,7 @@ function CRB() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link to="/forecast" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-10 col-9">
                   <div className="d-flex-1 pos-1">
                     <div className="model-indent">
                       <p>e/d alt</p>
@@ -61,7 +61,7 @@ function CRB() {
                       <label>0.0 </label>
                     </div>
                   </div>
-                  <p>--------------------------------------------------------------------------------------</p>
+                  <p className="text-center">--------------------------</p>
 
                   <div className="d-flex-1" style={{ marginTop: "-.8rem" }}>
                     <div className="">
@@ -86,7 +86,7 @@ function CRB() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

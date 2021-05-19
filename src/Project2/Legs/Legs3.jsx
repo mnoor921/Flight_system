@@ -31,7 +31,7 @@ function Legs() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -39,7 +39,7 @@ function Legs() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-10 col-9">
                   <div className="d-flex-1 pos-1">
                     <div className="model-indent">
                       <p>124 &deg;</p>
@@ -57,14 +57,14 @@ function Legs() {
                       <br />
                       <label htmlFor=""> ------------ </label>
 
-                      <p>rnp / actual -----------------</p>
+                      <p>rnp / actual -------</p>
                       <label>1.00 /0.05nm</label>
                     </div>
 
                     <div className="model-indent ">
-                      <p>5.9nm gp 3.00&deg; </p>
+                      <p >5.9nmgp3.00&deg; </p>
                       <div className="text-right">
-                        <label className="text-right">/ 867</label>
+                        <label className="text-right">/867</label>
                       </div>
 
                       <p>4.2nm </p>
@@ -97,7 +97,7 @@ function Legs() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

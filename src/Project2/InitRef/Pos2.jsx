@@ -29,7 +29,7 @@ function POS2() {
               <div className="text-center"></div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -37,7 +37,7 @@ function POS2() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link to="/init" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10 pos-1">
+                <div className="col-md-10col-9 pos-1">
                   <div className="d-flex-1">
                     <div className="model-indent">
                       <p>fms-l</p>
@@ -117,7 +117,7 @@ function POS2() {
                     <div className="model-indent text-right"></div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

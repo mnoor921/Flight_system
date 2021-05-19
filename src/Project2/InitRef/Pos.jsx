@@ -28,7 +28,7 @@ function POS() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -36,7 +36,7 @@ function POS() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link to="/init" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-10 col-9">
                   <div className="d-flex-1">
                     <div className="model-indent">
                       <p></p>
@@ -64,9 +64,10 @@ function POS() {
                       <p className="mt-3"></p>
                       <label>n29 59.5 w095 21.3</label>
                       <br />
-                      <label className="mt-3">
+                      <label className="mt-3 input-style ">
                         <span>
                           <input
+                          className="input-1"
                             type="text"
                             placeholder="[][][]"
                             style={{ width: "50px" }}
@@ -124,7 +125,7 @@ function POS() {
                     </label>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

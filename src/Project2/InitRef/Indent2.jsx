@@ -35,7 +35,7 @@ function Indent2() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link to="/init" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10 col-10">
+                <div className="col-md-10 col-9">
                   <div className="">
                     <div className="model-indent">
                       <p>perf defaults</p>
@@ -188,7 +188,7 @@ function Indent2() {
                 <div className="row ">
                   <div className="col-md-3 col-3 mt-1">
                     <Link to="/DepArr" className="btn btn-1 w-100">
-                      Dep/arr
+                      Dep /arr
                     </Link>
                   </div>
                   <div className="col-md-3 col-3 mt-1">

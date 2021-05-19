@@ -26,7 +26,7 @@ function Forecast() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -34,7 +34,7 @@ function Forecast() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10 pos-1">
+                <div className="col-md-10 col-9 pos-1">
                   <div className="d-flex-1">
                     <div className="model-indent">
                       <p>trans lvl </p>
@@ -75,7 +75,7 @@ function Forecast() {
                       className="model-indent"
                       style={{ marginTop: "-1.3rem" }}
                     >
-                      <p> ------------------- wind -----------------</p>
+                      <p className="text-center">-- wind --------</p>
                       <label></label>
                     </div>
 
@@ -84,17 +84,17 @@ function Forecast() {
                       style={{ marginTop: "-1.3rem" }}
                     >
                       <p>dir / spd </p>
-                      <label htmlFor="">220 / 12kt</label>
+                      <label htmlFor="">220/12kt</label>
                       <br />
                       <br />
-                      <label htmlFor="">210 / 15kt</label>
+                      <label htmlFor="">210/15kt</label>
                       <br />
                       <br />
-                      <label htmlFor="">215 / 10kt</label> <br />
+                      <label htmlFor="">215/10kt</label> <br />
                     </div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

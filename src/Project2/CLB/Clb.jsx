@@ -25,7 +25,7 @@ function CLb() {
                 </label>
               </div>
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -33,7 +33,7 @@ function CLb() {
                   <Link to="/maxrate" className="btn btn-1 side-button"></Link>
                   <Link to="/Maxangel" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-10 col-9">
                   <div className="d-flex-1">
                     <div className="">
                       <p>crz alt</p>
@@ -89,7 +89,7 @@ function CLb() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

@@ -31,7 +31,7 @@ function Legs() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -39,7 +39,7 @@ function Legs() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10 pos-1">
+                <div className="col-md-10 col-9 pos-1">
                   <div className="d-flex-1">
                     <div className="model-indent">
                       <p>230 &deg;</p>
@@ -70,29 +70,29 @@ function Legs() {
                     <div className=""> -------- </div>
                     <div className="">
                       {" "}
-                      <p>Route discontinuity</p>{" "}
+                      <p className="route">Routediscontinuity</p>{" "}
                     </div>
-                    <div className=""> -------- </div>
+                    {/* <div className=""> -------- </div> */}
                   </div>
-                  <div className="d-flex-1" style={{ marginTop: "-.7rem" }}>
+                  <div className="d-flex-1 d-flex-2" style={{ marginTop: "-.7rem" }}>
                     <div className="model-indent">
                       <label>hasdo</label>
 
                       <p>236 &deg;</p>
                       <label>alamo</label>
 
-                      <p>rnp / actual -----------------</p>
+                      <p>rnp / actual --------</p>
                       <label>1.00 /0.05nm</label>
                     </div>
 
                     <div className="model-indent ">
                       <div className="text-right">
-                        <label className="text-right">200/ 17815</label>
+                        <label className="text-right">200/17815</label>
                       </div>
 
                       <p>12nm </p>
                       <div className="text-right">
-                        <label className="text-right">256 / 14012</label>
+                        <label className="text-right">256/14012</label>
                       </div>
                       <br />
                       <label htmlFor="">
@@ -102,7 +102,7 @@ function Legs() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

@@ -27,7 +27,7 @@ function Takeoff() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -35,7 +35,7 @@ function Takeoff() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link to="/init" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10 pos-1">
+                <div className="col-md-10 col-9 pos-1">
                   <div className="d-flex-1">
                     <div className="model-indent">
                       <p>rw wind</p>
@@ -75,7 +75,7 @@ function Takeoff() {
                   </label>
                   <div className="d-flex-1"></div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

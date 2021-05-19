@@ -28,7 +28,7 @@ function DepArr() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link to="/KiaDep" className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -36,7 +36,7 @@ function DepArr() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link to="/KiaDep" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10 pos-1">
+                <div className="col-md-10 col-9 pos-1">
                   <br />
                   <div className="d-flex-1">
                     <div className="model-indent">
@@ -96,7 +96,7 @@ function DepArr() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link to="/KiahArr" className="btn btn-1 side-button"></Link>
                   <Link to="/KstArr" className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

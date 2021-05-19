@@ -39,7 +39,7 @@ function Limits() {
                     className="btn btn-1 side-button mb-2"
                   ></Link>
                 </div>
-                <div className="col-md-10 col-10 pos-1">
+                <div className="col-md-10 col-9 pos-1">
                   <div className="d-flex-1">
                     <div className="model-indent">
                       <p>fix </p>

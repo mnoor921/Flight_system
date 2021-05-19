@@ -31,7 +31,7 @@ function Hold() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -39,7 +39,7 @@ function Hold() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link to="/Hold2" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10 pos-1">
+                <div className="col-md-10 col-9 pos-1">
                   <div className="d-flex-1">
                     <div className="model-indent">
                       <p>Fix</p>
@@ -81,7 +81,7 @@ function Hold() {
                     next hold
                   </label>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

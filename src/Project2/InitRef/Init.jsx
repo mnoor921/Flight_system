@@ -27,7 +27,7 @@ function Init() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link to="/indent" className="btn btn-1 side-button"></Link>
                   <Link to="/pos" className="btn btn-1 side-button"></Link>
                   <Link to="/perf" className="btn btn-1 side-button"></Link>
@@ -38,7 +38,7 @@ function Init() {
                   <Link to="/Approach" className="btn btn-1 side-button"></Link>
                   <Link to="/Offset" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-10 col-9">
                   <div className="d-flex-1">
                     <div className="">
                       <p> </p>
@@ -47,10 +47,12 @@ function Init() {
                       </label>
                     </div>
 
-                    <label htmlFor="" className="mt-4">
-                      nav data
-                      <i class="fa fa-angle-right ml-2"></i>
-                    </label>
+                    <div className="text-right mr-0">
+                      <label htmlFor="" className="mt-4">
+                        nav data
+                        <i class="fa fa-angle-right ml-2"></i>
+                      </label>
+                    </div>
                   </div>
                   <div className="d-flex-1">
                     <label htmlFor="" className="mt-1">
@@ -63,26 +65,26 @@ function Init() {
                     </label>
                   </div>
                   <div className="d-flex-1">
-                  <label htmlFor="" className="mt-1">
+                    <label htmlFor="" className="mt-1">
                       <i class="fa fa-angle-left mr-2"></i>takeoff
                     </label>
                   </div>
                   <div className="d-flex-1">
-                  <label htmlFor="" className="mt-1">
+                    <label htmlFor="" className="mt-1">
                       <i class="fa fa-angle-left mr-2"></i>approach
                     </label>
                   </div>
                   <div className="d-flex-1">
-                  <label htmlFor="" className="mt-1">
+                    <label htmlFor="" className="mt-1">
                       <i class="fa fa-angle-left mr-2"></i>offset
                     </label>
                     <label htmlFor="" className="">
-                     maint
-                     <i class="fa fa-angle-right ml-2"></i>
+                      maint
+                      <i class="fa fa-angle-right ml-2"></i>
                     </label>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link to="/navdata" className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -91,7 +93,6 @@ function Init() {
                   <Link className="btn btn-1 side-button"></Link>
                 </div>
               </div>
-           
             </div>
             <Footer />
           </Col>

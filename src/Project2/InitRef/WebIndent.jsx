@@ -26,7 +26,7 @@ function WptIndent() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -34,7 +34,7 @@ function WptIndent() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link to="/init" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-10 col-9">
                   <div className="d-flex-1 pos-1">
                     <div className="model-indent">
                       <p>wpt indent</p>
@@ -77,7 +77,7 @@ function WptIndent() {
                     </label>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

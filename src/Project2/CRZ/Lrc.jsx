@@ -26,7 +26,7 @@ function Path() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -34,12 +34,12 @@ function Path() {
                   <Link to="/Crz" className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-10 col-9">
                   <div className="d-flex-1 pos-1">
                     <div className="model-indent">
                       <div className="">
                         <p>
-                          crz alt <span className="ml-4">opt / max</span>
+                          crz alt <span className="ml-4">opt/max</span>
                         </p>
                         <label>
                           fl220 <span className="ml-4">fl390 / 410</span>
@@ -65,7 +65,10 @@ function Path() {
                       <p>actual wind</p>
                     </div>
                   </div>
-                  <p style={{marginTop:'-2rem'}}> ----------------------------------------------------------------------------- </p>
+                  <p style={{ marginTop: "-2rem" }}>
+                    {" "}
+                    -------------------------
+                  </p>
                   <br />
                   <div className="d-flex-1" style={{ marginTop: "-.8rem" }}>
                     <div className="">
@@ -73,7 +76,6 @@ function Path() {
                         <i className="fa fa-angle-left mr-1"></i>
                         econ
                       </label>
-                      
                     </div>
                     <div className="text-right">
                       <label htmlFor="">
@@ -89,7 +91,7 @@ function Path() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>

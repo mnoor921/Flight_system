@@ -1,68 +1,69 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #222;
   color: #fff;
 }
 
-a,a:hover{
+a,
+a:hover {
   text-decoration: none;
 }
-li{
+li {
   list-style: none;
 }
 
 /* header */
 
-.header-label .all-buttons li{
+.header-label .all-buttons li {
   width: 33.3%;
 }
-.header-label .all-buttons li .btn-1{
+.header-label .all-buttons li .btn-1 {
   color: #fff;
-  border: 1px solid #91DDD5;
+  border: 1px solid #91ddd5;
   width: 100%;
   border-radius: 0px;
-  background: #B7B2C7;
+  background: #b7b2c7;
 }
 
-.btn-1{
+.btn-1 {
   /* border: ; */
   text-transform: uppercase;
   color: #fff;
   font-size: 14px;
   font-weight: 700;
-  border: 1px solid #91DDD5;
-  background: #B7B2C7;
+  border: 1px solid #91ddd5;
+  background: #b7b2c7;
   /* width: 100%; */
   border-radius: 0px;
 }
 
-.btn-1:hover{
-  color: #0BF8FE !important;
+.btn-1:hover {
+  color: #0bf8fe !important;
   background: transparent !important;
-  border: 1px solid #0BF8FE !important;
+  border: 1px solid #0bf8fe !important;
 }
 
 /* flight */
 
-.flight-info .btn-1{
+.flight-info .btn-1 {
   margin: 2px 0px;
   width: 100%;
 }
 
 /* New Message */
-.new-massage{
+.new-massage {
   margin: 5px 20px;
   background: #fff;
   padding: 5px;
 }
 
 /* check-box */
-.form-check-input{
+.form-check-input {
   height: 20px;
   width: 20px;
   /* margin: 5px 20px ; */
@@ -72,29 +73,28 @@ li{
 }
 
 /* intail-text */
-.intail-text h4{
-  font-size:15px ;
+.intail-text h4 {
+  font-size: 15px;
 }
 
-.label-heading-1{
+.label-heading-1 {
   width: 100px;
 }
-.label-heading-1 h4{
+.label-heading-1 h4 {
   text-align: right !important;
 }
-hr{
-  border-top: 1px solid #C9CDCB;
+hr {
+  border-top: 1px solid #c9cdcb;
 }
 
-h4{
+h4 {
   font-size: 15px;
   font-weight: 500;
 }
 
-.take-off-data .label-heading-1{
+.take-off-data .label-heading-1 {
   width: 150px;
 }
-
 
 /* tabs */
 .tabs-left {
@@ -102,67 +102,64 @@ h4{
   border-right: 1px solid #ddd;
 }
 
-.tabs-left>li {
+.tabs-left > li {
   float: none;
- margin:0px;
-  
+  margin: 0px;
 }
-.nav-tabs>li.active,
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:hover{
-background: #91DDD5;
-color: #fff;
-font-size: 15px;
+.nav-tabs > li.active,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+  background: #91ddd5;
+  color: #fff;
+  font-size: 15px;
 }
-.nav-tabs>li>a{
+.nav-tabs > li > a {
   font-size: 15px;
   color: #fff;
 }
-.nav-tabs>li a:hover{
+.nav-tabs > li a:hover {
   /* background: ; */
   color: #222;
 }
 
-.nav-tabs>li{
+.nav-tabs > li {
   padding: 10px;
   margin: 2px 5px;
   background: #fff;
   color: #222;
 }
-.nav-tabs>li a{
+.nav-tabs > li a {
   color: #222;
 }
 
-
-.ooo1 label{
+.ooo1 label {
   width: 100px;
 }
 
-
-.gate-assign .label-heading-1{
+.gate-assign .label-heading-1 {
   width: 150px !important;
 }
 
-label{
+label {
   text-transform: uppercase !important;
   font-size: 15px;
   font-weight: 700;
 }
 
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   text-transform: uppercase;
   color: #fff;
-  background-color: #7BDE8C !important;
+  background-color: #7bde8c !important;
 }
-.nav-pills .nav-link{
+.nav-pills .nav-link {
   color: #fff !important;
   text-transform: uppercase;
 }
 
 /* radio */
 
-input[type=radio] {
+input[type="radio"] {
   border: 1px solid #fff;
   padding: 0.5em;
   -webkit-appearance: none;
@@ -170,7 +167,7 @@ input[type=radio] {
   width: 20px;
   height: 20px;
 }
-input[type=checkbox] {
+input[type="checkbox"] {
   /* border: 1px solid #fff; */
   /* padding: 0.5em; */
   -webkit-appearance: none;
@@ -179,36 +176,34 @@ input[type=checkbox] {
   height: 30px;
 }
 
-input[type=radio]:checked {
-  background: green !important; 
+input[type="radio"]:checked {
+  background: green !important;
   background-size: 9px 9px;
 }
-input[type=checkbox]:checked {
-  background: green !important; 
+input[type="checkbox"]:checked {
+  background: green !important;
   /* background-size: 9px 9px; */
 }
 
-input[type=radio]:focus {
+input[type="radio"]:focus {
   outline-color: transparent;
 }
 
-
-
-input{
-  background: #B7B2C7 !important;
-  width: 120px ;
+input {
+  background: #b7b2c7 !important;
+  width: 120px;
 }
 
-input::placeholder{
+input::placeholder {
   color: #fff;
-  padding:0px 10px;
+  padding: 0px 10px;
 }
 
-textarea{
-  background: #B7B2C7 !important;
+textarea {
+  background: #b7b2c7 !important;
 }
 
-textarea::placeholder{
+textarea::placeholder {
   color: #fff;
   padding-left: 10px;
 }
@@ -218,185 +213,225 @@ textarea::placeholder{
   margin-right: 10px;
 }
 
-.diversion label{
+.diversion label {
   width: 35%;
   text-align: right;
   margin-right: 10px;
 }
-.diversion textarea{
-  width:65% !important;
+.diversion textarea {
+  width: 65% !important;
 }
-textarea{
-  width: 200px ;
+textarea {
+  width: 200px;
 }
 
-.flight-status .inner label{
+.flight-status .inner label {
   width: 0% !important;
 }
-.flight-status label{
+.flight-status label {
   width: 40% !important;
   margin-right: 10px;
   text-align: right;
 }
 
-.flight-paper label{
+.flight-paper label {
   width: 45%;
   text-align: right;
 }
 
-.dispatch_release label{
+.dispatch_release label {
   width: 40% !important;
   margin-right: 10px;
   text-align: right;
 }
 
-.reminders .reminder-inner{
- justify-content: space-between; 
+.reminders .reminder-inner {
+  justify-content: space-between;
 }
 
-.fit-duty label{
+.fit-duty label {
   width: 45% !important;
   margin-right: 10px;
   text-align: right;
 }
 
-@media screen and (max-width:768px){
-.btn-1{
-  font-size: 10px;
-}
-label{
-  font-size: 12px !important;
-  margin-right: 40px !important;
-}
-.level-request{
-  width: 50% !important;
-}
-.post-flight{
-  margin-left: .5rem !important;
-}
-
-
-
+@media screen and (max-width: 768px) {
+  .btn-1 {
+    font-size: 10px;
+  }
+  label {
+    font-size: 12px !important;
+    margin-right: 40px !important;
+  }
+  .level-request {
+    width: 50% !important;
+  }
+  .post-flight {
+    margin-left: 0.5rem !important;
+  }
 }
 
-.card{
+.card {
   background: transparent !important;
 }
 
-.main-navbar .navbar-link{
+.main-navbar .navbar-link {
   color: #fff !important;
 }
 
-.top-header{
+.top-header {
   padding: 10px;
-  border: 1px solid #0BF8FE;
+  border: 1px solid #0bf8fe;
 }
 
-.navbar-style{
+.navbar-style {
   padding: 20px 0px;
 }
-.navbar-style .brand{
+.navbar-style .brand {
   font-size: 25px;
   font-weight: 700;
   color: #222;
 }
 
-.navbar-style .top-navbar{
+.navbar-style .top-navbar {
   color: #000;
   margin: 5px 10px;
   font-size: 16px;
   font-weight: 700;
 }
-.navbar-style .top-navbar:hover{
-  color: #0BF8FE;
+.navbar-style .top-navbar:hover {
+  color: #0bf8fe;
   /* border-bottom: 1px solid #0BF8FE; */
 }
-.banner{
+.banner {
   background: url("./assests/flight_banner.webp") no-repeat;
-  background-size: 100% 100% ;
+  background-size: 100% 100%;
   width: 100%;
   height: 100vh;
 }
-.banner-heading{
+.banner-heading {
   width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
-.about-heading{
+.about-heading {
   color: #000 !important;
   font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
 }
-.contact .btn-1{
+.contact .btn-1 {
   margin-top: 20px;
   border-radius: 50px;
   width: 100px !important;
 }
-.contact input{
+.contact input {
   background: #fff !important;
 }
-.contact textarea{
+.contact textarea {
   background: #fff !important;
 }
-.social a{
-  color: #B7B2C7;
+.social a {
+  color: #b7b2c7;
   font-size: 30px;
 }
 
-.project2_button li{
+.project2_button li {
   display: inline-block;
   margin: 5px;
 }
 
-.main-section{
+.main-section {
   width: 100%;
   min-height: 200px;
-  border: 1px solid #0BF8FE;
+  border: 1px solid #0bf8fe;
 }
-.d-flex-1{
+.d-flex-1 {
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
-p{
+p {
   text-transform: uppercase;
   margin-bottom: 0px;
 }
-.model-indent label{
+.model-indent label {
   font-size: 20px;
 }
 
-.number-button .btn-1{
+.number-button .btn-1 {
   border-radius: 50% !important;
 }
 
-.side-button{
+.side-button {
   margin-top: 40px !important;
   background: #222;
   color: #fff;
   border: 1px solid #fff;
 }
 
-.footer_all_btn{
+.footer_all_btn {
   background: grey;
 }
-.footer_all_btn .btn-1{
+.footer_all_btn .btn-1 {
   background: #222;
 }
-.footer_all_btn .btn-1:hover{
+.footer_all_btn .btn-1:hover {
   background: #222 !important;
   color: #fff !important;
 }
 
-.side-btn{
+.side-btn {
   background: grey;
 }
 
-.pos-1 label{
+.pos-1 label {
   font-size: 16px;
 }
-.pos-1 p{
+.pos-1 p {
   font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_all_btn {
+    padding: 10px !important;
+  }
+  .footer_all_btn .btn-1 {
+    width: 40px !important;
+    text-align: center;
+    padding-left: 5px;
+  }
+
+  .side-btn {
+    background: none;
+  }
+  .side-btn .side-button {
+    width: 8px !important;
+  }
+  .main-section {
+    padding: 0px !important;
+    border: none !important;
+  }
+  .main-section p {
+    font-size: 13px;
+  }
+  .side-button {
+    margin-top: 35px !important;
+  }
+  label {
+    margin-right: 0px !important;
+  }
+  .main-section-1 {
+    padding: 5px !important;
+  }
+  .input-style input {
+    width: 18px !important;
+  }
+  .route{
+    font-size: 10px;
+  }
+  .d-flex-2{
+    margin-top: -1rem !important;
+  }
 }

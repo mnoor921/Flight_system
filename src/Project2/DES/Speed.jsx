@@ -26,7 +26,7 @@ function Speed() {
               </div>
 
               <div className="row">
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
@@ -34,7 +34,7 @@ function Speed() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link to="/forecast" className="btn btn-1 side-button"></Link>
                 </div>
-                <div className="col-md-10">
+                <div className="col-md-10 col-9">
                   <div className="d-flex-1 pos-1">
                     <div className="model-indent">
                       <p>e / d alt </p>
@@ -59,9 +59,9 @@ function Speed() {
                       <label htmlFor=""> 0.0 </label>
                     </div>
                   </div>
-<br />
-<br />
-                  <div className="d-flex-1" >
+                  <br />
+                  <br />
+                  <div className="d-flex-1">
                     <div className="">
                       <label htmlFor="">
                         <i className="fa fa-angle-left mr-1"></i>
@@ -76,7 +76,7 @@ function Speed() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-1 side-btn">
+                <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
