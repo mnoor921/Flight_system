@@ -435,3 +435,17 @@ p {
     margin-top: -1rem !important;
   }
 }
+
+
+/* project3 */
+.project3footer .btn-1{
+  border-radius: 5px !important;
+  margin: 2px;
+}
+
+.side-btn-p3 .side-button{
+  background: #b7b2c7 !important;
+}
+.bg-dark-main{
+  background: #222;
+}
