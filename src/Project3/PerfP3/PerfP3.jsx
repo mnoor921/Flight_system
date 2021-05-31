@@ -21,14 +21,6 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">perf init</label>
-                    <label htmlFor="" className="tex">
-                     
-                    </label>
-                  </div>
-
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link className="btn btn-1 side-button"></Link>
@@ -43,43 +35,60 @@ const PosP3 = () => {
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">perf init</label>
+                          <label htmlFor="" className="tex"></label>
+                        </div>
                         <div className="d-flex-1">
                           <div className="">
                             <p> gr wt </p>
                             <label htmlFor="">500.3</label>
                             <p> fuel </p>
-                            <label htmlFor="">125.3 lb calc</label>
+                            <label htmlFor="">
+                              <span className="bg_grey">125.3</span> lb calc
+                            </label>
                             <p>zfw </p>
-                            <label htmlFor="">375.0</label>
+                            <label htmlFor="">
+                              <span className="bg_grey">375.0</span>
+                            </label>
                             <p> reserves </p>
-                            <label htmlFor=""> [][][].[] </label>
+                            <label htmlFor="">
+                              {" "}
+                              <span className="bg_grey">[][][].[]</span>{" "}
+                            </label>
                             <p>perf init</p>
                             <label htmlFor="">
-                            <i class="fa fa-angle-left mr-2"></i>request
+                              <i class="fa fa-angle-left mr-2"></i>request
                             </label>
                           </div>
 
                           <div className="text-right mr-0">
                             <p> crz alt </p>
-                            <label htmlFor="">fl250</label>
+                            <label htmlFor="">
+                              <span className="bg_grey">fl250</span>
+                            </label>
                             <p> cost index </p>
-                            <label htmlFor="">30</label>
+                            <label htmlFor="">
+                              <span className="bg_grey">30</span>
+                            </label>
                             <p> min fuel tem </p>
-                            <label htmlFor="">-37&deg;c</label>
+                            <label htmlFor="">
+                              - <span className="bg_grey">37</span> &deg;c
+                            </label>
                             <p> crz cg </p>
-                            <label htmlFor="">28.0%</label>
-                            
+                            <label htmlFor=""><span className="bg_grey">28.0</span>z</label>
+
                             <p> step size </p>
-                            <label htmlFor="">2000</label>
-                            
+                            <label htmlFor=""><span className="bg_grey">2000</span></label>
                           </div>
                         </div>
 
                         <p
                           className="text-center"
-                          style={{marginTop:'-1.5rem'}}
+                          style={{ marginTop: "-1.5rem" }}
                         >
-                          ---------------fmc preflight complete-------------
+                          --------------- <span className="bg_green">fmc preflight complete</span> -------------
                         </p>
                         <div
                           className="d-flex-1"
@@ -92,7 +101,7 @@ const PosP3 = () => {
                           </div>
                           <div className="text-right mr-0">
                             <label htmlFor="" className="mt-4">
-                            thrust lim
+                              thrust lim
                               <i className="fa fa-angle-right ml-1"></i>
                             </label>
                           </div>

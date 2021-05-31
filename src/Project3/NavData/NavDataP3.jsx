@@ -21,12 +21,6 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">ref nav data</label>
-                    <label htmlFor="" className="tex"></label>
-                  </div>
-
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link className="btn btn-1 side-button"></Link>
@@ -41,10 +35,18 @@ const PosP3 = () => {
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">ref nav data</label>
+                          <label htmlFor="" className="tex"></label>
+                        </div>
                         <div className="d-flex-1">
                           <div className="">
-                            <p>indent </p>
-                            <label htmlFor=""> ------------ </label>
+                            <p>ident </p>
+                            <label htmlFor="" className="bg_grey">
+                              {" "}
+                              ------------{" "}
+                            </label>
                             <br />
                             <br />
                             <br />
@@ -53,14 +55,28 @@ const PosP3 = () => {
                         <br />
                         <br />
                         <div className="d-flex-1 mt-3">
-                          <label htmlFor="">----------</label>
-                          <p className="" style={{ marginTop: "-1.5rem" }}> navaid inhibit </p>
-                          <label htmlFor="">----------</label>
+                          <label htmlFor="" className="bg_grey">
+                            ----------
+                          </label>
+                          <p className="" style={{ marginTop: "-1.5rem" }}>
+                            {" "}
+                            navaid inhibit{" "}
+                          </p>
+                          <label htmlFor="" className="bg_grey">
+                            ----------
+                          </label>
                         </div>
-                        <div className="d-flex-1 mt-1" >
-                          <label htmlFor="">All</label>
-                          <p className="" style={{ marginTop: "-1.5rem" }}> vor only inhibit </p>
-                          <label htmlFor="">All</label>
+                        <div className="d-flex-1 mt-1">
+                          <label htmlFor="" className="bg_grey">
+                            All
+                          </label>
+                          <p className="" style={{ marginTop: "-1.5rem" }}>
+                            {" "}
+                            vor only inhibit{" "}
+                          </p>
+                          <label htmlFor="" className="bg_grey">
+                            All
+                          </label>
                         </div>
 
                         <p

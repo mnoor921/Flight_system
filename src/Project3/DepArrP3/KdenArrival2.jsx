@@ -21,15 +21,6 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">kden arrivals</label>
-
-                    <label htmlFor="" className="tex">
-                      1/3
-                    </label>
-                  </div>
-
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link className="btn btn-1 side-button"></Link>
@@ -44,6 +35,14 @@ const PosP3 = () => {
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">kden arrivals</label>
+
+                          <label htmlFor="" className="tex">
+                            1/3
+                          </label>
+                        </div>
                         <div className="d-flex-1 ">
                           <div className="">
                             <p>stars</p>
@@ -82,7 +81,7 @@ const PosP3 = () => {
                             </label>
                             <p> g/s</p>
                             <label htmlFor="">
-                              on
+                              <span className="color_green">on</span>
                               <i className="fa fa-arrows-alt-h mx-1"></i>
                               off
                               <i className="fa fa-angle-right ml-1"></i>

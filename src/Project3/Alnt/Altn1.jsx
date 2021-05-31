@@ -21,20 +21,13 @@ const Altn1 = () => {
               }}
             >
               <div className="main-section-p3 p-2">
-                <div className="numbering d-flex-1">
-                  <label htmlFor=""></label>
-                  <label htmlFor="">altn</label>
-                  <label htmlFor="" className="tex">
-                    1/2
-                  </label>
-                </div>
-                <div className="numbering d-flex-1">
+                {/* <div className="numbering d-flex-1">
                   <label htmlFor=""></label>
                   <label htmlFor="">eta</label>
                   <label htmlFor="" className="tex">
                     fuel
                   </label>
-                </div>
+                </div> */}
 
                 <div className="row">
                   <div className="col-md-1 col-1 side-btn-p3">
@@ -53,11 +46,19 @@ const Altn1 = () => {
                   </div>
                   <div className="col-md-10 col-9 px-0">
                     <div className="bg-dark-main">
+                      <div className="numbering d-flex-1">
+                        <label htmlFor=""></label>
+                        <label htmlFor="">altn</label>
+                        <label htmlFor="" className="tex">
+                          1/2
+                        </label>
+                      </div>
                       <div className="d-flex-1">
                         <div className="">
                           <p> </p>
                           <label htmlFor="" className="mt-4">
-                            <i class="fa fa-angle-left mr-2"></i>egkk
+                            {/* <i class="fa fa-angle-left mr-2"></i> */}
+                            <span className="bg_grey">egkk</span>
                           </label>
                         </div>
 
@@ -69,7 +70,8 @@ const Altn1 = () => {
                       </div>
                       <div className="d-flex-1">
                         <label htmlFor="" className="mt-1">
-                          <i class="fa fa-angle-left mr-2"></i>egll
+                          {/* <i class="fa fa-angle-left mr-2"></i> */}
+                          <span className="bg_grey">egll</span>
                         </label>
                         <div className="text-right mr-0">
                           <label htmlFor="" className="mt-1">
@@ -79,7 +81,8 @@ const Altn1 = () => {
                       </div>
                       <div className="d-flex-1">
                         <label htmlFor="" className="mt-1">
-                          <i class="fa fa-angle-left mr-2"></i>eglf
+                          {/* <i class="fa fa-angle-left mr-2"></i> */}
+                          <span className="bg_grey">eglf</span>
                         </label>
                         <div className="text-right mr-0">
                           <label htmlFor="" className="mt-1">
@@ -89,7 +92,8 @@ const Altn1 = () => {
                       </div>
                       <div className="d-flex-1">
                         <label htmlFor="" className="mt-1">
-                          <i class="fa fa-angle-left mr-2"></i>egvo
+                          {/* <i class="fa fa-angle-left mr-2"></i> */}
+                          <span className="bg_grey">egvo</span>
                         </label>
                         <div className="text-right mr-0">
                           <label htmlFor="" className="mt-1">
@@ -97,7 +101,10 @@ const Altn1 = () => {
                           </label>
                         </div>
                       </div>
-                      <div className="d-flex-1" style={{marginTop:'-1.4rem'}}>
+                      <div
+                        className="d-flex-1"
+                        style={{ marginTop: "-1.4rem" }}
+                      >
                         <div className="">
                           <p>Altn</p>
                           <label htmlFor="" className="mt-1">
@@ -107,11 +114,14 @@ const Altn1 = () => {
                         <div className="text-right mr-0">
                           <p>altn inhibit</p>
                           <label htmlFor="" className="mt-1">
-                            --------/-------
+                            <span className="bg_grey"> --------/-------</span>
                           </label>
                         </div>
                       </div>
-                      <div className="d-flex-1" style={{marginTop:'-1.4rem'}}>
+                      <div
+                        className="d-flex-1"
+                        style={{ marginTop: "-1.4rem" }}
+                      >
                         <div className="">
                           <p>wxr </p>
                           <label htmlFor="" className="mt-1">
@@ -135,106 +145,104 @@ const Altn1 = () => {
                 </div>
               </div>
 
-
               <div className="project3footer">
-        <div className="d-flex-1 m-0 p-0">
-          <ul>
-            <li>
-              <Link to="/InitRefP3" className="btn btn-1">
-                init ref
-              </Link>
-              <Link to="/RteP3act" className="btn btn-1">
-                rte
-              </Link>
-              <Link to="/DepArrP3" className="btn btn-1">
-                dep/arr
-              </Link>
-              <Link to="" className="btn btn-1">
-                altn
-              </Link>
-              <Link to="/Vnav" className="btn btn-1">
-                vnav
-              </Link>
-            </li>
-          </ul>
-          <div className="">
-            <Link className="btn btn-1">Exec</Link>
-          </div>
-        </div>
-        <div className="d-flex-1 m-0 p-0">
-          <ul>
-            <li>
-              <Link to="/FixInfoP3" className="btn btn-1">
-                fix
-              </Link>
-              <Link to="" className="btn btn-1">
-                legs
-              </Link>
-              <Link to="/Rte1Hold1" className="btn btn-1">
-                hold
-              </Link>
-              <Link to="/CommP3" className="btn btn-1">
-                fmc comm
-              </Link>
-              <Link to="/ProgressP3" className="btn btn-1">
-                prog
-              </Link>
-            </li>
-          </ul>
-          <Link className=""></Link>
-        </div>
+                <div className="d-flex-1 m-0 p-0">
+                  <ul>
+                    <li>
+                      <Link to="/InitRefP3" className="btn btn-1">
+                        init ref
+                      </Link>
+                      <Link to="/RteP3act" className="btn btn-1">
+                        rte
+                      </Link>
+                      <Link to="/DepArrP3" className="btn btn-1">
+                        dep/arr
+                      </Link>
+                      <Link to="" className="btn btn-1">
+                        altn
+                      </Link>
+                      <Link to="/Vnav" className="btn btn-1">
+                        vnav
+                      </Link>
+                    </li>
+                  </ul>
+                  <div className="">
+                    <Link className="btn btn-1">Exec</Link>
+                  </div>
+                </div>
+                <div className="d-flex-1 m-0 p-0">
+                  <ul>
+                    <li>
+                      <Link to="/FixInfoP3" className="btn btn-1">
+                        fix
+                      </Link>
+                      <Link to="" className="btn btn-1">
+                        legs
+                      </Link>
+                      <Link to="/Rte1Hold1" className="btn btn-1">
+                        hold
+                      </Link>
+                      <Link to="/CommP3" className="btn btn-1">
+                        fmc comm
+                      </Link>
+                      <Link to="/ProgressP3" className="btn btn-1">
+                        prog
+                      </Link>
+                    </li>
+                  </ul>
+                  <Link className=""></Link>
+                </div>
 
-        <div className="d-flex-1 m-0 p-0">
-          <ul>
-            <li>
-              <Link to="/NavRad" className="btn btn-1">
-                nav rad
-              </Link>
-              <Link  className="btn btn-1">
-                ofst
-              </Link>
-              <Link  className="btn btn-1">
-                rta
-              </Link>
-              <Link to="/" className="btn btn-1">
-                back to home
-              </Link>
-            </li>
-          </ul>
-          <div className="">
-            <Link className="btn btn-1">prev Page</Link>
-            <Link to="/Altn2" className="btn btn-1">next Page</Link>
-          </div>
-        </div>
+                <div className="d-flex-1 m-0 p-0">
+                  <ul>
+                    <li>
+                      <Link to="/NavRad" className="btn btn-1">
+                        nav rad
+                      </Link>
+                      <Link to="/offsetp3" className="btn btn-1">
+                        ofst
+                      </Link>
+                      <Link className="btn btn-1">rta</Link>
+                      <Link to="/" className="btn btn-1">
+                        back to home
+                      </Link>
+                    </li>
+                  </ul>
+                  <div className="">
+                    <Link className="btn btn-1">prev Page</Link>
+                    <Link to="/Altn2" className="btn btn-1">
+                      next Page
+                    </Link>
+                  </div>
+                </div>
 
-        <div className=" text-center mx-auto mt-2">
-          <label htmlFor="">
-            if you find this site helpful, <br /> i won't say no to a beer
-          </label>{" "}
-          <br />
-          <a
-            href="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
-            className=" mx-auto"
-          >
-            <img
-              src={Beer}
-              width="120"
-              height="50"
-              className="my-1"
-              alt=""
-              style={{ borderRadius: "10px" }}
-            />
-          </a>
-        </div>
-      </div>
-    
+                <div className=" text-center mx-auto mt-2">
+                  <label htmlFor="">
+                    if you find this site helpful, <br /> i won't say no to a
+                    beer
+                  </label>{" "}
+                  <br />
+                  <a
+                    href="https://www.paypal.com/donate?hosted_button_id=YQTWBX2LGLV4S"
+                    className=" mx-auto"
+                  >
+                    <img
+                      src={Beer}
+                      width="120"
+                      height="50"
+                      className="my-1"
+                      alt=""
+                      style={{ borderRadius: "10px" }}
+                    />
+                  </a>
+                </div>
+              </div>
             </Col>
             <Col></Col>
           </Row>
         </Container>
       </div>
     </div>
-  
   );
 };
 

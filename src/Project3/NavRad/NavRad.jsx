@@ -21,12 +21,6 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">NAv radio</label>
-                    <label htmlFor="" className="tex"></label>
-                  </div>
-
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link className="btn btn-1 side-button"></Link>
@@ -34,22 +28,24 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
-                      <Link
-                       
-                        className="btn btn-1 side-button"
-                      ></Link>
+                      <Link className="btn btn-1 side-button"></Link>
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">NAv radio</label>
+                          <label htmlFor="" className="tex"></label>
+                        </div>
                         <div className="d-flex-1">
                           <div className="">
                             <p> vor l</p>
-                            <label htmlFor=""> 116.60 a iah </label>
+                            <label htmlFor="" className="bg_grey color_green"> 116.60 a iah </label>
                           </div>
 
                           <div className="text-right mr-0">
                             <p className="">vor r</p>
-                            <label htmlFor=""> iaha160.60 </label>
+                            <label htmlFor="" className="bg_grey color_green"> iaha160.60 </label>
                           </div>
                         </div>
                         <div
@@ -72,7 +68,7 @@ const PosP3 = () => {
                         <div className="d-flex-1 mt-3">
                           <div className="">
                             <p>ils-gls</p>
-                            <label htmlFor="">111.10/353</label>
+                            <label htmlFor="" className="bg_grey ">111.10/353</label>
                           </div>
                         </div>
 
@@ -90,10 +86,10 @@ const PosP3 = () => {
                           //   style={{ marginTop: "-2rem" }}
                         >
                           <div className="">
-                            <label htmlFor="">--------</label>
+                            <label htmlFor="" className="bg_grey ">--------</label>
                           </div>
                           <div className="text-right mr-0">
-                            <label htmlFor="">----------</label>
+                            <label htmlFor="" className="bg_grey ">----------</label>
                           </div>
                         </div>
                       </div>

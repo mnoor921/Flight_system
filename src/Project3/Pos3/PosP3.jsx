@@ -22,14 +22,6 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">Pos init</label>
-                    <label htmlFor="" className="tex">
-                      1/4
-                    </label>
-                  </div>
-
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link className="btn btn-1 side-button"></Link>
@@ -44,6 +36,13 @@ const PosP3 = () => {
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">Pos init</label>
+                          <label htmlFor="" className="tex">
+                            1/4
+                          </label>
+                        </div>
                         <div className="d-flex-1">
                           <div className="">
                             <p> </p>
@@ -63,7 +62,9 @@ const PosP3 = () => {
                         >
                           <div className="">
                             <p>Ref airport</p>
-                            <label htmlFor="">------------</label>
+                            <label htmlFor="">
+                              <span className="bg_grey">------------</span>
+                            </label>
                             <p>Gate</p>
                           </div>
                           <div className="text-right mr-0">
@@ -96,7 +97,7 @@ const PosP3 = () => {
                           <div className="text-right mr-0">
                             <p>set inertial pos</p>
                             <label htmlFor="" className="">
-                              -----&deg;--.- ----&deg;--.-
+                             <span className="bg_grey"> -----&deg;--.- ----&deg;--.-</span>
                             </label>
                           </div>
                         </div>
@@ -151,7 +152,7 @@ const PosP3 = () => {
                         <Link to="/DepArrP3" className="btn btn-1">
                           dep/arr
                         </Link>
-                        <Link to="" className="btn btn-1">
+                        <Link to="/Altn1" className="btn btn-1">
                           altn
                         </Link>
                         <Link to="/Vnav" className="btn btn-1">
@@ -192,7 +193,7 @@ const PosP3 = () => {
                         <Link to="/NavRad" className="btn btn-1">
                           nav rad
                         </Link>
-                        <Link className="btn btn-1">ofst</Link>
+                        <Link to="/offsetp3" className="btn btn-1">ofst</Link>
                         <Link className="btn btn-1">rta</Link>
                         <Link to="/" className="btn btn-1">
                           back to home
@@ -200,8 +201,10 @@ const PosP3 = () => {
                       </li>
                     </ul>
                     <div className="">
-                      <Link  className="btn btn-1">prev Page</Link>
-                      <Link to="/Posp32" className="btn btn-1">next Page</Link>
+                      <Link className="btn btn-1">prev Page</Link>
+                      <Link to="/Posp32" className="btn btn-1">
+                        next Page
+                      </Link>
                     </div>
                   </div>
 

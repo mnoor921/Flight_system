@@ -22,14 +22,6 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">Pos ref</label>
-                    <label htmlFor="" className="tex">
-                      3/4
-                    </label>
-                  </div>
-
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link className="btn btn-1 side-button"></Link>
@@ -44,6 +36,13 @@ const PosP3 = () => {
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">Pos ref</label>
+                          <label htmlFor="" className="tex">
+                            3/4
+                          </label>
+                        </div>
                         <div className="d-flex-1">
                           <div className="">
                             <br />
@@ -67,22 +66,22 @@ const PosP3 = () => {
                           <div className="text-right mr-0">
                             <p> gps nav</p>
                             <label htmlFor="">
-                              off---ON
+                              off--- <span className="color_green">ON</span>
                               <i className="fa fa-angle-right ml-1"></i>
                             </label>
                             <p> DME/DME nav</p>
                             <label htmlFor="">
-                              off---ON
+                              off---<span className="color_green">ON</span>
                               <i className="fa fa-angle-right ml-1"></i>
                             </label>
                             <p> VOR/DME nav</p>
                             <label htmlFor="">
-                              off---ON
+                              <span className="color_green">off</span>---ON
                               <i className="fa fa-angle-right ml-1"></i>
                             </label>
                             <p> LOC nav</p>
                             <label htmlFor="">
-                              off---ON
+                              off---<span className="color_green">ON</span>
                               <i className="fa fa-angle-right ml-1"></i>
                             </label>
                           </div>
@@ -136,7 +135,7 @@ const PosP3 = () => {
                         <Link to="/DepArrP3" className="btn btn-1">
                           dep/arr
                         </Link>
-                        <Link to="" className="btn btn-1">
+                        <Link to="/Altn1" className="btn btn-1">
                           altn
                         </Link>
                         <Link to="/Vnav" className="btn btn-1">
@@ -161,7 +160,7 @@ const PosP3 = () => {
                           hold
                         </Link>
                         <Link to="/CommP3" className="btn btn-1">
-                          fmc comm
+                          fmc/comm
                         </Link>
                         <Link to="/ProgressP3" className="btn btn-1">
                           prog
@@ -177,7 +176,9 @@ const PosP3 = () => {
                         <Link to="/NavRad" className="btn btn-1">
                           nav rad
                         </Link>
-                        <Link className="btn btn-1">ofst</Link>
+                        <Link to="/offsetp3" className="btn btn-1">
+                          ofst
+                        </Link>
                         <Link className="btn btn-1">rta</Link>
                         <Link to="/" className="btn btn-1">
                           back to home

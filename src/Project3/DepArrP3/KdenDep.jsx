@@ -21,14 +21,6 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">kden departures</label>
-                    <label htmlFor="" className="tex">
-                      5/5
-                    </label>
-                  </div>
-
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link className="btn btn-1 side-button"></Link>
@@ -43,6 +35,14 @@ const PosP3 = () => {
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">kden departures</label>
+                          <label htmlFor="" className="tex">
+                            5/5
+                          </label>
+                        </div>
+
                         <div className="d-flex-1">
                           <div className="">
                             <p> eo sid</p>

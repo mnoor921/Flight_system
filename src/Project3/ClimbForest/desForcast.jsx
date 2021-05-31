@@ -21,14 +21,6 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">descent forecast</label>
-                    <label htmlFor="" className="tex">
-                      1/2
-                    </label>
-                  </div>
-
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link className="btn btn-1 side-button"></Link>
@@ -36,34 +28,50 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
-                      <Link
-                        
-                        className="btn btn-1 side-button"
-                      ></Link>
+                      <Link className="btn btn-1 side-button"></Link>
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">descent forecast</label>
+                          <label htmlFor="" className="tex">
+                            1/2
+                          </label>
+                        </div>
                         <div className="d-flex-1">
                           <div className="">
                             <p> trans lvl</p>
-                            <label htmlFor="">fl180</label>
+                            <label htmlFor="" className="bg_grey">
+                              fl180
+                            </label>
                             <p> alt/temp </p>
-                            <label htmlFor="">-------/--&deg;c</label>
+                            <label htmlFor="" className="bg_grey">
+                              -------/--&deg;c
+                            </label>
                             <br />
                             <br />
-                            <label htmlFor="">-------/--&deg;c</label>
+                            <label htmlFor="" className="bg_grey">
+                              -------/--&deg;c
+                            </label>
                             <br />
                             <br />
-                            <label htmlFor="">-------/--&deg;c</label>
+                            <label htmlFor="" className="bg_grey">
+                              -------/--&deg;c
+                            </label>
                             <br />
                             <br />
-                            <label htmlFor="">-------/--&deg;c</label>
+                            <label htmlFor="" className="bg_grey">
+                              -------/--&deg;c
+                            </label>
                           </div>
 
                           <div className="text-right mr-0">
                             <p className="">tai/on alt</p>
 
-                            <label htmlFor="">-------</label>
+                            <label htmlFor="" className="bg_grey">
+                              -------
+                            </label>
                             <p className="">wind dir/spd</p>
                           </div>
                         </div>

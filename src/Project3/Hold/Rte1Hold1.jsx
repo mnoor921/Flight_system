@@ -21,13 +21,7 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">act rte 1 hold</label>
-                    <label htmlFor="" className="tex">
-                      1/1
-                    </label>
-                  </div>
+                  
 
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
@@ -43,27 +37,38 @@ const PosP3 = () => {
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                      <div className="numbering d-flex-1">
+                    <label htmlFor=""></label>
+                    <label htmlFor="">act rte 1 hold</label>
+                    <label htmlFor="" className="tex">
+                      1/1
+                    </label>
+                  </div>
                         <div className="d-flex-1">
                           <div className="">
                             <p> fix</p>
                             <label htmlFor="">nuggs</label>
                             <p> quad/radial </p>
-                            <label htmlFor="">---/----</label>
+                            <label htmlFor="" className="bg_grey">
+                              ---/----
+                            </label>
                             <p>inbo crs/dir </p>
-                            <label htmlFor="">059&deg;/r turn</label>
+                            <label htmlFor="">
+                              <span className="bg_grey">059&deg;/r</span> turn
+                            </label>
                             <p> leg time </p>
-                            <label htmlFor="">1.0 min</label>
+                            <label htmlFor=""><span className="bg_grey">1.0</span> min</label>
                             <p> leg dist </p>
-                            <label htmlFor="">---.--nm</label>
+                            <label htmlFor=""> <span className="bg_grey">---.--</span>nm</label>
                           </div>
 
                           <div className="text-right mr-0">
                             <p>spd/tgt alt</p>
-                            <label htmlFor="">---/------</label>
+                            <label htmlFor="" className="bg_grey">---/------</label>
                             <p className="mt-1">fix eta</p>
                             <label htmlFor=""></label>
                             <p className="">efc time</p>
-                            <label htmlFor="">---/---</label>
+                            <label htmlFor="" className="bg_grey">---/---</label>
                             <p className="">hold available</p>
                             <label htmlFor=""></label>
                             <p className="">best speed</p>

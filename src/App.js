@@ -225,6 +225,7 @@ import FixInfo from "./Project2/FixInfo/FixInfo";
 import Project3 from "./Project3/Project3Menu";
 // Init Ref P3
 import InitRefP3 from "./Project3/InitP3/InitRefP3";
+import Lateraloff from "./Project3/LateralOff/lateraloff";
 
 // Altn
 import Altn1 from "./Project3/Alnt/Altn1";
@@ -515,6 +516,7 @@ function App() {
 
         {/* init ref p3 */}
         <Route path="/InitRefP3" exact component={InitRefP3} />
+        <Route path="/offsetp3" exact component={Lateraloff} />
 
         {/* Altn */}
         <Route path="/Altn1" exact component={Altn1} />

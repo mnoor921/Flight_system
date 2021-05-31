@@ -6,7 +6,6 @@ import { Col, Container, Row } from "react-bootstrap";
 const Project3Footer = () => {
   return (
     <div>
-
       <div className="project3footer">
         <div className="d-flex-1 m-0 p-0">
           <ul>
@@ -20,7 +19,7 @@ const Project3Footer = () => {
               <Link to="/DepArrP3" className="btn btn-1">
                 dep/arr
               </Link>
-              <Link to="" className="btn btn-1">
+              <Link to="/Altn1" className="btn btn-1">
                 altn
               </Link>
               <Link to="/Vnav" className="btn btn-1">
@@ -38,14 +37,14 @@ const Project3Footer = () => {
               <Link to="/FixInfoP3" className="btn btn-1">
                 fix
               </Link>
-              <Link to="" className="btn btn-1">
+              <Link to="/Rte1Hold" className="btn btn-1">
                 legs
               </Link>
               <Link to="/Rte1Hold1" className="btn btn-1">
                 hold
               </Link>
               <Link to="/CommP3" className="btn btn-1">
-                fmc comm
+                fmc/comm
               </Link>
               <Link to="/ProgressP3" className="btn btn-1">
                 prog
@@ -61,12 +60,10 @@ const Project3Footer = () => {
               <Link to="/NavRad" className="btn btn-1">
                 nav rad
               </Link>
-              <Link  className="btn btn-1">
+              <Link to="/offsetp3" className="btn btn-1">
                 ofst
               </Link>
-              <Link  className="btn btn-1">
-                rta
-              </Link>
+              <Link className="btn btn-1">rta</Link>
               <Link to="/" className="btn btn-1">
                 back to home
               </Link>

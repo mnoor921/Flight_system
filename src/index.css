@@ -402,6 +402,9 @@ p {
     text-align: center;
     padding-left: 5px;
   }
+  p {
+    font-size: 10px;
+  }
 
   .side-btn {
     background: none;
@@ -428,24 +431,45 @@ p {
   .input-style input {
     width: 18px !important;
   }
-  .route{
+  .route {
     font-size: 10px;
   }
-  .d-flex-2{
+  .d-flex-2 {
     margin-top: -1rem !important;
   }
 }
 
-
 /* project3 */
-.project3footer .btn-1{
+.project3footer .btn-1 {
   border-radius: 5px !important;
   margin: 2px;
 }
 
-.side-btn-p3 .side-button{
+.side-btn-p3 .side-button {
   background: #b7b2c7 !important;
 }
-.bg-dark-main{
+.bg-dark-main {
   background: #222;
+}
+
+.bg_grey {
+  background: #c9cdcb;
+  padding: 1px 5px;
+}
+.color_green {
+  color: #0FE510;
+}
+.bg_green {
+  background: #0FE510;
+}
+.color_pink {
+  color: #FA0BFD;
+}
+
+.project3footer .btn-1 {
+  width: 85px;
+  font-size: 12px !important;
+}
+.side-btn-p3{
+  margin-top: 3rem;
 }

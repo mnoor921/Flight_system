@@ -21,14 +21,6 @@ const PosP3 = () => {
                 }}
               >
                 <div className="main-section-p3 p-2">
-                  <div className="numbering d-flex-1">
-                    <label htmlFor=""></label>
-                    <label htmlFor="">act rte 1 legs</label>
-                    <label htmlFor="" className="tex">
-                      1/2
-                    </label>
-                  </div>
-
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link className="btn btn-1 side-button"></Link>
@@ -43,31 +35,38 @@ const PosP3 = () => {
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">act rte 1 legs</label>
+                          <label htmlFor="" className="tex">
+                            1/2
+                          </label>
+                        </div>
                         <div className="d-flex-1">
                           <div className="">
                             <p> 353&deg; hdg</p>
-                            <label htmlFor="">(intc)</label>
+                            <label htmlFor="" className="color_pink">(intc)</label>
                             <p> 059&deg; </p>
-                            <label htmlFor="">nuggs</label>
+                            <label htmlFor="" className="bg_grey">nuggs</label>
                             <p> 080&deg; </p>
-                            <label htmlFor="">hidef</label>
+                            <label htmlFor="" className="bg_grey">hidef</label>
                             <p> 077&deg; </p>
-                            <label htmlFor="">shobo</label>
+                            <label htmlFor="" className="bg_grey">shobo</label>
                             <p> 074&deg; </p>
-                            <label htmlFor="">luptn</label>
+                            <label htmlFor="" className="bg_grey">luptn</label>
                           </div>
 
                           <div className=" mr-0">
                             <p className="mt-4"></p>
-                            <label htmlFor="">----------/----</label>
+                            <label htmlFor="" className="bg_grey">----------/----</label>
                             <p className="">4nm</p>
-                            <label htmlFor="">----------/----</label>
+                            <label htmlFor="" className="bg_grey">----------/----</label>
                             <p className="">10nm</p>
-                            <label htmlFor="">----------/----</label>
+                            <label htmlFor="" className="bg_grey">----------/----</label>
                             <p className="">12nm</p>
-                            <label htmlFor="">----------/----</label>
+                            <label htmlFor="" className="bg_grey">----------/----</label>
                             <p className="">11nm</p>
-                            <label htmlFor="">----------/----</label>
+                            <label htmlFor="" className="bg_grey">----------/----</label>
                           </div>
                         </div>
                         <p
@@ -82,7 +81,7 @@ const PosP3 = () => {
                           //   style={{ marginTop: "-2rem" }}
                         >
                           <div className="">
-                            <label htmlFor="">[][][][]</label>
+                            <label htmlFor="" className="bg_grey">[][][][]</label>
                           </div>
                           <div className="text-right mr-0">
                             <label htmlFor="">
