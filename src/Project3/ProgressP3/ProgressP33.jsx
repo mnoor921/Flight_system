@@ -43,9 +43,14 @@ const PosP3 = () => {
                         <div className="d-flex-1">
                           <div className="">
                             <p> 353&ged;hdg </p>
-                            <label htmlFor="" className="color_pink"> (intc) </label>
+                            <label htmlFor="" className="color_pink">
+                              {" "}
+                              (intc){" "}
+                            </label>
                             <p> rnp/actual</p>
-                            <label htmlFor=""><span className="bg_grey">1.00</span>/0.01nm </label>
+                            <label htmlFor="">
+                              <span className="bg_grey">1.00</span>/0.01nm{" "}
+                            </label>
                             <p> xtk error</p>
                             <label htmlFor=""> </label>
                           </div>
@@ -53,7 +58,9 @@ const PosP3 = () => {
                             <p className="mt-4"></p>
                             <label htmlFor="">----/-----</label>
                             <p className="">vert rnp/anp</p>
-                            <label htmlFor=""><span className="bg_grey">400</span>/ft</label>
+                            <label htmlFor="">
+                              <span className="bg_grey">400</span>/ft
+                            </label>
                             <p>vtk error</p>
                           </div>
                         </div>
@@ -92,13 +99,13 @@ const PosP3 = () => {
                 </div>
 
                 <div className="project3footer">
-                  <div className="d-flex-1 m-0 p-0">
+                  <div className="d-flex-1 ">
                     <ul>
                       <li>
                         <Link to="/InitRefP3" className="btn btn-1">
                           init ref
                         </Link>
-                        <Link to="/RteP3act" className="btn btn-1">
+                        <Link to="/RteP3act2" className="btn btn-1">
                           rte
                         </Link>
                         <Link to="/DepArrP3" className="btn btn-1">
@@ -116,7 +123,7 @@ const PosP3 = () => {
                       <Link className="btn btn-1">Exec</Link>
                     </div>
                   </div>
-                  <div className="d-flex-1 m-0 p-0">
+                  <div className="d-flex-1 margin-top">
                     <ul>
                       <li>
                         <Link to="/FixInfoP3" className="btn btn-1">
@@ -139,17 +146,16 @@ const PosP3 = () => {
                     <Link className=""></Link>
                   </div>
 
-                  <div className="d-flex-1 m-0 p-0">
+                  <div className="d-flex-1 margin-top">
                     <ul>
                       <li>
                         <Link to="/NavRad" className="btn btn-1">
                           nav rad
                         </Link>
-                        <Link to="/offsetp3" className="btn btn-1">ofst</Link>
-                        <Link className="btn btn-1">rta</Link>
-                        <Link to="/" className="btn btn-1">
-                          back to home
+                        <Link to="/offsetp3" className="btn btn-1">
+                          ofst
                         </Link>
+                        <Link to="/ProgressP32" className="btn btn-1">rta</Link>
                       </li>
                     </ul>
                     <div className="">
@@ -159,6 +165,9 @@ const PosP3 = () => {
                       <Link className="btn btn-1">next Page</Link>
                     </div>
                   </div>
+                  <Link to="/" className="btn btn-1">
+                    back to home
+                  </Link>
 
                   <div className=" text-center mx-auto mt-2">
                     <label htmlFor="">

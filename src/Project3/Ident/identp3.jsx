@@ -37,45 +37,45 @@ const PosP3 = () => {
                       <div className="bg-dark-main">
                         <div className="numbering d-flex-1">
                           <label htmlFor=""></label>
-                          <label htmlFor="">approach ref</label>
+                          <label htmlFor="">ident</label>
                           <label htmlFor="" className="tex"></label>
                         </div>
                         <div className="d-flex-1">
                           <div className="">
-                            <p>gross wt </p>
-                            <label htmlFor="" className="bg_grey">
-                              500.3
-                            </label>
+                            <p>model </p>
+                            <label htmlFor="">787-9</label>
+
+                            <p className="mt-2"> navdata </p>
+                            <label htmlFor="">u872104001</label>
                             <br />
                             <br />
                             <br />
-                            <p className="mt-2"> landing ref </p>
-                            <label htmlFor="">
-                              <i className="fa fa-angle-left mr-1"></i>
-                              qfe --- <span className="color_green">qnh</span>
-                            </label>
-                            <p className=""> kden34r </p>
-                            <label htmlFor="">12000ft 3658m</label>
+                            <p className="" style={{ marginTop: "-.5rem" }}>
+                              {" "}
+                              op program{" "}
+                            </p>
+                            <label htmlFor="">hnp50-al11-5012</label>
                           </div>
 
                           <div className="text-right mr-0">
-                            <p> flaps vre </p>
-                            <label htmlFor="">20&deg; 172kt</label>
-                            <p> </p>
-                            <br />
-                            <label htmlFor="">25&deg; 172kt</label>
-                            <p></p>
-                            <br />
-                            <label htmlFor="">30&deg; 172kt</label>
-                            <p>flap/speed </p>
-                            <label htmlFor="">
-                              {" "}
-                              <span className="bg_grey">20/109</span>
-                            </label>
+                            <p> eng rating </p>
+                            <label htmlFor="">genx-1b74-75</label>
+                            <p>active </p>
 
-                            <p>wind/cord </p>
-                            <label htmlFor="">
-                              + <span className="bg_grey">05</span> kt
+                            <label htmlFor="" className="bg_grey">
+                              apr22may20/21
+                            </label>
+                            <br />
+                            <p></p>
+
+                            <label htmlFor="">apr22may20/21</label>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <p>drag/ff </p>
+                            <label htmlFor="" className="bg_grey">
+                              +0.0/+0.0
                             </label>
                           </div>
                         </div>
@@ -97,7 +97,7 @@ const PosP3 = () => {
                           </div>
                           <div className="text-right mr-0">
                             <label htmlFor="" className="mt-4">
-                              thrust lim
+                              pos init
                               <i className="fa fa-angle-right ml-1"></i>
                             </label>
                           </div>
@@ -111,7 +111,7 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link
-                        to="/ThrustLim"
+                        to="/posp3"
                         className="btn btn-1 side-button"
                       ></Link>
                     </div>

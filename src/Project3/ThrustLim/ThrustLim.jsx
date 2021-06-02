@@ -37,54 +37,91 @@ const PosP3 = () => {
                       <div className="bg-dark-main">
                         <div className="numbering d-flex-1">
                           <label htmlFor=""></label>
-                          <label htmlFor="">approach ref</label>
+                          <label htmlFor="">thrust lim</label>
                           <label htmlFor="" className="tex"></label>
                         </div>
                         <div className="d-flex-1">
                           <div className="">
-                            <p>gross wt </p>
-                            <label htmlFor="" className="bg_grey">
-                              500.3
-                            </label>
-                            <br />
-                            <br />
-                            <br />
-                            <p className="mt-2"> landing ref </p>
+                            <p>sel/qat </p>
                             <label htmlFor="">
-                              <i className="fa fa-angle-left mr-1"></i>
-                              qfe --- <span className="color_green">qnh</span>
+                              <span className="bg_grey">48&deg;</span>/ 25&deg;
+                              c
                             </label>
-                            <p className=""> kden34r </p>
-                            <label htmlFor="">12000ft 3658m</label>
                           </div>
 
                           <div className="text-right mr-0">
-                            <p> flaps vre </p>
-                            <label htmlFor="">20&deg; 172kt</label>
-                            <p> </p>
-                            <br />
-                            <label htmlFor="">25&deg; 172kt</label>
-                            <p></p>
-                            <br />
-                            <label htmlFor="">30&deg; 172kt</label>
-                            <p>flap/speed </p>
+                            <p> d-to n1 </p>
+                            <label htmlFor="">92.8%</label>
+                          </div>
+                        </div>
+                        <div className="d-flex-1">
+                          <div className="">
                             <label htmlFor="">
-                              {" "}
-                              <span className="bg_grey">20/109</span>
+                              <i className="fa fa-angle-left mr-1"></i>
+                              to
                             </label>
+                          </div>
 
-                            <p>wind/cord </p>
+                          <div className="">
                             <label htmlFor="">
-                              + <span className="bg_grey">05</span> kt
+                              <i className="fa fa-angle-left mr-1"></i>
+                              sel
+                              <i className="fa fa-angle-right ml-1"></i>
+                            </label>
+                          </div>
+                          <div className="">
+                            <label htmlFor="">
+                              <i className="fa fa-angle-left mr-1"></i>
+                              arm
+                              <i className="fa fa-angle-right ml-1"></i>
+                            </label>
+                          </div>
+                          <div className="text-right mr-0">
+                            <label htmlFor="">
+                              clb
+                              <i className="fa fa-angle-right ml-1"></i>
                             </label>
                           </div>
                         </div>
+                        <div
+                          className="d-flex-1"
+                          style={{ marginTop: "-1.3rem" }}
+                        >
+                          <div className="">
+                            <p>to 1 </p>
+                            <label htmlFor="">
+                              <i className="fa fa-angle-left mr-1"></i>
+                              0%
+                            </label>
+                            <p>to 2 </p>
+                            <label htmlFor="">
+                              <i className="fa fa-angle-left mr-1"></i>
+                              0%
+                            </label>
+                          </div>
 
+                          <div className="text-right mr-0 mt-4">
+                            <label htmlFor="">
+                              clb 1<i className="fa fa-angle-right ml-1"></i>
+                            </label>
+                            <br />
+                            <br />
+                            <label htmlFor="">
+                              clb 2<i className="fa fa-angle-right ml-1"></i>
+                            </label>
+                          </div>
+                        </div>
+                        <br />
+                        <br />
                         <p
                           className="text-center"
-                          style={{ marginTop: "-1.5rem" }}
+                          style={{ marginTop: "-.8rem" }}
                         >
-                          ----------------------------
+                          -------------{" "}
+                          <span className="bg_green">
+                            fmc preflight complete
+                          </span>{" "}
+                          ---------------
                         </p>
                         <div
                           className="d-flex-1"
@@ -97,7 +134,7 @@ const PosP3 = () => {
                           </div>
                           <div className="text-right mr-0">
                             <label htmlFor="" className="mt-4">
-                              thrust lim
+                              takeoff
                               <i className="fa fa-angle-right ml-1"></i>
                             </label>
                           </div>
@@ -111,7 +148,7 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link
-                        to="/ThrustLim"
+                        to="/Takeoffp3"
                         className="btn btn-1 side-button"
                       ></Link>
                     </div>

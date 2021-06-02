@@ -22,10 +22,16 @@ const InitRefP3 = () => {
               <div className="main-section-p3 p-2">
                 <div className="row">
                   <div className="col-md-1 col-1 side-btn-p3">
-                    <Link className="btn btn-1 side-button"></Link>
+                    <Link
+                      to="/IdentP3"
+                      className="btn btn-1 side-button"
+                    ></Link>
                     <Link to="/PosP3" className="btn btn-1 side-button"></Link>
                     <Link to="/PerfP3" className="btn btn-1 side-button"></Link>
-                    <Link className="btn btn-1 side-button"></Link>
+                    <Link
+                      to="/ThrustLim"
+                      className="btn btn-1 side-button"
+                    ></Link>
                     <Link
                       to="/TakeOffP3"
                       className="btn btn-1 side-button"
@@ -108,7 +114,7 @@ const InitRefP3 = () => {
                       className="btn btn-1 side-button"
                     ></Link>
                     <Link to="/Altn1" className="btn btn-1 side-button"></Link>
-                    <Link className="btn btn-1 side-button"></Link>
+                    <Link to="/offsetp3" className="btn btn-1 side-button"></Link>
                     <Link className="btn btn-1 side-button"></Link>
                     <Link className="btn btn-1 side-button"></Link>
                     <Link className="btn btn-1 side-button"></Link>

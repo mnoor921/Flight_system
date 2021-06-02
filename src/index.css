@@ -442,7 +442,8 @@ p {
 /* project3 */
 .project3footer .btn-1 {
   border-radius: 5px !important;
-  margin: 2px;
+  border: 1px solid #000;
+  margin: 1px;
 }
 
 .side-btn-p3 .side-button {
@@ -457,19 +458,23 @@ p {
   padding: 1px 5px;
 }
 .color_green {
-  color: #0FE510;
+  color: #0fe510;
 }
 .bg_green {
-  background: #0FE510;
+  background: #0fe510;
 }
 .color_pink {
-  color: #FA0BFD;
+  color: #fa0bfd;
 }
 
 .project3footer .btn-1 {
   width: 85px;
   font-size: 12px !important;
 }
-.side-btn-p3{
+.side-btn-p3 {
   margin-top: 3rem;
+}
+
+.margin-top {
+  margin-top: -2.3rem;
 }

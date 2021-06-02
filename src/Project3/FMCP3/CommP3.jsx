@@ -23,12 +23,27 @@ const PosP3 = () => {
                 <div className="main-section-p3 p-2">
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
+                      <Link
+                        to="/Rte1Hold"
+                        className="btn btn-1 side-button"
+                      ></Link>
+                      <Link
+                        to="/Altn1"
+                        className="btn btn-1 side-button"
+                      ></Link>
+                      <Link
+                        to="/PerfP3"
+                        className="btn btn-1 side-button"
+                      ></Link>
+                      <Link
+                        to="/Takeoffp3"
+                        className="btn btn-1 side-button"
+                      ></Link>
                       <Link className="btn btn-1 side-button"></Link>
-                      <Link className="btn btn-1 side-button"></Link>
-                      <Link className="btn btn-1 side-button"></Link>
-                      <Link className="btn btn-1 side-button"></Link>
-                      <Link className="btn btn-1 side-button"></Link>
-                      <Link className="btn btn-1 side-button"></Link>
+                      <Link
+                        to="/desForcast"
+                        className="btn btn-1 side-button"
+                      ></Link>
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
@@ -111,7 +126,10 @@ const PosP3 = () => {
                         to="/PosReport"
                         className="btn btn-1 side-button"
                       ></Link>
-                      <Link className="btn btn-1 side-button"></Link>
+                      <Link
+                        to="/ClimbForest"
+                        className="btn btn-1 side-button"
+                      ></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>

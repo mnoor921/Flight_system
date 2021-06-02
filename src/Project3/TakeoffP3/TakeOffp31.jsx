@@ -35,14 +35,14 @@ const PosP3 = () => {
                       ></Link>
                     </div>
                     <div className="col-md-10 col-9 px-0">
-                      <div className="numbering d-flex-1">
-                        <label htmlFor=""></label>
-                        <label htmlFor="">takeoff ref</label>
-                        <label htmlFor="" className="tex">
-                          2/2
-                        </label>
-                      </div>
                       <div className="bg-dark-main">
+                        <div className="numbering d-flex-1">
+                          <label htmlFor=""></label>
+                          <label htmlFor="">takeoff ref</label>
+                          <label htmlFor="" className="tex">
+                            2/2
+                          </label>
+                        </div>
                         <div className="d-flex-1">
                           <div className="">
                             <br />
@@ -65,21 +65,29 @@ const PosP3 = () => {
 
                           <div className="text-right mr-0">
                             <p> eo accel ht </p>
-                            <label htmlFor=""><span className="bg_grey">800</span> ft</label>
+                            <label htmlFor="">
+                              <span className="bg_grey">800</span> ft
+                            </label>
                             <p> accel ht </p>
-                            <label htmlFor=""><span className="bg_grey">800</span> ht</label>
+                            <label htmlFor="">
+                              <span className="bg_grey">800</span> ht
+                            </label>
                             <p> thr reduction </p>
-                            <label htmlFor="">clb <span className="bg_grey">800</span> ft</label>
+                            <label htmlFor="">
+                              clb <span className="bg_grey">800</span> ft
+                            </label>
                             <p>lim togw </p>
                             <label htmlFor=""></label>
                             <p>ref oat</p>
-                            <label htmlFor="" className="bg_grey">20&deg; c</label>
+                            <label htmlFor="" className="bg_grey">
+                              20&deg; c
+                            </label>
                           </div>
                         </div>
 
                         <p
                           className="text-center"
-                          style={{ marginTop: "-1.5rem" }}
+                          style={{ marginTop: "-1.8rem" }}
                         >
                           ---------------fmc preflight complete-------------
                         </p>
@@ -113,13 +121,13 @@ const PosP3 = () => {
                 </div>
 
                 <div className="project3footer">
-                  <div className="d-flex-1 m-0 p-0">
+                  <div className="d-flex-1 ">
                     <ul>
                       <li>
                         <Link to="/InitRefP3" className="btn btn-1">
                           init ref
                         </Link>
-                        <Link to="/RteP3act" className="btn btn-1">
+                        <Link to="/RteP3act2" className="btn btn-1">
                           rte
                         </Link>
                         <Link to="/DepArrP3" className="btn btn-1">
@@ -137,7 +145,7 @@ const PosP3 = () => {
                       <Link className="btn btn-1">Exec</Link>
                     </div>
                   </div>
-                  <div className="d-flex-1 m-0 p-0">
+                  <div className="d-flex-1 margin-top ">
                     <ul>
                       <li>
                         <Link to="/FixInfoP3" className="btn btn-1">
@@ -160,16 +168,17 @@ const PosP3 = () => {
                     <Link className=""></Link>
                   </div>
 
-                  <div className="d-flex-1 m-0 p-0">
+                  <div className="d-flex-1 margin-top">
                     <ul>
                       <li>
                         <Link to="/NavRad" className="btn btn-1">
                           nav rad
                         </Link>
-                        <Link class="/offsetp3" className="btn btn-1">ofst</Link>
-                        <Link className="btn btn-1">rta</Link>
-                        <Link to="/" className="btn btn-1">
-                          back to home
+                        <Link class="/offsetp3" className="btn btn-1">
+                          ofst
+                        </Link>
+                        <Link to="/ProgressP32" className="btn btn-1">
+                          rta
                         </Link>
                       </li>
                     </ul>
@@ -180,6 +189,9 @@ const PosP3 = () => {
                       <Link className="btn btn-1">next Page</Link>
                     </div>
                   </div>
+                  <Link to="/" className="btn btn-1">
+                    back to home
+                  </Link>
 
                   <div className=" text-center mx-auto mt-2">
                     <label htmlFor="">

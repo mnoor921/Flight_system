@@ -94,7 +94,7 @@ const PosP3 = () => {
 
                         <p
                           className="text-center"
-                          style={{ marginTop: "-1.5rem" }}
+                          style={{ marginTop: "-1.7rem" }}
                         >
                           -----------------------------------
                         </p>
@@ -128,13 +128,13 @@ const PosP3 = () => {
                 </div>
 
                 <div className="project3footer">
-                  <div className="d-flex-1 m-0 p-0">
+                  <div className="d-flex-1 ">
                     <ul>
                       <li>
                         <Link to="/InitRefP3" className="btn btn-1">
                           init ref
                         </Link>
-                        <Link to="/RteP3act" className="btn btn-1">
+                        <Link to="/RteP3act2" className="btn btn-1">
                           rte
                         </Link>
                         <Link to="/DepArrP3" className="btn btn-1">
@@ -152,20 +152,20 @@ const PosP3 = () => {
                       <Link className="btn btn-1">Exec</Link>
                     </div>
                   </div>
-                  <div className="d-flex-1 m-0 p-0">
+                  <div className="d-flex-1 margin-top">
                     <ul>
                       <li>
                         <Link to="/FixInfoP3" className="btn btn-1">
                           fix
                         </Link>
-                        <Link to="" className="btn btn-1">
+                        <Link to="/Rte1Hold" className="btn btn-1">
                           legs
                         </Link>
                         <Link to="/Rte1Hold1" className="btn btn-1">
                           hold
                         </Link>
                         <Link to="/CommP3" className="btn btn-1">
-                          fmc comm
+                          fmc/comm
                         </Link>
                         <Link to="/ProgressP3" className="btn btn-1">
                           prog
@@ -175,17 +175,16 @@ const PosP3 = () => {
                     <Link className=""></Link>
                   </div>
 
-                  <div className="d-flex-1 m-0 p-0">
+                  <div className="d-flex-1 margin-top ">
                     <ul>
                       <li>
                         <Link to="/NavRad" className="btn btn-1">
                           nav rad
                         </Link>
-                        <Link to="/offsetp3" className="btn btn-1">ofst</Link>
-                        <Link className="btn btn-1">rta</Link>
-                        <Link to="/" className="btn btn-1">
-                          back to home
+                        <Link to="/offsetp3" className="btn btn-1">
+                          ofst
                         </Link>
+                        <Link to="/ProgressP32" className="btn btn-1">rta</Link>
                       </li>
                     </ul>
                     <div className="">
@@ -197,6 +196,9 @@ const PosP3 = () => {
                       </Link>
                     </div>
                   </div>
+                  <Link to="/" className="btn btn-1">
+                    back to home
+                  </Link>
 
                   <div className=" text-center mx-auto mt-2">
                     <label htmlFor="">

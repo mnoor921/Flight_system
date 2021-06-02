@@ -7,13 +7,13 @@ const Project3Footer = () => {
   return (
     <div>
       <div className="project3footer">
-        <div className="d-flex-1 m-0 p-0">
+        <div className="d-flex-1 ">
           <ul>
             <li>
               <Link to="/InitRefP3" className="btn btn-1">
                 init ref
               </Link>
-              <Link to="/RteP3act" className="btn btn-1">
+              <Link to="/RteP3act2" className="btn btn-1">
                 rte
               </Link>
               <Link to="/DepArrP3" className="btn btn-1">
@@ -31,7 +31,7 @@ const Project3Footer = () => {
             <Link className="btn btn-1">Exec</Link>
           </div>
         </div>
-        <div className="d-flex-1 m-0 p-0">
+        <div className="d-flex-1  margin-top">
           <ul>
             <li>
               <Link to="/FixInfoP3" className="btn btn-1">
@@ -54,7 +54,7 @@ const Project3Footer = () => {
           <Link className=""></Link>
         </div>
 
-        <div className="d-flex-1 m-0 p-0">
+        <div className="d-flex-1 margin-top">
           <ul>
             <li>
               <Link to="/NavRad" className="btn btn-1">
@@ -63,10 +63,7 @@ const Project3Footer = () => {
               <Link to="/offsetp3" className="btn btn-1">
                 ofst
               </Link>
-              <Link className="btn btn-1">rta</Link>
-              <Link to="/" className="btn btn-1">
-                back to home
-              </Link>
+              <Link to="/ProgressP32" className="btn btn-1">rta</Link>
             </li>
           </ul>
           <div className="">
@@ -74,6 +71,9 @@ const Project3Footer = () => {
             <Link className="btn btn-1">next Page</Link>
           </div>
         </div>
+        <Link to="/" className="btn btn-1">
+          back to home
+        </Link>
 
         <div className=" text-center mx-auto mt-2">
           <label htmlFor="">
@@ -95,7 +95,6 @@ const Project3Footer = () => {
           </a>
         </div>
       </div>
-    
     </div>
   );
 };

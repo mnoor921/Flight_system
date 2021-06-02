@@ -287,6 +287,9 @@ import Rte1Hold1 from "./Project3/Hold/Rte1Hold1";
 import ActRtwLegs from "./Project3/Legs/ActRtwLegs";
 import FixInfoP3 from "./Project3/FixInfo/FixInfoP3";
 import NavRad from "./Project3/NavRad/NavRad";
+// ident
+import IdentP3 from "./Project3/Ident/identp3";
+import ThrustLim from "./Project3/ThrustLim/ThrustLim";
 
 function App() {
   return (
@@ -577,6 +580,9 @@ function App() {
         <Route path="/ActRtwLegs" exact component={ActRtwLegs} />
         <Route path="/FixInfoP3" exact component={FixInfoP3} />
         <Route path="/NavRad" exact component={NavRad} />
+        {/* ident */}
+        <Route path="/IdentP3" exact component={IdentP3} />
+        <Route path="/ThrustLim" exact component={ThrustLim} />
       </Switch>
     </>
   );
