@@ -29,13 +29,16 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
-                      <Link to="/ClimbForest" className="btn btn-1 side-button"></Link>
+                      <Link
+                        // to="/ClimbForest"
+                        className="btn btn-1 side-button"
+                      ></Link>
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
                         <div className="numbering d-flex-1">
                           <label htmlFor=""></label>
-                          <label htmlFor="">254kt clb</label>
+                          <label htmlFor="">act 161kt clb</label>
                           <label htmlFor="" className="tex">
                             1/3
                           </label>
@@ -45,38 +48,43 @@ const PosP3 = () => {
                           <div className="">
                             <p>crz alt </p>
                             <label htmlFor="" className="bg_grey">
-                              fl250
+                              fl400
                             </label>
 
                             <p className=""> econ spd </p>
-                            <label htmlFor="">-------------</label>
+                            <label htmlFor="" className="bg_grey">
+                              310/ .854
+                            </label>
                             <p className=""> spd trans </p>
                             <label htmlFor="" className="bg_grey">
-                              250/10000
+                              250/fl100
+                            </label>
+                            <p className=""> spd RESTR </p>
+                            <label htmlFor="" className="bg_grey">
+                              -----/--------
                             </label>
                           </div>
 
                           <div className="text-right mr-0 ">
-                            <p className=""> at hidef </p>
-                            <label htmlFor="" className="color_pink">
-                              10000b
+                            <p className=""> AT kkw07 </p>
+                            <label htmlFor="">
+                              250/ <span className="color_pink">2500a</span>
                             </label>
                             <br />
                             <br />
                             <br />
                             <p className="mt-1"> trans alt </p>
                             <label htmlFor="" className="bg_grey">
-                              18000
+                              6000
                             </label>
+                            <p className="mt-1"> max angle </p>
+                            <label htmlFor="">226</label>
                           </div>
                         </div>
 
-                        <br />
-                        <br />
-
                         <p
                           className="text-center"
-                          style={{ marginTop: "-1rem" }}
+                          style={{ marginTop: "-1.9rem" }}
                         >
                           ----------------------------
                         </p>
@@ -96,8 +104,8 @@ const PosP3 = () => {
                         <div className="d-flex-1 mt-1">
                           <div className="">
                             <label htmlFor="">
-                              <i className="fa fa-angle-left mr-1"></i>
-                              clb forecast
+                              {/* <i className="fa fa-angle-left mr-1"></i>
+                              clb forecast */}
                             </label>
                           </div>
                           <div className="text-right mr-0">
@@ -113,7 +121,10 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
-                      <Link to="/Vnav1" className="btn btn-1 side-button"></Link>
+                      <Link
+                        to="/Vnav1"
+                        className="btn btn-1 side-button"
+                      ></Link>
                       <Link className="btn btn-1 side-button"></Link>
                     </div>
                   </div>

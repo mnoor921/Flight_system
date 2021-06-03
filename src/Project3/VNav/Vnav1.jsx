@@ -29,13 +29,19 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
-                      <Link to="/ProgressP32" className="btn btn-1 side-button"></Link>
+                      <Link
+                        to="/ProgressP32"
+                        className="btn btn-1 side-button"
+                      ></Link>
                     </div>
                     <div className="col-md-10 col-9 px-0">
                       <div className="bg-dark-main">
                         <div className="numbering d-flex-1">
                           <label htmlFor=""></label>
-                          <label htmlFor="">econ crz</label>
+                          <label htmlFor="">
+                            <span className="bg_grey text-dark">mod</span> econ
+                            crz
+                          </label>
                           <label htmlFor="" className="tex">
                             2/3
                           </label>
@@ -43,55 +49,68 @@ const PosP3 = () => {
                         <div className="d-flex-1">
                           <div className="">
                             <p>crz alt </p>
-                            <label htmlFor="" className="bg_grey">
-                              fl250
+                            <label htmlFor="" className="bg_grey text-dark">
+                              fl200
                             </label>
 
-                            <p className=""> econ spd </p>
-                            <label htmlFor="" className="bg_grey">
-                              -------------
+                            <p className=""> eo spd </p>
+                            <label htmlFor="" className="bg_grey text-dark">
+                              203
                             </label>
                             <br />
                             <br />
                             <br />
                             <p className=""> step </p>
                             <label htmlFor="" className="bg_grey">
-                              2000
+                              1000
                             </label>
                           </div>
 
-                          <p style={{ marginTop: "11rem" }}>
-                            opt <span className="ml-4">max</span>
-                          </p>
-
                           <div className="text-right mr-0 ">
-                            <p className=""> </p>
-                            <label htmlFor=""></label>
                             <br />
                             <br />
-                            <br />
-                            <p className="mt-1"> </p>
-                            <label htmlFor=""></label>
+                            <p className="mt-1">to fl329 </p>
+                            <label htmlFor=""> 2320z/ 45nm </label>
+
+                            <p className=""> eta/fuel w/mod </p>
+                            <label htmlFor="">1951z/ 23.6</label>
+                            <div className="d-flex-1" style={{marginTop:'-.7rem'}}>
+                              <div className="mr-4">
+                                <p>opt</p>
+                                <label htmlFor="">fl328</label>
+                              </div>
+                              <div className="mr-4">
+                                <p>max</p>
+                                <label htmlFor="">fl329</label>
+                              </div>
+                              <div className="text-right">
+                                <p>recnd</p>
+                                <label htmlFor="">fl329</label>
+                              </div>
+                            </div>
                           </div>
                         </div>
 
                         <p
                           className="text-center"
-                          style={{ marginTop: "-1rem" }}
+                          style={{ marginTop: "-1.5rem" }}
                         >
                           ----------------------------
                         </p>
-                        <div className="d-flex-1">
-                          <div className="" style={{ marginTop: "-1.5rem" }}>
+                        <div
+                          className="d-flex-1"
+                          style={{ marginTop: "-.5rem" }}
+                        >
+                          <div className="">
                             <p className=""> </p>
-                            <label htmlFor=""></label>
+                            <label htmlFor="">
+                              <i className="fa fa-angle-left mr-1"></i>
+                              co spd
+                            </label>
                           </div>
                           <div className="text-right mr-0">
                             <p className=""> </p>
-                            <label htmlFor="">
-                              eng out
-                              <i className="fa fa-angle-right ml-1"></i>
-                            </label>
+                            <label htmlFor=""></label>
                           </div>
                         </div>
                         <div className="d-flex-1 mt-1">
@@ -176,7 +195,9 @@ const PosP3 = () => {
                         <Link to="/offsetp3" className="btn btn-1">
                           ofst
                         </Link>
-                        <Link to="/ProgressP32" className="btn btn-1">rta</Link>
+                        <Link to="/ProgressP32" className="btn btn-1">
+                          rta
+                        </Link>
                       </li>
                     </ul>
                     <div className="">

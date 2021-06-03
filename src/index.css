@@ -37,7 +37,7 @@ li {
   font-size: 14px;
   font-weight: 700;
   border: 1px solid #91ddd5;
-  background: #b7b2c7;
+  background: #B8A9A5;
   /* width: 100%; */
   border-radius: 0px;
 }
@@ -447,14 +447,14 @@ p {
 }
 
 .side-btn-p3 .side-button {
-  background: #b7b2c7 !important;
+  background: #B8A9A5 !important;
 }
 .bg-dark-main {
   background: #222;
 }
 
 .bg_grey {
-  background: #c9cdcb;
+  background: #B8A9A5;
   padding: 1px 5px;
 }
 .color_green {

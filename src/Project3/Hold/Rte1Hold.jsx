@@ -29,7 +29,7 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link
-                        to="/desForcast"
+                        // to="/desForcast"
                         className="btn btn-1 side-button"
                       ></Link>
                     </div>
@@ -39,41 +39,41 @@ const PosP3 = () => {
                           <label htmlFor=""></label>
                           <label htmlFor="">act rte 1 legs</label>
                           <label htmlFor="" className="tex">
-                            1/2
+                            5/11
                           </label>
                         </div>
                         <div className="d-flex-1">
                           <div className="">
-                            <p> 353&deg; hdg</p>
-                            <label htmlFor="" className="color_pink">(intc)</label>
-                            <p> 059&deg; </p>
-                            <label htmlFor="" className="bg_grey">nuggs</label>
-                            <p> 080&deg; </p>
-                            <label htmlFor="" className="bg_grey">hidef</label>
-                            <p> 077&deg; </p>
-                            <label htmlFor="" className="bg_grey">shobo</label>
-                            <p> 074&deg; </p>
-                            <label htmlFor="" className="bg_grey">luptn</label>
+                            <p> 082&deg; </p>
+                            <label htmlFor="" className="bg_grey">Allex</label>
+                            <p> 071&deg; </p>
+                            <label htmlFor="" className="bg_grey">allry</label>
+                            <p> 088&deg; </p>
+                            <label htmlFor="" className="bg_grey">n51w050</label>
+                            <p> 097&deg; </p>
+                            <label htmlFor="" className="bg_grey">n52w040</label>
+                            <p> 095&deg; </p>
+                            <label htmlFor="" className="bg_grey">n53w030</label>
                           </div>
 
                           <div className=" mr-0">
-                            <p className="mt-4"></p>
-                            <label htmlFor="" className="bg_grey">----------/----</label>
-                            <p className="">4nm</p>
-                            <label htmlFor="" className="bg_grey">----------/----</label>
-                            <p className="">10nm</p>
-                            <label htmlFor="" className="bg_grey">----------/----</label>
-                            <p className="">12nm</p>
-                            <label htmlFor="" className="bg_grey">----------/----</label>
-                            <p className="">11nm</p>
-                            <label htmlFor="" className="bg_grey">----------/----</label>
+                            <p className="">313nm</p>
+                            <label htmlFor="" className="bg_grey">843/fl399</label>
+                            <p className="">710nm</p>
+                            <label htmlFor="" className="bg_grey">844/fl390</label>
+                            <p className="">82nm</p>
+                            <label htmlFor="" className="bg_grey">844/fl390</label>
+                            <p className="">379nm</p>
+                            <label htmlFor="" className="bg_grey">843/fl390</label>
+                            <p className="">371nm</p>
+                            <label htmlFor="" className="bg_grey">842/fl410</label>
                           </div>
                         </div>
                         <p
                           className="text-center"
-                          style={{ marginTop: "-1.5rem" }}
+                          style={{ marginTop: "-1.8rem" }}
                         >
-                          --------------hold at--------------
+                          ----------------------------
                         </p>
 
                         <div
@@ -81,11 +81,14 @@ const PosP3 = () => {
                           //   style={{ marginTop: "-2rem" }}
                         >
                           <div className="">
-                            <label htmlFor="" className="bg_grey">[][][][]</label>
+                            <label htmlFor="" >
+                              <i className="fa fa-angle-left mr-1"></i>
+                              rte 2 legs
+                            </label>
                           </div>
                           <div className="text-right mr-0">
                             <label htmlFor="">
-                              ppos<i className="fa fa-angle-right ml-1"></i>
+                              rte data<i className="fa fa-angle-right ml-1"></i>
                             </label>
                           </div>
                         </div>
