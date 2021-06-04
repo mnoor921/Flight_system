@@ -155,14 +155,18 @@ const PosP3 = () => {
                         <Link to="/offsetp3" className="btn btn-1">
                           ofst
                         </Link>
-                        <Link to="/ProgressP32" className="btn btn-1">rta</Link>
+                        <Link to="/ProgressP32" className="btn btn-1">
+                          rta
+                        </Link>
                       </li>
                     </ul>
                     <div className="">
                       <Link to="/ProgressP32" className="btn btn-1">
                         prev Page
                       </Link>
-                      <Link className="btn btn-1">next Page</Link>
+                      <Link to="/ProgressP3" className="btn btn-1">
+                        next Page
+                      </Link>
                     </div>
                   </div>
                   <Link to="/" className="btn btn-1">

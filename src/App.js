@@ -283,6 +283,7 @@ import desForcast from "./Project3/ClimbForest/desForcast";
 import ActRte1 from "./Project3/Rte1/ActRte1";
 // rte 1 hold
 import Rte1Hold from "./Project3/Hold/Rte1Hold";
+import NextHold from "./Project3/Hold/NextHold";
 import Rte1Hold1 from "./Project3/Hold/Rte1Hold1";
 import ActRtwLegs from "./Project3/Legs/ActRtwLegs";
 import FixInfoP3 from "./Project3/FixInfo/FixInfoP3";
@@ -576,6 +577,7 @@ function App() {
         <Route path="/ActRte1" exact component={ActRte1} />
         {/* hold */}
         <Route path="/Rte1Hold" exact component={Rte1Hold} />
+        <Route path="/NextHold" exact component={NextHold} />
         <Route path="/Rte1Hold1" exact component={Rte1Hold1} />
         <Route path="/ActRtwLegs" exact component={ActRtwLegs} />
         <Route path="/FixInfoP3" exact component={FixInfoP3} />

@@ -24,7 +24,7 @@ const PosP3 = () => {
                   <div className="row">
                     <div className="col-md-1 col-1 side-btn-p3">
                       <Link
-                        to="/Rte1Hold"
+                        to="/RteP3act2"
                         className="btn btn-1 side-button"
                       ></Link>
                       <Link
@@ -39,7 +39,7 @@ const PosP3 = () => {
                         to="/Takeoffp3"
                         className="btn btn-1 side-button"
                       ></Link>
-                      <Link className="btn btn-1 side-button"></Link>
+                      <Link to="/ActRte1" className="btn btn-1 side-button"></Link>
                       <Link
                         to="/desForcast"
                         className="btn btn-1 side-button"
@@ -53,8 +53,7 @@ const PosP3 = () => {
                           <label htmlFor="" className="tex"></label>
                         </div>
                         <div className="d-flex-1">
-                          <div className="">
-                            <p> reload uplinks</p>
+                          <div className="mt-3">
                             <label htmlFor="">
                               <i className="fa fa-angle-left mr-1"></i>
                               rte 1

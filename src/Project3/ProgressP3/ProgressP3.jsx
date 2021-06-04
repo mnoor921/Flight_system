@@ -170,7 +170,7 @@ const PosP3 = () => {
                       </li>
                     </ul>
                     <div className="">
-                      <Link className="btn btn-1">prev Page</Link>
+                      <Link to="/ProgressP33" className="btn btn-1">prev Page</Link>
                       <Link to="/ProgressP31" className="btn btn-1">
                         next Page
                       </Link>

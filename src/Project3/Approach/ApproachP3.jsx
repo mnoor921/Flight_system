@@ -49,13 +49,21 @@ const PosP3 = () => {
                             <br />
                             <br />
                             <br />
-                            <p className="mt-2"> landing ref </p>
+                            <p className="mt-1"> landing ref </p>
                             <label htmlFor="">
                               <i className="fa fa-angle-left mr-1"></i>
                               qfe --- <span className="color_green">qnh</span>
                             </label>
-                            <p className=""> kden34r </p>
-                            <label htmlFor="">12000ft 3658m</label>
+                            <p className=""> kjfk22l </p>
+                            <label htmlFor="">8400ft 2560m</label>
+                            <p className=""> g/s </p>
+                            <label htmlFor="">
+                              <i className="fa fa-angle-left mr-1"></i>
+                              <span className="color_green">on</span>
+                              <i className="fa fa-arrow-left"></i>
+                              <i className="fa fa-arrow-right"></i>
+                              off
+                            </label>
                           </div>
 
                           <div className="text-right mr-0">

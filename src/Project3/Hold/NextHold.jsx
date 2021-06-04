@@ -29,7 +29,7 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link
-                        to="/NextHold"
+                        // to="/desForcast"
                         className="btn btn-1 side-button"
                       ></Link>
                     </div>
@@ -37,56 +37,43 @@ const PosP3 = () => {
                       <div className="bg-dark-main">
                         <div className="numbering d-flex-1">
                           <label htmlFor=""></label>
-                          <label htmlFor="">act rte 1 hold</label>
+                          <label htmlFor="">act rte 1 legs</label>
                           <label htmlFor="" className="tex">
-                            1/1
+                            1/2
                           </label>
                         </div>
                         <div className="d-flex-1">
                           <div className="">
-                            <p> fix</p>
-                            <label htmlFor="">nuggs</label>
-                            <p> quad/radial </p>
-                            <label htmlFor="" className="bg_grey">
-                              ---/----
-                            </label>
-                            <p>inbo crs/dir </p>
-                            <label htmlFor="">
-                              <span className="bg_grey">059&deg;/r</span> turn
-                            </label>
-                            <p> leg time </p>
-                            <label htmlFor="">
-                              <span className="bg_grey">1.0</span> min
-                            </label>
-                            <p> leg dist </p>
-                            <label htmlFor="">
-                              {" "}
-                              <span className="bg_grey">---.--</span>nm
-                            </label>
+                            <p> 353&deg;hdg </p>
+                            <label htmlFor="" className="bg_grey color_pink">(intc)</label>
+                            <p> 059&deg; </p>
+                            <label htmlFor="" className="bg_grey">nuggs</label>
+                            <p> 080&deg; </p>
+                            <label htmlFor="" className="bg_grey">hidef</label>
+                            <p> 077&deg; </p>
+                            <label htmlFor="" className="bg_grey">shobo</label>
+                            <p> 074&deg; </p>
+                            <label htmlFor="" className="bg_grey">luptn</label>
                           </div>
 
-                          <div className="text-right mr-0">
-                            <p>spd/tgt alt</p>
-                            <label htmlFor="" className="bg_grey">
-                              ---/------
-                            </label>
-                            <p className="mt-1">fix eta</p>
-                            <label htmlFor=""></label>
-                            <p className="">efc time</p>
-                            <label htmlFor="" className="bg_grey">
-                              ---/---
-                            </label>
-                            <p className="">hold available</p>
-                            <label htmlFor=""></label>
-                            <p className="">best speed</p>
-                            <label htmlFor=""></label>
+                          <div className=" mr-0">
+                            <p className="mt-4"></p>
+                            <label htmlFor="" className="bg_grey">----/--------</label>
+                            <p className="">4nm</p>
+                            <label htmlFor="" className="bg_grey">----/--------</label>
+                            <p className="">10nm</p>
+                            <label htmlFor="" className="bg_grey">-----/10000b</label>
+                            <p className="">12nm</p>
+                            <label htmlFor="" className="bg_grey">-----/12000b</label>
+                            <p className="">11nm</p>
+                            <label htmlFor="" className="bg_grey">-----/14000a</label>
                           </div>
                         </div>
                         <p
                           className="text-center"
-                          style={{ marginTop: "-1.5rem" }}
+                          style={{ marginTop: "-1.8rem" }}
                         >
-                          ----------------------------
+                          ------------- hold at ---------------
                         </p>
 
                         <div
@@ -94,13 +81,15 @@ const PosP3 = () => {
                           //   style={{ marginTop: "-2rem" }}
                         >
                           <div className="">
-                            <label htmlFor="">
-                              <i className="fa fa-angle-left mr-1"></i>
-                              next hold
+                            <label htmlFor="" className="bg_grey" >
+                              [][][][]
+                              
                             </label>
                           </div>
                           <div className="text-right mr-0">
-                            <label htmlFor=""></label>
+                            <label htmlFor="">
+                              ppos<i className="fa fa-angle-right ml-1"></i>
+                            </label>
                           </div>
                         </div>
                       </div>
