@@ -105,7 +105,7 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
-                      <Link className="btn btn-1 side-button"></Link>
+                      <Link to="/PerfP3" className="btn btn-1 side-button"></Link>
                     </div>
                   </div>
                 </div>
