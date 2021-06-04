@@ -265,6 +265,8 @@ import KdenArrival2 from "./Project3/DepArrP3/KdenArrival2";
 import Vnav from "./Project3/VNav/Vnav";
 import Vnav1 from "./Project3/VNav/Vnav1";
 import Vnav2 from "./Project3/VNav/Vnav2";
+import Vnav12 from "./Project3/VNav/Vnav12";
+import EngoutP3 from "./Project3/VNav/Engout";
 
 // Progress
 import ProgressP3 from "./Project3/ProgressP3/ProgressP3";
@@ -558,6 +560,8 @@ function App() {
         <Route path="/Vnav" exact component={Vnav} />
         <Route path="/Vnav1" exact component={Vnav1} />
         <Route path="/Vnav2" exact component={Vnav2} />
+        <Route path="/EngoutP3" exact component={EngoutP3} />
+        <Route path="/Vnav12" exact component={Vnav12} />
 
         {/* progress */}
         <Route path="/ProgressP3" exact component={ProgressP3} />

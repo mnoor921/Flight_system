@@ -85,7 +85,7 @@ const PosP3 = () => {
 
                         <p
                           className="text-center"
-                          style={{ marginTop: "-1.5rem" }}
+                          style={{ marginTop: "-1.8rem" }}
                         >
                           ----------------------------
                         </p>
@@ -112,7 +112,10 @@ const PosP3 = () => {
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
                       <Link className="btn btn-1 side-button"></Link>
-                      <Link className="btn btn-1 side-button"></Link>
+                      <Link
+                        to="/RteP3act2"
+                        className="btn btn-1 side-button"
+                      ></Link>
                     </div>
                   </div>
                 </div>

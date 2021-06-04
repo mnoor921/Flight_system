@@ -195,7 +195,7 @@ const PosP3 = () => {
                       <Link to="/Vnav" className="btn btn-1">
                         prev Page
                       </Link>
-                      <Link to="/Vnav1" className="btn btn-1">
+                      <Link to="/Vnav12" className="btn btn-1">
                         next Page
                       </Link>
                     </div>

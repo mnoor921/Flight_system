@@ -201,10 +201,10 @@ const PosP3 = () => {
                       </li>
                     </ul>
                     <div className="">
-                      <Link to="/Vnav" className="btn btn-1">
+                      <Link  className="btn btn-1">
                         prev Page
                       </Link>
-                      <Link to="/Vnav2" className="btn btn-1">
+                      <Link  className="btn btn-1">
                         next Page
                       </Link>
                     </div>
