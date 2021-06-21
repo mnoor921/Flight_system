@@ -37,7 +37,7 @@ li {
   font-size: 14px;
   font-weight: 700;
   border: 1px solid #91ddd5;
-  background: #B8A9A5;
+  background: #b8a9a5;
   /* width: 100%; */
   border-radius: 0px;
 }
@@ -447,14 +447,14 @@ p {
 }
 
 .side-btn-p3 .side-button {
-  background: #B8A9A5 !important;
+  background: #b8a9a5 !important;
 }
 .bg-dark-main {
   background: #222;
 }
 
 .bg_grey {
-  background: #B8A9A5;
+  background: #b8a9a5;
   padding: 1px 5px;
 }
 .color_green {
@@ -477,4 +477,12 @@ p {
 
 .margin-top {
   margin-top: -2.3rem;
+}
+
+/* footer-777 */
+.footer-777 .bg_green {
+  background: #0fe510 !important;
+}
+.color-blue{
+  color: #21A3B8;
 }

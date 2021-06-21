@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 
 import Index from "./pages/Index";
+
 import Message from "./pages/Message";
 import Message1 from "./pages/MessageBlank";
 import Company from "./pages/CompanyMenu";
@@ -294,11 +295,47 @@ import NavRad from "./Project3/NavRad/NavRad";
 import IdentP3 from "./Project3/Ident/identp3";
 import ThrustLim from "./Project3/ThrustLim/ThrustLim";
 
+// Project 777
+import Project777 from "./project777/index777";
+import InitPref777 from "./project777/InitPref777/InitPref777";
+import Menu777 from "./project777/Menu/menu777";
+import Indent777 from "./project777/Indent/indent777";
+import PosInit777 from "./project777/PosInit/posinit777";
+import Rte1777 from "./project777/Rte1/Rte1777";
+import Rte12777 from "./project777/Rte1/Rte12777";
+import Rte13777 from "./project777/Rte1/Rte13777";
+import RouteRequest777 from "./project777/RequestRoute/RequestRoute777";
+import Route777 from "./project777/777Route/777Route";
+
+import PrefInit777 from "./project777/Pref777/Prefinit777";
+import DepArr1777 from "./project777/DepArr777/DepArr1777";
+import DepArr2777 from "./project777/DepArr777/DepArr2777";
+import ActLeg1777 from "./project777/ActLeg/ActLeg1777";
+import ActLeg2777 from "./project777/ActLeg/ActLeg2777";
+import ActLeg3777 from "./project777/ActLeg/ActLeg3777";
+import ModRte1777 from "./project777/ModRte1/ModRte1777";
+import ModRte2777 from "./project777/ModRte1/ModRte2777";
+import ModRte3777 from "./project777/ModRte1/ModRte3777";
+
+import Rte1Data777 from "./project777/Rte1Data777/Rte1Data777";
+import ActClb1777 from "./project777/ActClb/ActClb1777";
+import Des7777 from "./project777/ActClb/Des7777";
+import DesForecast777 from "./project777/ActClb/DesentForcast777";
+import NavRad777 from "./project777/NavRad777/NavRad777";
+import Progress777 from "./project777/Progress/Progress777";
+import Rte2777 from "./project777/RTE2777/Rte2777";
+import Fmc777 from "./project777/FMC777/Fmc777";
+import FixInfo777 from "./project777/FIXInfo777/FixInfo777";
+import Takeoff777 from "./project777/Takeoff777/Takeoff777";
+import ThrustLim777 from "./project777/ThrustLim777/ThrustLim777";
+import Approach777 from "./project777/Approach/Approach777";
+
 function App() {
   return (
     <>
       <Switch>
         <Route path="/" exact component={Index} />
+
         <Route path="/message" exact component={Message} />
         <Route path="/message1" exact component={Message1} />
         <Route path="/company" exact component={Company} />
@@ -589,6 +626,38 @@ function App() {
         {/* ident */}
         <Route path="/IdentP3" exact component={IdentP3} />
         <Route path="/ThrustLim" exact component={ThrustLim} />
+
+        <Route path="/Project777" exact component={Project777} />
+        <Route path="/InitPref777" exact component={InitPref777} />
+        <Route path="/Menu777" exact component={Menu777} />
+        <Route path="/Indent777" exact component={Indent777} />
+        <Route path="/PosInit777" exact component={PosInit777} />
+        <Route path="/Rte1777" exact component={Rte1777} />
+        <Route path="/Rte12777" exact component={Rte12777} />
+        <Route path="/Rte13777" exact component={Rte13777} />
+        <Route path="/RouteRequest777" exact component={RouteRequest777} />
+        <Route path="/Route777" exact component={Route777} />
+        <Route path="/PrefInit777" exact component={PrefInit777} />
+        <Route path="/DepArr1777" exact component={DepArr1777} />
+        <Route path="/DepArr2777" exact component={DepArr2777} />
+        <Route path="/ActLeg1777" exact component={ActLeg1777} />
+        <Route path="/ActLeg2777" exact component={ActLeg2777} />
+        <Route path="/ActLeg3777" exact component={ActLeg3777} />
+        <Route path="/ModRte1777" exact component={ModRte1777} />
+        <Route path="/ModRte2777" exact component={ModRte2777} />
+        <Route path="/ModRte3777" exact component={ModRte3777} />
+        <Route path="/Rte1Data777" exact component={Rte1Data777} />
+        <Route path="/ActClb1777" exact component={ActClb1777} />
+        <Route path="/Des7777" exact component={Des7777} />
+        <Route path="/DesForecast777" exact component={DesForecast777} />
+        <Route path="/NavRad777" exact component={NavRad777} />
+        <Route path="/Progress777" exact component={Progress777} />
+        <Route path="/Rte2777" exact component={Rte2777} />
+        <Route path="/Fmc777" exact component={Fmc777} />
+        <Route path="/FixInfo777" exact component={FixInfo777} />
+        <Route path="/Takeoff777" exact component={Takeoff777} />
+        <Route path="/ThrustLim777" exact component={ThrustLim777} />
+        <Route path="/Approach777" exact component={Approach777} />
       </Switch>
     </>
   );

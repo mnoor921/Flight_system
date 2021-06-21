@@ -216,6 +216,80 @@ import Navpos from "./Project2/Proc/Navpos";
 import Limits from "./Project2/Limits/N1Limits";
 import FixInfo from "./Project2/FixInfo/FixInfo";
 
+// Project3
+
+import Project3 from "./Project3/Project3Menu";
+// Init Ref P3
+import InitRefP3 from "./Project3/InitP3/InitRefP3";
+import Lateraloff from "./Project3/LateralOff/lateraloff";
+
+// Altn
+import Altn1 from "./Project3/Alnt/Altn1";
+import Altn2 from "./Project3/Alnt/Altn2";
+
+// Pos Project 3
+import PosP3 from "./Project3/Pos3/PosP3";
+import PosP32 from "./Project3/Pos3/PosP32";
+import PosP33 from "./Project3/Pos3/PosP33";
+import PosP34 from "./Project3/Pos3/PosP34";
+
+// Perf P 3
+
+import PerfP3 from "./Project3/PerfP3/PerfP3";
+// takeoff
+import TakeOffP3 from "./Project3/TakeoffP3/TakeOffP3";
+import TakeOffP31 from "./Project3/TakeoffP3/TakeOffp31";
+// approach
+import ApproachP3 from "./Project3/Approach/ApproachP3";
+
+// Navdata
+import NavDataP3 from "./Project3/NavData/NavDataP3";
+
+// rte
+import RteP3 from "./Project3/Rtep3/RteP3";
+import RteP3act from "./Project3/Rtep3/RteP3act";
+import RteP3act2 from "./Project3/Rtep3/RteP3act2";
+
+// Dep Arr
+import DepArrP3 from "./Project3/DepArrP3/DepArrP3";
+import KdenDep from "./Project3/DepArrP3/KdenDep";
+import KdnArrivalIndex from "./Project3/DepArrP3/KdnArrivalIndex";
+import KdenArrival from "./Project3/DepArrP3/KdenArrival";
+import KdenArrival2 from "./Project3/DepArrP3/KdenArrival2";
+
+// Vnav
+import Vnav from "./Project3/VNav/Vnav";
+import Vnav1 from "./Project3/VNav/Vnav1";
+import Vnav2 from "./Project3/VNav/Vnav2";
+import Vnav12 from "./Project3/VNav/Vnav12";
+import EngoutP3 from "./Project3/VNav/Engout";
+
+// Progress
+import ProgressP3 from "./Project3/ProgressP3/ProgressP3";
+import ProgressP31 from "./Project3/ProgressP3/ProgressP31";
+import ProgressP32 from "./Project3/ProgressP3/ProgressP32";
+import ProgressP33 from "./Project3/ProgressP3/ProgressP33";
+
+// fmc
+import CommP3 from "./Project3/FMCP3/CommP3";
+import PosReport from "./Project3/FMCP3/PosReport";
+
+// climb
+import ClimbForest from "./Project3/ClimbForest/ClimbForest";
+import desForcast from "./Project3/ClimbForest/desForcast";
+// Rte 1
+import ActRte1 from "./Project3/Rte1/ActRte1";
+// rte 1 hold
+import Rte1Hold from "./Project3/Hold/Rte1Hold";
+import NextHold from "./Project3/Hold/NextHold";
+import Rte1Hold1 from "./Project3/Hold/Rte1Hold1";
+import ActRtwLegs from "./Project3/Legs/ActRtwLegs";
+import FixInfoP3 from "./Project3/FixInfo/FixInfoP3";
+import NavRad from "./Project3/NavRad/NavRad";
+// ident
+import IdentP3 from "./Project3/Ident/identp3";
+import ThrustLim from "./Project3/ThrustLim/ThrustLim";
+
 
 
 
@@ -442,3 +516,76 @@ import FixInfo from "./Project2/FixInfo/FixInfo";
         <Route path="/Limits" exact component={Limits} />
         <Route path="/FixInfo" exact component={FixInfo} />
         <Route path="/FixInfo" exact component={FixInfo} />
+
+        {/* project 3 */}
+        <Route path="/project3" exact component={Project3} />
+
+        {/* init ref p3 */}
+        <Route path="/InitRefP3" exact component={InitRefP3} />
+        <Route path="/offsetp3" exact component={Lateraloff} />
+
+        {/* Altn */}
+        <Route path="/Altn1" exact component={Altn1} />
+        <Route path="/Altn2" exact component={Altn2} />
+        {/* Posp3 */}
+        <Route path="/PosP3" exact component={PosP3} />
+        <Route path="/PosP32" exact component={PosP32} />
+        <Route path="/PosP33" exact component={PosP33} />
+        <Route path="/PosP34" exact component={PosP34} />
+
+        {/* perf */}
+        <Route path="/PerfP3" exact component={PerfP3} />
+
+        {/* takeoff */}
+        <Route path="/TakeOffP3" exact component={TakeOffP3} />
+        <Route path="/TakeOffP31" exact component={TakeOffP31} />
+        {/* approach */}
+        <Route path="/ApproachP3" exact component={ApproachP3} />
+
+        {/* navdata */}
+        <Route path="/NavDataP3" exact component={NavDataP3} />
+        {/* rte */}
+        <Route path="/RteP3" exact component={RteP3} />
+        <Route path="/RteP3act" exact component={RteP3act} />
+        <Route path="/RteP3act2" exact component={RteP3act2} />
+
+        {/* Dep Arr */}
+        <Route path="/DepArrP3" exact component={DepArrP3} />
+        <Route path="/KdenDep" exact component={KdenDep} />
+        <Route path="/KdnArrivalIndex" exact component={KdnArrivalIndex} />
+        <Route path="/KdenArrival" exact component={KdenArrival} />
+        <Route path="/KdenArrival2" exact component={KdenArrival2} />
+
+        {/* Vnav */}
+        <Route path="/Vnav" exact component={Vnav} />
+        <Route path="/Vnav1" exact component={Vnav1} />
+        <Route path="/Vnav2" exact component={Vnav2} />
+        <Route path="/EngoutP3" exact component={EngoutP3} />
+        <Route path="/Vnav12" exact component={Vnav12} />
+
+        {/* progress */}
+        <Route path="/ProgressP3" exact component={ProgressP3} />
+        <Route path="/ProgressP31" exact component={ProgressP31} />
+        <Route path="/ProgressP32" exact component={ProgressP32} />
+        <Route path="/ProgressP33" exact component={ProgressP33} />
+
+        {/* FMC */}
+        <Route path="/CommP3" exact component={CommP3} />
+        <Route path="/PosReport" exact component={PosReport} />
+
+        {/* climb */}
+        {/* climb */}
+        <Route path="/ClimbForest" exact component={ClimbForest} />
+        <Route path="/desForcast" exact component={desForcast} />
+        {/* rte 1 */}
+        <Route path="/ActRte1" exact component={ActRte1} />
+        {/* hold */}
+        <Route path="/Rte1Hold" exact component={Rte1Hold} />
+        <Route path="/NextHold" exact component={NextHold} />
+        <Route path="/Rte1Hold1" exact component={Rte1Hold1} />
+        <Route path="/ActRtwLegs" exact component={ActRtwLegs} />
+        <Route path="/FixInfoP3" exact component={FixInfoP3} />
+        <Route path="/NavRad" exact component={NavRad} />
+        {/* ident */}
+        <Route path="/IdentP3" exact component={IdentP3} />
+        <Route path="/ThrustLim" exact component={ThrustLim} />
