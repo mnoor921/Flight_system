@@ -101,9 +101,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className="col-md-3 col-3 mt-1">
-              <Link to="" className="btn btn-1 w-100">
-                altn
-              </Link>
+              <Link className="btn btn-1 w-100">altn</Link>
             </div>
             <div className="col-md-3 col-3 mt-1">
               <Link to="/ActClb1777" className="btn btn-1 w-100">
@@ -115,9 +113,7 @@ const Footer = () => {
 
           <div className="row ">
             <div className="col-md-3 col-3 mt-1">
-              <Link to="" className="btn btn-1 w-100">
-                hold
-              </Link>
+              <Link className="btn btn-1 w-100">hold</Link>
             </div>
             <div className="col-md-3 col-3 mt-1">
               <li>
@@ -279,7 +275,6 @@ const Footer = () => {
           />
         </a>
       </div>
-    
     </div>
   );
 };
