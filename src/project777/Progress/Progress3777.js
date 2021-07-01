@@ -19,11 +19,9 @@ function DepArr1777() {
             <div className="main-section p-2">
               <div className="numbering d-flex-1">
                 <label htmlFor=""></label>
-                <label htmlFor="" className="color_blue">
-                  fix info
-                </label>
+                <label htmlFor="">rnp progress</label>
                 <label htmlFor="" className="tex">
-                  1/4
+                  4/4
                 </label>
               </div>
 
@@ -37,42 +35,43 @@ function DepArr1777() {
                   <Link className="btn btn-1 mb-2 side-button"></Link>
                 </div>
                 <div className="col-md-10 col-9">
-                  <div className="d-flex-1 ">
-                    <div className=" ">
-                      <p className="">fix</p>
-                      <label htmlFor=""> [][][][] </label>
-                    </div>
-                    <div className="text-right">
-                      <p>brg/dis r</p>
-                      <label htmlFor=""></label>
-                    </div>
-                  </div>
-                  <div className="d-flex-1" style={{ marginTop: "-1rem" }}>
-                    <div className="">
-                      <p className="">brg dis</p>
-                    </div>
-                    <div className="">
-                      <p className="">eta</p>
-                    </div>
-                    <div className="">
-                      <p className="">dtg</p>
-                    </div>
-                    <div className="">
-                      <p className="">alt</p>
-                    </div>
-                  </div>
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
                   <div className="d-flex-1">
-                    <div className=""></div>
-                    <div className=" text-right">
-                      <p>pred eta-alt</p>
-                      {/* <label htmlFor="">---------</label> */}
+                    <div className="">
+                      <br />
+                      <br />
+                      <p className="mt-1"> rnp/actual</p>
+                      <label htmlFor="">
+                        <span>1.00</span>/0.01nm{" "}
+                      </label>
+                      <p> xtk error</p>
+                      <label htmlFor=""> </label>
+                    </div>
+                    <div className="text-right mr-0">
+                      <br />
+                      <br />
+                      <p className="mt-1">vert rnp/anp</p>
+                      <label htmlFor="">
+                        <span>400</span>/ft
+                      </label>
+                      <p>vtk error</p>
+                    </div>
+                  </div>
+                  <br />
+                  <br />
+                  <br />
+
+                  <p className="text-center mt-2">
+                    ----------------- Approach ---------------
+                  </p>
+
+                  <div className="d-flex-1" style={{ marginTop: "-.8rem" }}>
+                    <div className="">
+                      <p>rnp</p>
+                      <label htmlFor="">0.30nm</label>
+                    </div>
+                    <div className="text-right mr-0">
+                      <p>vert rnp</p>
+                      <label htmlFor="">125ft</label>
                     </div>
                   </div>
                 </div>
@@ -90,7 +89,7 @@ function DepArr1777() {
                 </div>
               </div>
             </div>
-            <Footer />
+            <Footer next="/Progress777" prev="/Progress2777" />
           </Col>
           <Col></Col>
         </Row>

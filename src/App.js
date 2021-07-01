@@ -323,12 +323,20 @@ import Des7777 from "./project777/ActClb/Des7777";
 import DesForecast777 from "./project777/ActClb/DesentForcast777";
 import NavRad777 from "./project777/NavRad777/NavRad777";
 import Progress777 from "./project777/Progress/Progress777";
+import Progress1777 from "./project777/Progress/Progress1777";
+import Progress2777 from "./project777/Progress/Progress2777";
+import Progress3777 from "./project777/Progress/Progress3777";
 import Rte2777 from "./project777/RTE2777/Rte2777";
 import Fmc777 from "./project777/FMC777/Fmc777";
 import FixInfo777 from "./project777/FIXInfo777/FixInfo777";
 import Takeoff777 from "./project777/Takeoff777/Takeoff777";
 import ThrustLim777 from "./project777/ThrustLim777/ThrustLim777";
 import Approach777 from "./project777/Approach/Approach777";
+import NavData777 from "./project777/NavData777/Navdata777";
+import Altn1777 from "./project777/Altn777/Altn1777";
+import Hold777 from "./project777/Hold777/Hold777";
+import PosReport777 from "./project777/PosReport/PosReport777";
+import PosRef777 from "./project777/PosRef777/PosRef1777";
 
 function App() {
   return (
@@ -652,12 +660,20 @@ function App() {
         <Route path="/DesForecast777" exact component={DesForecast777} />
         <Route path="/NavRad777" exact component={NavRad777} />
         <Route path="/Progress777" exact component={Progress777} />
+        <Route path="/Progress1777" exact component={Progress1777} />
+        <Route path="/Progress2777" exact component={Progress2777} />
+        <Route path="/Progress3777" exact component={Progress3777} />
         <Route path="/Rte2777" exact component={Rte2777} />
         <Route path="/Fmc777" exact component={Fmc777} />
         <Route path="/FixInfo777" exact component={FixInfo777} />
         <Route path="/Takeoff777" exact component={Takeoff777} />
         <Route path="/ThrustLim777" exact component={ThrustLim777} />
         <Route path="/Approach777" exact component={Approach777} />
+        <Route path="/NavData777" exact component={NavData777} />
+        <Route path="/Altn1777" exact component={Altn1777} />
+        <Route path="/Hold777" exact component={Hold777} />
+        <Route path="/PosReport777" exact component={PosReport777} />
+        <Route path="/PosRef777" exact component={PosRef777} />
       </Switch>
     </>
   );

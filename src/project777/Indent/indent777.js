@@ -42,6 +42,11 @@ function Acars() {
                       <label htmlFor="">777.200.2</label>
                       <p>nav data</p>
                       <label htmlFor="">airac-1510</label>
+                      <br />
+                      <br />
+                      <br />
+                      <p>Aims-2</p>
+                      <label htmlFor="">bp v17b</label>
                     </div>
 
                     <div className="text-right">

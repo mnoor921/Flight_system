@@ -19,11 +19,9 @@ function DepArr1777() {
             <div className="main-section p-2">
               <div className="numbering d-flex-1">
                 <label htmlFor=""></label>
-                <label htmlFor="" className="color_blue">
-                  fix info
-                </label>
+                <label htmlFor="">rta progress</label>
                 <label htmlFor="" className="tex">
-                  1/4
+                  3/4
                 </label>
               </div>
 
@@ -34,63 +32,51 @@ function DepArr1777() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
-                  <Link className="btn btn-1 mb-2 side-button"></Link>
+                  <Link
+                    to="/PosReport777"
+                    className="btn btn-1 mb-2 side-button"
+                  ></Link>
                 </div>
                 <div className="col-md-10 col-9">
                   <div className="d-flex-1 ">
                     <div className=" ">
-                      <p className="">fix</p>
-                      <label htmlFor=""> [][][][] </label>
+                      <p className="">Fix</p>
                     </div>
+
                     <div className="text-right">
-                      <p>brg/dis r</p>
-                      <label htmlFor=""></label>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <p className="mt-2">t/o</p>
+                      <label htmlFor="">-----.-z</label>
                     </div>
                   </div>
-                  <div className="d-flex-1" style={{ marginTop: "-1rem" }}>
+
+                  <br />
+
+                  <div className="d-flex-1 mt-3">
                     <div className="">
-                      <p className="">brg dis</p>
-                    </div>
-                    <div className="">
-                      <p className="">eta</p>
-                    </div>
-                    <div className="">
-                      <p className="">dtg</p>
-                    </div>
-                    <div className="">
-                      <p className="">alt</p>
+                      <p>max spd</p>
+                      <label htmlFor="">.850</label>
                     </div>
                   </div>
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <div className="d-flex-1">
-                    <div className=""></div>
-                    <div className=" text-right">
-                      <p>pred eta-alt</p>
-                      {/* <label htmlFor="">---------</label> */}
-                    </div>
-                  </div>
+                  <p className="text-center" style={{ marginTop: "-1rem" }}>
+                    ---------------------------------------
+                  </p>
                 </div>
                 <div className="d-flex"></div>
                 <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
-                  <Link
-                    to="/RouteRequest777"
-                    className="btn btn-1 side-button"
-                  ></Link>
+                  <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button mb-2"></Link>
                 </div>
               </div>
             </div>
-            <Footer />
+            <Footer next="/Progress3777" prev="/Progress1777" />
           </Col>
           <Col></Col>
         </Row>

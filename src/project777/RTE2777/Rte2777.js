@@ -98,12 +98,9 @@ function DepArr1777() {
                 <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
-                  <Link
-                    to="/RouteRequest777"
-                    className="btn btn-1 side-button"
-                  ></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
+                  <Link to="/Altn1777" className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button mb-2"></Link>
                 </div>
               </div>

@@ -26,11 +26,20 @@ function DepArr1777() {
               <div className="row">
                 <div className="col-md-1 col-1 side-btn">
                   <Link to="/Rte1777" className="btn btn-1 side-button"></Link>
+                  <Link to="/Altn1777" className="btn btn-1 side-button"></Link>
+                  <Link
+                    to="/PrefInit777"
+                    className="btn btn-1 side-button"
+                  ></Link>
+                  <Link
+                    to="/ModRte1777"
+                    className="btn btn-1 side-button"
+                  ></Link>
                   <Link className="btn btn-1 side-button"></Link>
-                  <Link to="/PrefInit777" className="btn btn-1 side-button"></Link>
-                  <Link to="/ModRte1777" className="btn btn-1 side-button"></Link>
-                  <Link className="btn btn-1 side-button"></Link>
-                  <Link to="/DesForecast777" className="btn btn-1 mb-2 side-button"></Link>
+                  <Link
+                    to="/DesForecast777"
+                    className="btn btn-1 mb-2 side-button"
+                  ></Link>
                 </div>
                 <div className="col-md-10 col-9">
                   <div className="d-flex-1 ">
@@ -81,8 +90,8 @@ function DepArr1777() {
                       <p className=""></p>
                       <label htmlFor="">
                         {" "}
-                       pos report
-                        <i className="fa fa-angle-right ml-1"></i>{" "}
+                        pos report
+                        <i className="fa fa-angle-right ml-1"></i>
                       </label>
                       <br />
                       <br />
@@ -95,7 +104,7 @@ function DepArr1777() {
                       <br />
                       <br />
                       <br />
-                      
+
                       <p className=""></p>
                       <label htmlFor="">
                         {" "}
@@ -107,12 +116,12 @@ function DepArr1777() {
                 </div>
                 <div className="d-flex"></div>
                 <div className="col-md-1 col-1 side-btn">
-                  <Link className="btn btn-1 side-button"></Link>
-                  <Link className="btn btn-1 side-button"></Link>
                   <Link
-                    to="/RouteRequest777"
+                    to="/PosReport777"
                     className="btn btn-1 side-button"
                   ></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button mb-2"></Link>

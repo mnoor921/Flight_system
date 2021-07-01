@@ -40,7 +40,7 @@ function ActLeg1777() {
                         115.70 P SLI
                       </label>
                       <p className="">
-                        CRS <span className="ml-5">radial</span>
+                        CRS <span className="ml-5"></span>
                       </p>
                       <label htmlFor=""></label>
                       <br />
@@ -48,10 +48,12 @@ function ActLeg1777() {
                       <p>Adf l</p>
 
                       <label htmlFor="">----------</label>
-                      <p>ils</p>
+                      <p>ils-mls</p>
 
                       <label htmlFor="">park</label>
                     </div>
+                   
+                    <p className="mt-5">radial</p>
 
                     <div className="text-right">
                       <p className=" "> vor r</p>
@@ -67,7 +69,9 @@ function ActLeg1777() {
                       </label>
                     </div>
                   </div>
-
+                  <br />
+                  <br />
+                  <br />
                   <p className="text-center" style={{ marginTop: "-1.3rem" }}>
                     ------------------ preselect ---------------------
                   </p>

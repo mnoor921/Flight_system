@@ -48,6 +48,14 @@ function DepArr1777() {
                         {" "}
                         <i className="fa fa-angle-left mr-1"></i> to{" "}
                       </label>
+                      <p>to 1</p>
+                      <label htmlFor="">
+                      <i className="fa fa-angle-left mr-1"></i>--0%
+                      </label>
+                      <p>to 2</p>
+                      <label htmlFor="">
+                      <i className="fa fa-angle-left mr-1"></i>--0%
+                      </label>
                     </div>
                     <div className="">
                       <p>oat</p>

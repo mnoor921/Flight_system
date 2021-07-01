@@ -184,7 +184,7 @@ function ActLeg1777() {
                     </Link>
                   </div>
                   <div className="col-md-3 col-3 mt-1">
-                    <Link to="" className="btn btn-1 w-100">
+                    <Link to="/Altn1777" className="btn btn-1 w-100">
                       altn
                     </Link>
                   </div>
@@ -198,7 +198,7 @@ function ActLeg1777() {
 
                 <div className="row ">
                   <div className="col-md-3 col-3 mt-1">
-                    <Link to="" className="btn btn-1 w-100">
+                    <Link to="/Hold777" className="btn btn-1 w-100">
                       hold
                     </Link>
                   </div>

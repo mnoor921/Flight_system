@@ -4,7 +4,7 @@ import Beer from "../assests/buy_bear.jpg";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-const Footer = () => {
+const Footer = ({ next, prev }) => {
   return (
     <div>
       <div className="row mt-3 footer_all_btn p-2 footer-777">
@@ -41,10 +41,14 @@ const Footer = () => {
               </Link>
             </div>
             <div className="col-md-6 col-6  mt-1 ">
-              <Link className="btn btn-1 w-100">Prev page</Link>
+              <Link to={prev} className="btn btn-1 w-100">
+                Prev page
+              </Link>
             </div>
             <div className="col-md-6 col-6 mt-1  ">
-              <Link className="btn btn-1 w-100">Next page</Link>
+              <Link to={next} className="btn btn-1 w-100">
+                Next page
+              </Link>
             </div>
             <div className="col-md-12 col-12 mt-1  ">
               <Link to="/" className="btn btn-1 w-100 bg_green">
@@ -101,7 +105,9 @@ const Footer = () => {
               </Link>
             </div>
             <div className="col-md-3 col-3 mt-1">
-              <Link className="btn btn-1 w-100">altn</Link>
+              <Link to="/Altn1777" className="btn btn-1 w-100">
+                altn
+              </Link>
             </div>
             <div className="col-md-3 col-3 mt-1">
               <Link to="/ActClb1777" className="btn btn-1 w-100">
@@ -113,7 +119,9 @@ const Footer = () => {
 
           <div className="row ">
             <div className="col-md-3 col-3 mt-1">
-              <Link className="btn btn-1 w-100">hold</Link>
+              <Link to="/Hold777" className="btn btn-1 w-100">
+                hold
+              </Link>
             </div>
             <div className="col-md-3 col-3 mt-1">
               <li>

@@ -20,10 +20,10 @@ function DepArr1777() {
               <div className="numbering d-flex-1">
                 <label htmlFor=""></label>
                 <label htmlFor="" className="color_blue">
-                  fix info
+                  rte 1 legs
                 </label>
                 <label htmlFor="" className="tex">
-                  1/4
+                  1/1
                 </label>
               </div>
 
@@ -39,28 +39,11 @@ function DepArr1777() {
                 <div className="col-md-10 col-9">
                   <div className="d-flex-1 ">
                     <div className=" ">
-                      <p className="">fix</p>
-                      <label htmlFor=""> [][][][] </label>
-                    </div>
-                    <div className="text-right">
-                      <p>brg/dis r</p>
-                      <label htmlFor=""></label>
+                      <p className="mt-4"></p>
+                      <label htmlFor="mt-4"> --------- </label>
                     </div>
                   </div>
-                  <div className="d-flex-1" style={{ marginTop: "-1rem" }}>
-                    <div className="">
-                      <p className="">brg dis</p>
-                    </div>
-                    <div className="">
-                      <p className="">eta</p>
-                    </div>
-                    <div className="">
-                      <p className="">dtg</p>
-                    </div>
-                    <div className="">
-                      <p className="">alt</p>
-                    </div>
-                  </div>
+
                   <br />
                   <br />
                   <br />
@@ -68,11 +51,13 @@ function DepArr1777() {
                   <br />
                   <br />
                   <br />
+                  <br />
+                  <p className="text-center">
+                    --------------------- Hold At -------------------
+                  </p>
                   <div className="d-flex-1">
-                    <div className=""></div>
-                    <div className=" text-right">
-                      <p>pred eta-alt</p>
-                      {/* <label htmlFor="">---------</label> */}
+                    <div className="">
+                      <label htmlFor="">[][][][][]</label>
                     </div>
                   </div>
                 </div>

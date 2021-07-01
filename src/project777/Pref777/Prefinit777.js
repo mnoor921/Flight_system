@@ -39,16 +39,16 @@ function Acars() {
                   <div className="d-flex-1 ">
                     <div className=" ">
                       <p className="">gr wt</p>
-                      <label htmlFor=""> 330.5 </label>
+                      <label htmlFor=""> [][][].[] </label>
 
                       <p>fuel</p>
                       <label htmlFor="">145.5 kg calc</label>
 
                       <p>zfw</p>
-                      <label htmlFor="">185.1</label>
+                      <label htmlFor=""> [][][].[] </label>
 
                       <p>reserves</p>
-                      <label htmlFor="">7.5</label>
+                      <label htmlFor=""> [][][].[] </label>
 
                       <p>pref init</p>
                       <label htmlFor="">
@@ -58,10 +58,10 @@ function Acars() {
 
                     <div className="text-right">
                       <p>crz alt</p>
-                      <label htmlFor="">fl 300</label>
+                      <label htmlFor=""> [][][][][] </label>
 
                       <p>cost index</p>
-                      <label htmlFor="">85</label>
+                      <label htmlFor=""> [][][][] </label>
 
                       <p>min fuel temp</p>
                       <label htmlFor="">-37&deg; c</label>

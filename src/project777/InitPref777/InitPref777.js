@@ -57,7 +57,7 @@ function DepArr1777() {
                       <p className=""></p>
                       <label htmlFor="">
                         {" "}
-                        <i className="fa fa-angle-left mr-1"></i>Indent{" "}
+                        <i className="fa fa-angle-left mr-1"></i>Ident{" "}
                       </label>
                       <br />
                       <br />
@@ -143,8 +143,11 @@ function DepArr1777() {
                 </div>
                 <div className="d-flex"></div>
                 <div className="col-md-1 col-1 side-btn">
-                  <Link className="btn btn-1 side-button"></Link>
-                  <Link className="btn btn-1 side-button"></Link>
+                  <Link
+                    to="/NavData777"
+                    className="btn btn-1 side-button"
+                  ></Link>
+                  <Link to="/Altn1777" className="btn btn-1 side-button"></Link>
                   <Link
                     to="/RouteRequest777"
                     className="btn btn-1 side-button"

@@ -19,12 +19,8 @@ function DepArr1777() {
             <div className="main-section p-2">
               <div className="numbering d-flex-1">
                 <label htmlFor=""></label>
-                <label htmlFor="" className="color_blue">
-                  fix info
-                </label>
-                <label htmlFor="" className="tex">
-                  1/4
-                </label>
+                <label htmlFor="">pos report</label>
+                <label htmlFor="" className="tex"></label>
               </div>
 
               <div className="row">
@@ -34,45 +30,64 @@ function DepArr1777() {
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
-                  <Link className="btn btn-1 mb-2 side-button"></Link>
+                  <Link to="/Progress777" className="btn btn-1 mb-2 side-button"></Link>
                 </div>
                 <div className="col-md-10 col-9">
                   <div className="d-flex-1 ">
                     <div className=" ">
-                      <p className="">fix</p>
-                      <label htmlFor=""> [][][][] </label>
+                      <p className="">Pos</p>
+                      <br />
+
+                      <p className="mt-2">Est</p>
+                      <br />
+
+                      <p className="mt-2">next</p>
+                      <br />
+                      <p className="mt-2">temp</p>
+                      <label htmlFor="">4&deg;c</label>
+                    </div>
+                    <div className="">
+                      <p>ata</p>
+                      <br />
+
+                      <p className="mt-2">eta</p>
+                      <br />
+                      <br />
+                      <br />
+
+                      <p className="mt-2">wind</p>
                     </div>
                     <div className="text-right">
-                      <p>brg/dis r</p>
-                      <label htmlFor=""></label>
+                      <p>alt</p>
+                      <label htmlFor="">5370</label>
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                      <p className="">pos fuel</p>
                     </div>
                   </div>
-                  <div className="d-flex-1" style={{ marginTop: "-1rem" }}>
-                    <div className="">
-                      <p className="">brg dis</p>
-                    </div>
-                    <div className="">
-                      <p className="">eta</p>
-                    </div>
-                    <div className="">
-                      <p className="">dtg</p>
-                    </div>
-                    <div className="">
-                      <p className="">alt</p>
-                    </div>
-                  </div>
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
+
+                  <p className="text-center">
+                    ----------------------------------------
+                  </p>
                   <div className="d-flex-1">
-                    <div className=""></div>
-                    <div className=" text-right">
-                      <p>pred eta-alt</p>
-                      {/* <label htmlFor="">---------</label> */}
+                    <div className="">
+                      <label htmlFor="">
+                        <i className="fa fa-angle-left mr-1"></i>
+                        progress
+                      </label>
+                    </div>
+                    <div className="">
+                      <label htmlFor="">
+                        Report
+                        <i className="fa fa-angle-right ml-1"></i>
+                        
+                      </label>
                     </div>
                   </div>
                 </div>

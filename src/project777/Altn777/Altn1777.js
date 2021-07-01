@@ -20,10 +20,10 @@ function DepArr1777() {
               <div className="numbering d-flex-1">
                 <label htmlFor=""></label>
                 <label htmlFor="" className="color_blue">
-                  fix info
+                  altn
                 </label>
                 <label htmlFor="" className="tex">
-                  1/4
+                  1/2
                 </label>
               </div>
 
@@ -37,42 +37,59 @@ function DepArr1777() {
                   <Link className="btn btn-1 mb-2 side-button"></Link>
                 </div>
                 <div className="col-md-10 col-9">
-                  <div className="d-flex-1 ">
-                    <div className=" ">
-                      <p className="">fix</p>
-                      <label htmlFor=""> [][][][] </label>
-                    </div>
-                    <div className="text-right">
-                      <p>brg/dis r</p>
-                      <label htmlFor=""></label>
-                    </div>
-                  </div>
-                  <div className="d-flex-1" style={{ marginTop: "-1rem" }}>
-                    <div className="">
-                      <p className="">brg dis</p>
-                    </div>
-                    <div className="">
-                      <p className="">eta</p>
-                    </div>
-                    <div className="">
-                      <p className="">dtg</p>
-                    </div>
-                    <div className="">
-                      <p className="">alt</p>
-                    </div>
-                  </div>
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
                   <div className="d-flex-1">
-                    <div className=""></div>
-                    <div className=" text-right">
-                      <p>pred eta-alt</p>
-                      {/* <label htmlFor="">---------</label> */}
+                    <div className="">
+                      <p> </p>
+                      <label htmlFor="" className="mt-4">
+                        ------------------
+                      </label>
+                    </div>
+                    <div className="">
+                      <label htmlFor="">eta</label>
+                    </div>
+
+                    <div className="text-right mr-0">
+                      <label htmlFor="">fuel</label>
+                    </div>
+                  </div>
+                  <div className="d-flex-1">
+                    <div>
+                      <label htmlFor="" className="mt-1">
+                        ------------------
+                      </label>
+                      <br />
+                      <br />
+                      <label htmlFor="" className="">
+                        ------------------
+                      </label>
+                      <br />
+                      <br />
+                      <label htmlFor="" className="">
+                        ------------------
+                      </label>
+                    </div>
+                  </div>
+
+                  <div className="d-flex-1" style={{ marginTop: "-1.4rem" }}>
+                    <div className="">
+                      <p>Altn</p>
+                      <label htmlFor="" className="mt-1">
+                        <i class="fa fa-angle-left mr-2"></i>request
+                      </label>
+                    </div>
+                    <div className="text-right mr-0">
+                      <p>altn inhibit</p>
+                      <label htmlFor="" className="mt-1">
+                        <span> --------/-------</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div className="d-flex-1" style={{ marginTop: "-1.4rem" }}>
+                    <div className="">
+                      <p>wxr </p>
+                      <label htmlFor="" className="mt-1">
+                        <i class="fa fa-angle-left mr-2"></i> request
+                      </label>
                     </div>
                   </div>
                 </div>
@@ -80,13 +97,13 @@ function DepArr1777() {
                 <div className="col-md-1 col-1 side-btn">
                   <Link className="btn btn-1 side-button"></Link>
                   <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
+                  <Link className="btn btn-1 side-button"></Link>
                   <Link
-                    to="/RouteRequest777"
-                    className="btn btn-1 side-button"
+                    to="/Takeoff777"
+                    className="btn btn-1 side-button mb-2"
                   ></Link>
-                  <Link className="btn btn-1 side-button"></Link>
-                  <Link className="btn btn-1 side-button"></Link>
-                  <Link className="btn btn-1 side-button mb-2"></Link>
                 </div>
               </div>
             </div>
