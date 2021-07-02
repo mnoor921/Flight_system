@@ -338,6 +338,8 @@ import Hold777 from "./project777/Hold777/Hold777";
 import PosReport777 from "./project777/PosReport/PosReport777";
 import PosRef777 from "./project777/PosRef777/PosRef1777";
 
+import Vnav2777 from './project777/ActClb/Vnav2777'
+
 function App() {
   return (
     <>
@@ -674,6 +676,7 @@ function App() {
         <Route path="/Hold777" exact component={Hold777} />
         <Route path="/PosReport777" exact component={PosReport777} />
         <Route path="/PosRef777" exact component={PosRef777} />
+        <Route path="/Vnav2777" exact component={Vnav2777} />
       </Switch>
     </>
   );

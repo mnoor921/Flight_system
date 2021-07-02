@@ -127,7 +127,7 @@ function ActLeg1777() {
                     <Link to="/Des7777" className="btn btn-1 w-100">Prev page</Link>
                   </div>
                   <div className="col-md-6 col-6 mt-1  ">
-                    <Link className="btn btn-1 w-100">Next page</Link>
+                    <Link to="/Vnav2777" className="btn btn-1 w-100">Next page</Link>
                   </div>
                   <div className="col-md-12 col-12 mt-1  ">
                     <Link to="/" className="btn btn-1 w-100 bg_green">
