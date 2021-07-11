@@ -486,3 +486,6 @@ p {
 .color-blue{
   color: #21A3B8;
 }
+.back-btn{
+  background: #0fe510 !important;
+}

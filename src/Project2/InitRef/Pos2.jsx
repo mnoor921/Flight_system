@@ -175,7 +175,7 @@ function POS2() {
                     </Link>
                   </div>
                   <div className="col-md-12 col-12 mt-1  ">
-                    <Link to="/" className="btn btn-1 w-100">
+                    <Link to="/" className="btn btn-1 w-100 back-btn">
                       Back to home
                     </Link>
                   </div>

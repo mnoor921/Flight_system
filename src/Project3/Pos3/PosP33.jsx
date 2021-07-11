@@ -193,7 +193,7 @@ const PosP3 = () => {
                     </div>
                   </div>
 
-                  <Link to="/" className="btn btn-1">
+                  <Link to="/" className="btn btn-1 back-btn">
                     back to home
                   </Link>
 

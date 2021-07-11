@@ -63,7 +63,9 @@ const Project3Footer = () => {
               <Link to="/offsetp3" className="btn btn-1">
                 ofst
               </Link>
-              <Link to="/ProgressP32" className="btn btn-1">rta</Link>
+              <Link to="/ProgressP32" className="btn btn-1">
+                rta
+              </Link>
             </li>
           </ul>
           <div className="">
@@ -71,7 +73,7 @@ const Project3Footer = () => {
             <Link className="btn btn-1">next Page</Link>
           </div>
         </div>
-        <Link to="/" className="btn btn-1">
+        <Link to="/" className="btn btn-1 back-btn">
           back to home
         </Link>
 
