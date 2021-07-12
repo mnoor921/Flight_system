@@ -337,8 +337,14 @@ import Altn1777 from "./project777/Altn777/Altn1777";
 import Hold777 from "./project777/Hold777/Hold777";
 import PosReport777 from "./project777/PosReport/PosReport777";
 import PosRef777 from "./project777/PosRef777/PosRef1777";
+import Vnav2777 from "./project777/ActClb/Vnav2777";
 
-import Vnav2777 from './project777/ActClb/Vnav2777'
+// A20 Project
+import A20project from "./A20/index";
+import Courses from "./A20/course";
+import Trainer from "./A20/trainer";
+import Launch from "./A20/launch";
+import launchDetail from "./A20/launchDetail";
 
 function App() {
   return (
@@ -677,6 +683,13 @@ function App() {
         <Route path="/PosReport777" exact component={PosReport777} />
         <Route path="/PosRef777" exact component={PosRef777} />
         <Route path="/Vnav2777" exact component={Vnav2777} />
+
+        {/* A20 Project */}
+        <Route path="/A20project" exact component={A20project} />
+        <Route path="/Courses" exact component={Courses} />
+        <Route path="/Trainer" exact component={Trainer} />
+        <Route path="/launch" exact component={Launch} />
+        <Route path="/launchDetail" exact component={launchDetail} />
       </Switch>
     </>
   );

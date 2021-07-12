@@ -16,7 +16,7 @@ function Navbar1() {
               <Link to="/comming" className="top-navbar" >757 CDU</Link>
               <Link to="/project3" className="top-navbar" >787 FMC</Link>
               <Link to="/project2" className="top-navbar" >737 FMC</Link>
-              <Link to="/comming" className="top-navbar" >320/319 CDU</Link>
+              <Link to="/A20project" className="top-navbar" >320/319 CDU</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

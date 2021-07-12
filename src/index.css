@@ -483,9 +483,125 @@ p {
 .footer-777 .bg_green {
   background: #0fe510 !important;
 }
-.color-blue{
-  color: #21A3B8;
+.color-blue {
+  color: #21a3b8;
 }
-.back-btn{
+.back-btn {
   background: #0fe510 !important;
+}
+
+/* A20 Homepage */
+
+.a20-homepage {
+  width: 100%;
+  height: 100vh;
+  background: url("./assests/a20.jpg") no-repeat center;
+  background-size: 100% 100%;
+  position: relative;
+}
+.a20-form {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.a20-form label {
+  width: 150px;
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 15px !important;
+}
+.a20-form input {
+  border-radius: 5px;
+  background: #fff !important;
+  float: right;
+}
+.a20-form .btn-1 {
+  border-radius: 50px;
+  background: #fff;
+  padding: 10px 30px;
+  color: #000;
+}
+.a20-form p {
+  margin-top: 15px;
+}
+.a20-form a {
+  font-size: 12px;
+  text-decoration: underline !important;
+}
+
+/* tabs */
+.ControlledTabs-tab {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.nav-tabs .nav-link {
+  color: #222;
+}
+
+.book-course {
+  width: 100%;
+  background: #e5e5e5;
+  border-radius: 5px;
+}
+
+.book-course p {
+  color: #222;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.trainier {
+  width: 100%;
+  min-height: 100vh;
+  background: #9b9595;
+}
+
+.program-name span {
+  color: #222;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.trainder-div {
+  background: #afafb1;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: 1px solid #222222;
+}
+
+.trainer-desktop p {
+  color: #222;
+}
+.trainer-desktop a {
+  color: #000;
+  font-size: 13px;
+}
+
+.launch1 img {
+  width: 100%;
+  /* height: 100vh; */
+}
+.launchDetail {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.launchDetail p {
+  color: #000;
+  text-transform: none;
+  font-size: 18px;
+}
+.launchDetail .btn-1 {
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.launchDetail small {
+  color: #000;
+}
+.launchDetail strong {
+  color: #000;
+  font-size: 23px;
 }
